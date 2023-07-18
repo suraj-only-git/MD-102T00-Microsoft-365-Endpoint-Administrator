@@ -34,7 +34,7 @@ Settings will be verified by testing on an enrolled device, SEA-WS1 and a non-en
 
 3. In Microsoft Edge, type **https://intune.microsoft.com** in the  address bar, and then press **Enter**. 
 
-4. Sign in as as **`admin@yourtenant.onmicrosoft.com`** with the default tenant password.
+4. Sign in as user **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>** 
 
 5. From the navigation pane select **Endpoint security**, then select **Antivirus**.
 
