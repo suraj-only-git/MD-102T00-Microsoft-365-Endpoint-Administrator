@@ -42,8 +42,6 @@ You've also been told that several more employees will be hired over the next co
 
 6. At the Enter password page, enter the password for the Admin account as **<inject key="AzureAdUserPassword"></inject>** and then select **Sign in**.
 
-   > Note: Check with your instructor on the password to use for signing in with the Admin account.
-
 7. At the Save password prompt, select **Save & Turn on**.
 
 8. At the Stay signed in prompt, select **No**. The Microsoft 365 admin center opens.
