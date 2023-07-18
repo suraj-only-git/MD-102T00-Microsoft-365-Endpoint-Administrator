@@ -10,37 +10,35 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
 ### Task 1: Create a new Deployment Share
 
-1. On **SEA-SVR2**, sign in as **Contoso\\Administrator** with the password **Pa55w.rd**.
+1. On the taskbar of JumpVM, select **File Explorer** and then browse to **D:\\Labfiles\\ISOs**.
 
-2. On the taskbar, select **File Explorer** and then browse to **E:\\Labfiles\\ISOs**.
+2. Right-click **Win11_21H2_Eval.iso** and then select **Mount**. The ISO mounts as DVD Drive F.
 
-3. Right-click **Win11_21H2_Eval.iso** and then select **Mount**. The ISO mounts as DVD Drive F.
+3. Close **File Explorer**.
 
-4. Close **File Explorer**.
+4. Select **Start**, expand **Microsoft Deployment Toolkit**, and then select **Deployment Workbench**.
 
-5. Select **Start**, expand **Microsoft Deployment Toolkit**, and then select **Deployment Workbench**.
-
-6. In the **Deployment Workbench**, right-click **Deployment Shares** and then select **New Deployment Share**. 
+5. In the **Deployment Workbench**, right-click **Deployment Shares** and then select **New Deployment Share**. 
 
    > The **New Deployment Share Wizard** opens.
 
-7. On the **Path** page, under **Deployment share path**, change the value to **E:\DeploymentShare** and then select **Next**.
+6. On the **Path** page, under **Deployment share path**, change the value to **E:\DeploymentShare** and then select **Next**.
 
-8. On the **Share** page, take note of the **Share name**, but do not change it. Select **Next**.
+7. On the **Share** page, take note of the **Share name**, but do not change it. Select **Next**.
 
-9. On the **Descriptive Name** page, accept the default value and select **Next**.
+8. On the **Descriptive Name** page, accept the default value and select **Next**.
 
-10. On the **Options** page, configure the following, and then select **Next**:
+9. On the **Options** page, configure the following, and then select **Next**:
 
        - Ask to set the local Administrator password: **Enabled**
 
        - All other check boxes: **Disabled**
 
-11. On the **Summary** page, review the information and then select **Next**. 
+10. On the **Summary** page, review the information and then select **Next**. 
 
-12. On the **Confirmation** page, ensure that the process completed successfully and then select **Finish**.
+11. On the **Confirmation** page, ensure that the process completed successfully and then select **Finish**.
 
-13. Under **Deployment Shares**, expand the **MDT Deployment Share** folder. 
+12. Under **Deployment Shares**, expand the **MDT Deployment Share** folder. 
 
     > Take note of the various nodes that can be configured for the deployment share.
 
