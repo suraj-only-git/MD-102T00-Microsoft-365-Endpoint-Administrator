@@ -50,11 +50,11 @@ You've also been told that several more employees will be hired over the next co
 
 10. In the Navigation pane, under **Admin centers** select **Azure Active Directory**. The Microsoft Entra admin center opens.
 
-11. In the Microsoft Entra admin center, in the navigation pane, select **Users** and in the expanded menu that appears select **All users**.
+11. In the Microsoft Entra admin center, in the left navigation pane, under **Identity**; select **All users**.
 
     > Take note of the users that already exist as members of the Azure AD domain. The **On-premises sync enabled** column states **No** for all current users. This indicates that each user was created directly in Azure AD and not synchronized from an on-premises directory service.
 
-12. On the **Users | All users** page, select **New user** then select **Create new user**.
+12. On the **Users | All users** page, select **+ New user** then select **Create new user**.
 
 13. On the **Create new user** page, enter the following:
 
@@ -63,7 +63,7 @@ You've also been told that several more employees will be hired over the next co
 
 14. Uncheck **Auto-generated password**
 
-15. Next to **Password**, enter **Pa55-w.rd!**.
+15. Next to **Password**, enter **Pa55-w.rd!**
 
 16. Select **Next:Properties** located at the bottom of the page.
 
@@ -78,7 +78,7 @@ You've also been told that several more employees will be hired over the next co
 
 21. Next to **Department**, enter **HR**.
 
-22. Next to **Usage location**, select **United States**.
+22. Under **Settings**, next to **Usage location**, select **United States**.
 
 23. Select **Next:Assignments** located at the bottom of the page.
 
@@ -207,7 +207,7 @@ You have been provided a list of users should have administrative roles assigned
 
 5. Select **Global administrator**.
 
-6. In the **Global administrator** pane, select **Add assignments**.
+6. In the **Global administrator** pane, select **+ Add assignments**.
 
 7. In the **Add assignments** pane, select **Allan Deyoung**.
 
@@ -219,7 +219,7 @@ You have been provided a list of users should have administrative roles assigned
 
 11. Select **User administrator**.
 
-12. In the **User administrator** pane, select **Add assignments**.
+12. In the **User administrator** pane, select **+ Add assignments**.
 
 13. In the **Add assignments** pane, search for and select **Edmund Reeve**.
 
@@ -345,9 +345,9 @@ You also been asked to modify the Company branding for the sign-in page.
 
    > Notice that Cody does not have any current license assignments.
 
-10. Select **Assignments**.
+10. Select **+ Assignments**.
 
-11. In the Update license assignments page, select the check box next to **Enterprise Mobility + Security E5** and **Office 365 E5**.
+11. In the **Update license assignments** page, select the check box next to **Enterprise Mobility + Security E5** and **Office 365 E5**.
 
 12. Select **Save**.
 
