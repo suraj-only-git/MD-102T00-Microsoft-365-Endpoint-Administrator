@@ -12,7 +12,7 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
 1. On the taskbar of JumpVM, select **File Explorer** and then browse to **D:\\Labfiles\\ISOs**.
 
-2. Right-click **Win11_21H2_Eval.iso** and then select **Mount**. The ISO mounts as DVD Drive F.
+2. Right-click **Win11_21H2_Eval.iso** and then select **Mount**. The ISO mounts as DVD Drive E.
 
 3. Close **File Explorer**.
 
@@ -22,7 +22,7 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
    > The **New Deployment Share Wizard** opens.
 
-6. On the **Path** page, under **Deployment share path**, change the value to **E:\DeploymentShare** and then select **Next**.
+6. On the **Path** page, under **Deployment share path**, change the value to **C:\DeploymentShare** and then select **Next**.
 
 7. On the **Share** page, take note of the **Share name**, but do not change it. Select **Next**.
 
@@ -50,7 +50,7 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
 3. In the **Import Operating System Wizard**, on the **OS Type** page, select **Full set of source files** and then select **Next**.
 
-4. On the **Source** page, under **Source Directory**, enter **F:\\** and then select **Next**.
+4. On the **Source** page, under **Source Directory**, enter **E:\\** and then select **Next**.
 
 5. On the **Destination** page, change the default destination directory name to **Windows 11 Enterprise x64** and then select **Next**.
 
@@ -74,7 +74,7 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
     - Publisher: **Microsoft**
     - Application Name: **XML Notepad**
 
-5. On the **Source** page, under **Source directory**, enter **E:\\Labfiles\\Apps** and then select **Next**.
+5. On the **Source** page, under **Source directory**, enter **D:\\Labfiles\\Apps** and then select **Next**.
 
 6. On the **Destination** page, accept the default destination directory name and then select **Next**.
 
@@ -168,7 +168,7 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
 ### Task 6: Deploy Windows 11 Using MDT
 
-1. On SEA-SVR2, on the taskbar, select **Hyper-V Manager**.
+1. On JumpVM, on the taskbar, select **Hyper-V Manager**.
 
 2. In Hyper-V Manager, select **Virtual Switch Manager**.
 
@@ -176,13 +176,13 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
 4. In the **Virtual Switch Properties** page, under **Name**, enter **External network**, select **OK**, and then select **Yes**.
 
-5. In Hyper-V Manager, select **SEA-SVR2** and then in the Actions pane, select **New** and then select **Virtual Machine**.
+5. In JumpVM Hyper-V Manager, select **New** in the Actions pane and then select **Virtual Machine**.
 
 6. On the **Before you Begin** page, select **Next**.
 
 7. On the **Specify Name and Location** page, in the **Name** box type **SEA-WS4**. 
 
-8. Select the check box next to **Store the virtual machine in a different location** and then next to **Location** type **E:\\Labfiles\\VirtualMachines**. Select **Next**.
+8. Select the check box next to **Store the virtual machine in a different location** and then next to **Location** type **D:\\Labfiles\\VirtualMachines**. Select **Next**.
 
 9. On the **Specify Generation** page, ensure that **Generation 2** is selected and then select **Next**.
 
@@ -193,12 +193,12 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 12. On the **Connect Virtual Hard Disk** page, select **Create a virtual hard disk** and enter the following and then click **Next**:
 
     - Name: **SEA-WS4.vhdx**
-    - Location: **E:\\Labfiles\\VirtualMachines**
+    - Location: **D:\\Labfiles\\VirtualMachines**
     - Size: **60 GB**
 
 13. On the **Installation Options** page, select **Install an operating system from a bootable image file** and configure the following:
 
-    - Image file (.iso): **E:\\DeploymentShare\\Boot\\LiteTouchPE_x64.iso**
+    - Image file (.iso): **C:\\DeploymentShare\\Boot\\LiteTouchPE_x64.iso**
 
 14. Select **Next** and then **Finish**.
 
