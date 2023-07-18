@@ -53,7 +53,7 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 
 ### Task 2: Validate device enrollment into Azure AD And Intune
 
-1. On the **SEA-WS1** taskbar, select **Start**, type **cert**, and select **Manage computer certificates**.
+1. On the **SEA-WS1** taskbar, select **Start**, type **cert**, and select **Manage computer certificates**. Click on **Yes** in the following pop-up dialog box.
     
 2. In the **Certificates** console, in the navigation pane, expand **Personal** and select the **Certificate** node. Verify that the following certificates are listed in the details pane:
 
