@@ -67,7 +67,7 @@ You need to use Azure Active Directory (Azure AD) and Intune to manage members o
 
 3. In Microsoft Edge, type **https://intune.microsoft.com** in the address bar, and then press **Enter**. 
 
-4. Sign in as **`admin@yourtenant.onmicrosoft.com`** with the tenant Admin password.
+4. Sign in as user **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>** 
 
 5. In the Microsoft Intune admin center, select **Devices** from the navigation bar.
 
