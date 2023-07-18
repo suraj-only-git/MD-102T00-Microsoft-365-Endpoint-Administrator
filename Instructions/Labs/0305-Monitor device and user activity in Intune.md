@@ -30,7 +30,7 @@ You need to review Aaron Nicholls sign-in activity and general information provi
 
 2. In Microsoft Edge, type **https://intune.microsoft.com** in the address bar, and then press **Enter**.
 
-3. Sign in as **`admin@yourtenant.onmicrosoft.com`** with the tenant Admin password.
+3. Sign in as user **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**
 
 4. On the **Microsoft Intune admin center** page, select **Users**.
 
