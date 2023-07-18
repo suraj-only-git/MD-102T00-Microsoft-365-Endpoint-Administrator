@@ -52,7 +52,7 @@ You need to prepare for device management using Microsoft Intune. First of all, 
 
 13. In the Aaron Nicholls navigation pane, select **Licenses**.
 
-14. In the Aaron Nicholls|Licenses pane, select **Assignments**.
+14. In the Aaron Nicholls|Licenses pane, select **+ Assignments**.
 
 15. In the **Update license assignments** page, select both **Enterprise Mobility + Security E5** and **Office 365 E5**, and then select **Save**.
 
@@ -86,7 +86,7 @@ You need to prepare for device management using Microsoft Intune. First of all, 
 
    > Notice that there is a Default device type restriction that is assigned to **All Users**. This default restriction allows all device types.
 
-5. In the details pane, select the **Android restrictions** tab, and then select **Create restriction**.
+5. In the details pane, select the **Android restrictions** tab, and then select **+ Create restriction**.
 
 6. On the Create restriction page, in the Name box enter **Android Personal Device Restriction**. Select **Next**.
 
@@ -137,7 +137,7 @@ You need to prepare for device management using Microsoft Intune. First of all, 
 
    > Notice that, by default, there are no Device enrollment managers configured.
 
-4. On the **Enroll devices|Device enrollment managers** page, select **Add**.
+4. On the **Enroll devices|Device enrollment managers** page, select **+ Add**.
 
 5. In the **Add user** page, under User name, enter `AllanD@yourtenant.onmicrosoft.com` and then select **Add**.
 
