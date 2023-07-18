@@ -94,7 +94,7 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
 
 7. On the **Choose how to unlock your drive at startup?** page, select **Enter a PIN**
 
-8. On the **Enter a PIN** page, in the **PIN** and **Reenter PIN** boxes, enter **1234**, and then select **Set PIN**.
+8. On the **Enter a Password** page, in the **Password** and **Reenter Password** boxes, enter **Pa55w.rd**, and then select **Set PIN**.
 
 9. On the **Choose how much of your drive to encrypt** page, select **Encrypt used disk space only** and select **Next**.
    
@@ -104,7 +104,7 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
 
 13. At the **Encryption of C: is complete** message, select **Close**, and then restart **SEA-WS1**.
 
-14. When **SEA-WS1** restarts, type **1234** and press **Enter** to unlock the drive.
+14. When **SEA-WS1** restarts, type **Pa55w.rd** and press **Enter** to unlock the drive.
 
 ### Task 3: Verify BitLocker protection
 
