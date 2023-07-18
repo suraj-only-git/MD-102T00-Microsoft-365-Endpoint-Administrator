@@ -26,7 +26,7 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 4. On the **Additional tasks** page, select **Customize synchronization options**, and then select **Next**.
 
-5. On the **Connect to Azure AD** page, if needed type **`admin@yourtenant.onmicrosoft.com`** in the **USERNAME** text box, type your Admin tenant password in the **PASSWORD** text box, and then select **Next**.
+5. On the **Connect to Azure AD** page, if needed type **<inject key="AzureAdUserEmail"></inject>** in the **USERNAME** text box, type your Admin tenant password **<inject key="AzureAdUserPassword"></inject>** in the **PASSWORD** text box, and then select **Next**.
 
 6. On the **Connect to your directories** page, select **Next**.
 
@@ -42,7 +42,7 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 1. On **SEA-SVR1**, on the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com/**, and then press **Enter**.
 
-2. Sign in as **`Admin@yourtenant.onmicrosoft.com`**, and use the tenant Admin password. If the **Stay signed in?** prompt appears, select **No**. 
+2. Sign in as  **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**, If the **Stay signed in?** prompt appears, select **No**.  
 
    > The Microsoft Entra admin center opens.
 
