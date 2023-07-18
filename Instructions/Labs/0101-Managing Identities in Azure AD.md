@@ -145,75 +145,87 @@ You've also been told that several more employees will be hired over the next co
 
 49. Next to **User type**, make note that **Member** is selected.
 
-50. Next to **Usage location**, select **United States**.
+50. Next to **Job title**, enter **Accountant**.
 
-51. Select **Next:Assignments** located at the bottom of the page.
+51. Next to **Department**, enter **Accounting**.
 
-52. On the **Assignments** page, note that no assignments are selected.
+52. Next to **Usage location**, select **United States**.
 
-53. Select **Next:Review + create** located at the bottom of the page.
+53. Select **Next:Assignments** located at the bottom of the page.
 
-54. Select **Create**.
+54. On the **Assignments** page, note that no assignments are selected.
 
-55. On the **Users | All users** page, select **New user** then select **Create new user**.
+55. Select **Next:Review + create** located at the bottom of the page.
 
-56. On the **Create new user** page, enter the following:
+56. Select **Create**.
+
+57. On the **Users | All users** page, select **New user** then select **Create new user**.
+
+58. On the **Create new user** page, enter the following:
 
     - User Principal Name: **`Jonis`**
     - Display Name: **Joni Sherman**
 
-57. Uncheck **Auto-generated password**
+59. Uncheck **Auto-generated password**
 
-58. Next to **Password**, enter **Pa55-w.rd!**.
+60. Next to **Password**, enter **Pa55-w.rd!**.
 
-59. Select **Next:Properties** located at the bottom of the page.
+61. Select **Next:Properties** located at the bottom of the page.
 
-60. Next to **First name**, enter **Joni**.
+62. Next to **First name**, enter **Joni**.
 
-61. Next to **Last name**, enter **Sherman**.
+63. Next to **Last name**, enter **Sherman**.
 
-62. Next to **User type**, make note that **Member** is selected.
+64. Next to **User type**, make note that **Member** is selected.
 
-63. Next to **Usage location**, select **United States**.
+65. Next to **Job title**, enter **Marketing Head**.
 
-64. Select **Next:Assignments** located at the bottom of the page.
+66. Next to **Department**, enter **Marketing**.
 
-65. On the **Assignments** page, note that no assignments are selected.
+67. Next to **Usage location**, select **United States**.
 
-66. Select **Next:Review + create** located at the bottom of the page.
+68. Select **Next:Assignments** located at the bottom of the page.
 
-67. Select **Create**.
+69. On the **Assignments** page, note that no assignments are selected.
 
-68. On the **Users | All users** page, select **New user** then select **Create new user**.
+70. Select **Next:Review + create** located at the bottom of the page.
 
-69. On the **Create new user** page, enter the following:
+71. Select **Create**.
+
+72. On the **Users | All users** page, select **New user** then select **Create new user**.
+
+73. On the **Create new user** page, enter the following:
 
     - User Principal Name: **`AlexW`**
     - Display Name: **Alex Wilber**
 
-70. Uncheck **Auto-generated password**
+74. Uncheck **Auto-generated password**
 
-71. Next to **Password**, enter **Pa55-w.rd!**.
+75. Next to **Password**, enter **Pa55-w.rd!**.
 
-72. Select **Next:Properties** located at the bottom of the page.
+76. Select **Next:Properties** located at the bottom of the page.
 
-73. Next to **First name**, enter **Alex**.
+77. Next to **First name**, enter **Alex**.
 
-74. Next to **Last name**, enter **Wilber**.
+78. Next to **Last name**, enter **Wilber**.
 
-75. Next to **User type**, make note that **Member** is selected.
+79. Next to **User type**, make note that **Member** is selected.
 
-76. Next to **Usage location**, select **United States**.
+80. Next to **Job title**, enter **Support Executive**.
 
-77. Select **Next:Assignments** located at the bottom of the page.
+81. Next to **Department**, enter **Support**.
 
-78. On the **Assignments** page, note that no assignments are selected.
+82. Next to **Usage location**, select **United States**.
 
-79. Select **Next:Review + create** located at the bottom of the page.
+83. Select **Next:Assignments** located at the bottom of the page.
 
-80. Select **Create**.
+84. On the **Assignments** page, note that no assignments are selected.
+
+85. Select **Next:Review + create** located at the bottom of the page.
+
+86. Select **Create**.
       
-81. Minimize the **Microsoft Edge** window.
+87. Minimize the **Microsoft Edge** window.
 
 ### Task 2: Create users by using PowerShell
 
