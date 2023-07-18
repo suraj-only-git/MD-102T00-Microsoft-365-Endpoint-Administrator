@@ -30,7 +30,7 @@ Contoso Corporation is currently managing users in both AD DS and Azure AD as se
 
 9. On the **User sign-in** page, ensure that **Password Hash Synchronization** is selected, and then select **Next**.
 
-10. On the **Connect to Azure AD** page, in the **USERNAME** and **PASSWORD** boxes, enter **`admin@yourtenant.onmicrosoft.com`**, and your provided password, and then select **Next**.
+10. On the **Connect to Azure AD** page, in the **USERNAME** and **PASSWORD** boxes, enter **<inject key="AzureAdUserEmail"></inject>**, and your provided password, and then select **Next**.
 
 11. On the **Connect your directories** page, ensure that **Contoso.com** is listed under **FOREST**, and then select **Add Directory**.
 
@@ -76,7 +76,7 @@ Contoso Corporation is currently managing users in both AD DS and Azure AD as se
 
 7. Select the **Navigation menu** and then select **Show all**.
 
-8. In the Navigation pane, under **Admin centers** select **Azure Active Directory**. The Microsoft Entra admin center opens.
+8. In the Navigation pane, under **Admin centers** select **Identity**. The Microsoft Entra admin center opens.
 
 9. In the Microsoft Entra admin center, in the navigation pane, select **Users** > **All users**.
 
