@@ -123,7 +123,94 @@ You've also been told that several more employees will be hired over the next co
 
 41. Select **Create**.
 
-42. Minimize the **Microsoft Edge** window.
+42. On the **Users | All users** page, select **New user** then select **Create new user**.
+
+43. On the **Create new user** page, enter the following:
+
+    - User Principal Name: **`AllanD`**
+    - Display Name: **Allan Deyoung**
+
+44. Uncheck **Auto-generated password**
+
+45. Next to **Password**, enter **Pa55-w.rd!**.
+
+46. Select **Next:Properties** located at the bottom of the page.
+
+47. Next to **First name**, enter **Allan**.
+
+48. Next to **Last name**, enter **Deyoung**.
+
+49. Next to **User type**, make note that **Member** is selected.
+
+50. Next to **Usage location**, select **United States**.
+
+51. Select **Next:Assignments** located at the bottom of the page.
+
+52. On the **Assignments** page, note that no assignments are selected.
+
+53. Select **Next:Review + create** located at the bottom of the page.
+
+54. Select **Create**.
+
+55. On the **Users | All users** page, select **New user** then select **Create new user**.
+
+56. On the **Create new user** page, enter the following:
+
+    - User Principal Name: **`Jonis`**
+    - Display Name: **Joni Sherman**
+
+57. Uncheck **Auto-generated password**
+
+58. Next to **Password**, enter **Pa55-w.rd!**.
+
+59. Select **Next:Properties** located at the bottom of the page.
+
+60. Next to **First name**, enter **Joni**.
+
+61. Next to **Last name**, enter **Sherman**.
+
+62. Next to **User type**, make note that **Member** is selected.
+
+63. Next to **Usage location**, select **United States**.
+
+64. Select **Next:Assignments** located at the bottom of the page.
+
+65. On the **Assignments** page, note that no assignments are selected.
+
+66. Select **Next:Review + create** located at the bottom of the page.
+
+67. Select **Create**.
+
+68. On the **Users | All users** page, select **New user** then select **Create new user**.
+
+69. On the **Create new user** page, enter the following:
+
+    - User Principal Name: **`AlexW`**
+    - Display Name: **Alex Wilber**
+
+70. Uncheck **Auto-generated password**
+
+71. Next to **Password**, enter **Pa55-w.rd!**.
+
+72. Select **Next:Properties** located at the bottom of the page.
+
+73. Next to **First name**, enter **Alex**.
+
+74. Next to **Last name**, enter **Wilber**.
+
+75. Next to **User type**, make note that **Member** is selected.
+
+76. Next to **Usage location**, select **United States**.
+
+77. Select **Next:Assignments** located at the bottom of the page.
+
+78. On the **Assignments** page, note that no assignments are selected.
+
+79. Select **Next:Review + create** located at the bottom of the page.
+
+80. Select **Create**.
+      
+81. Minimize the **Microsoft Edge** window.
 
 ### Task 2: Create users by using PowerShell
 
@@ -252,6 +339,8 @@ You need to add the three new users to a Security group and assign licenses as i
 | Edmund Reeve   | Contoso_Managers | Office 365 E5, Enterprise Mobility + Security E5 via group membership |
 | Miranda Snider | Contoso_Managers | Office 365 E5, Enterprise Mobility + Security E5 via group membership |
 | Cody Godinez   | Contoso_Sales    | Office 365 E5, Enterprise Mobility + Security E5 via group membership direct assignment |
+| Allan Deyoung  | Contoso_Admins | Office 365 E5, Enterprise Mobility + Security E5 via group membership |
+| Alex Wilber  | Contoso_Admins | Office 365 E5, Enterprise Mobility + Security E5 via group membership |
 
 You also been asked to modify the Company branding for the sign-in page.
 
@@ -270,6 +359,22 @@ You also been asked to modify the Company branding for the sign-in page.
 4. Under Members, select **No members selected**.
 
 5. In the Add members page add **Edmund Reeve**, **Miranda Snider**, and then click **Select**.
+
+6. Select **Create**.
+
+1. On **SEA-SVR1**, in the Microsoft Entra admin center, in the navigation pane, select **Groups** > **All groups**.
+
+2. Select **New group**.
+
+3. On the **New Group** page, enter the following:
+
+    - Group type: **Security**
+    - Group name: **Contoso_Admins**
+    - Membership type: **Assigned**
+
+4. Under Members, select **No members selected**.
+
+5. In the Add members page add **Allan Deyoung**, **Alex Wilber**, and then click **Select**.
 
 6. Select **Create**.
 
@@ -353,7 +458,7 @@ You also been asked to modify the Company branding for the sign-in page.
 
 13. In the Microsoft Entra admin center, in the Navigation pane, select **Groups** > **All groups**.
 
-14. On the Groups|All groups page, select **Contoso_Managers**.
+14. On the Groups|All groups page, select **Contoso_Admins**.
 
 15. On the Contoso_Managers page, select **Licenses**.
 
@@ -365,15 +470,27 @@ You also been asked to modify the Company branding for the sign-in page.
 
 18. Select **Save**.
 
-19. In the Microsoft Entra admin center, in the Navigation pane, select **Billing** > **Licenses**.
+19. On the Groups|All groups page, select **Contoso_Managers**.
 
-20. On the **Licenses|Overview** page, under **Manage**, select **All products**.
+20. On the Contoso_Managers page, select **Licenses**.
 
-21. On the Licenses|All products page, select **Office 365 E5**.
+    > Notice that the Contoso_Managers group does not have any current license assignments.
 
-   > Take note of the users that are assigned the Office 365 E5 license. Notice the Assignment Paths column which indicates how license assignment is configured for each user. Edmund and Miranda both receive their license assignment from their membership in the Contoso_Managers group. You may need to select **Refresh** a couple of times to update the Assignment path column.
+21. Select **Assignments**.
 
-22. Close Microsoft Edge.
+22. In the Update license assignments page, select the check box next to **Enterprise Mobility + Security E5** and **Office 365 E5**.
+
+23. Select **Save**.
+
+24. In the Microsoft Entra admin center, in the Navigation pane, select **Billing** > **Licenses**.
+
+25. On the **Licenses|Overview** page, under **Manage**, select **All products**.
+
+26. On the Licenses|All products page, select **Office 365 E5**.
+
+   > Take note of the users that are assigned the Office 365 E5 license. Notice the Assignment Paths column which indicates how license assignment is configured for each user. Edmund and Miranda both receive their license assignment from their membership in the Contoso_Managers group. Allan and Alex both receive heir license assignment from their membership in the Contoso_Admins group You may need to select **Refresh** a couple of times to update the Assignment path column.
+
+27. Close Microsoft Edge.
 
 **Results**: After completing this exercise, you should have successfully created and managed groups, modified company branding, and assigned licenses.
 
