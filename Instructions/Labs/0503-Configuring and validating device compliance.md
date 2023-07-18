@@ -39,7 +39,7 @@ If a device meets these requirements, it will be marked as compliant. If the dev
 
 3. In Microsoft Edge, type **https://intune.microsoft.com** in the  address bar, and then press **Enter**. 
 
-4. Sign in as as **`admin@yourtenant.onmicrosoft.com`** with the default tenant password.
+4. Sign in as **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**
 
 5. From the navigation pane select **Devices**, then select **Compliance policies**.
 
@@ -160,7 +160,7 @@ When a user uses a device that is marked as non-compliant, they should not be ab
 3. In Microsoft Edge, type **https://intune.microsoft.com** in the  address bar, and then 
    press **Enter**.
 
-4. Sign in as as **`admin@yourtenant.onmicrosoft.com`** with the default tenant password.
+4. Sign in as **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**, If the **Stay signed in?** prompt appears, select **No**. 
 
 5. From the navigation pane select **Devices**, then select **All devices**.
 
