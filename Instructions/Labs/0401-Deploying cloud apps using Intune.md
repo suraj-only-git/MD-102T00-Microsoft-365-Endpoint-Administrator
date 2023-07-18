@@ -38,7 +38,7 @@ You use Microsoft Intune to manage desktops and apps for Contoso Corporation. Th
 
 6. On the **Apps** page, in the navigation pane, select **All apps**.
 
-7. In the details pane, select **Add**.
+7. In the details pane, select **+ Add**.
 
 8. On the **Select app type** page, click the drop-down menu and then Choose **Microsoft store app (new)**. Click **Select**.
 
@@ -204,7 +204,7 @@ All the users of the Research department at Contoso require Microsoft 365 Apps. 
 
 5. Close the **Settings** app and select the **Start** button.
 
-6. In the app list, scroll down to **W** and select **Word** and verify that the app opens.
+6. In the app list, select **Word** and verify that the app opens.
 
 7. Close all open windows.
 
