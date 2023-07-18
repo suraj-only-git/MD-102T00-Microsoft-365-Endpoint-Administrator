@@ -21,6 +21,8 @@ To provide additional security for user sign on events, you need to configure an
 2. On the taskbar, select **Microsoft Edge**.
 
 3. In the address bar, enter **outlook.office.com** and press Enter.
+  
+  >**Note**: Before Proceeding to next step, verify that Alex Wilber assigned with Office 365 E5, Enterprise Mobility + Security E5. If not assigned, then asssign both the licenses and proceed further.
 
 4. At the **Sign in** page, enter **`AlexW@yourtenant.onmicrosoft.com`** and then select **Next**.
 
