@@ -16,7 +16,7 @@ Contoso Corporation is currently managing users in both AD DS and Azure AD as se
 
 3. In the address bar, enter `http://www.microsoft.com/en-us/download/details.aspx?id=47594`.
 
-4. On the Microsoft Azure Active Directory Connect page, select **Download**. 
+4. On the Microsoft Azure Active Directory Connect section, select **Download**. 
 
     > Azure AD Connect automatically downloads to the **Downloads** folder on SEA-SVR1.
 
