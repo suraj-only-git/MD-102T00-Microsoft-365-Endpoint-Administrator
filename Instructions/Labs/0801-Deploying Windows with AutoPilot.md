@@ -27,7 +27,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 2. On the taskbar, select **Microsoft Edge**.
 
-3. In Microsoft Edge, in the address bar, type **https://entra.microsoft.com**, and then press **Enter**. If prompted, sign in with your **`Admin@yourtenant.onmicrosoft.com`** and the default tenant password.
+3. In Microsoft Edge, in the address bar, type **https://entra.microsoft.com**, and then press **Enter**. If prompted, sign in with your **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**
 
 4. In the navigation pane, Expand **Azure Active Directory**.
 
