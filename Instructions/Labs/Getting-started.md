@@ -12,7 +12,7 @@
 
 1. Also, you can **start, stop and restart** the virtual machines from the **Resources** tab.
 
-    ![](../media/Inst33.png)
+    ![](../media/Inst3.png)
 
 1. Click on **Next** from the bottom right and follow the instructions to perform the lab.
 
