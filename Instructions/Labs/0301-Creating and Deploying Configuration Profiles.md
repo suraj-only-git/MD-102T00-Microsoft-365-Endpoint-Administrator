@@ -73,7 +73,7 @@ You need to use Azure Active Directory (Azure AD) and Intune to manage members o
 
 6. On the **Devices | Overview** page, select **Configuration Profiles**.
 
-7. On the **Devices | Configuration profiles** blade, in the details pane, select **Create profile**.
+7. On the **Devices | Configuration profiles** blade, in the details pane, select **+ Create profile**.
 
 8. In the **Create a profile** blade, select the following options, and then select **Create**:
 
