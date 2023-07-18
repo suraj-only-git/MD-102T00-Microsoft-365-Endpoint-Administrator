@@ -28,7 +28,7 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
 
 3. In Microsoft Edge, type **https://intune.microsoft.com** in the  address bar, and then press **Enter**. 
 
-4. Sign in as as **`admin@yourtenant.onmicrosoft.com`** with the default tenant password.
+4. Sign in as user **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**
 
 5. In the Microsoft Intune admin center, select **Endpoint security** from the navigation bar.
 
