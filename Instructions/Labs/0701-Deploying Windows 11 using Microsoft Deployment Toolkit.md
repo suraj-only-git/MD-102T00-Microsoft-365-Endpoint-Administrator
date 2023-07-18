@@ -30,9 +30,9 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
 9. On the **Options** page, configure the following, and then select **Next**:
 
-       - Ask to set the local Administrator password: **Enabled**
+   - Ask to set the local Administrator password: **Enabled**
 
-       - All other check boxes: **Disabled**
+   - All other check boxes: **Disabled**
 
 10. On the **Summary** page, review the information and then select **Next**. 
 
