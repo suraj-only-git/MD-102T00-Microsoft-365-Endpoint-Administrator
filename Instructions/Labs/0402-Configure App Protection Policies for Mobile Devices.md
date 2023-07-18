@@ -21,7 +21,7 @@ All of the developers at Contoso have iPhones and iPads running the latest iOS/i
 
 3. In Microsoft Edge, type **https://intune.microsoft.com** in the address bar, and then press **Enter**. 
 
-4. Sign in as **`admin@yourtenant.onmicrosoft.com`** with the tenant Admin password.
+4. Sign in as user **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**
 
 5. On the **Microsoft Intune admin center** page, select **Apps**.
 
