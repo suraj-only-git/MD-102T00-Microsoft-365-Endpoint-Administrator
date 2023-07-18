@@ -27,14 +27,14 @@ All of the developers at Contoso have iPhones and iPads running the latest iOS/i
 
 6. On the **Apps | Overview** blade, under **Policy**, select **App protection policies**. 
 
-7. In the details pane, select **Create policy** and then select **iOS/iPadOS**.
+7. In the details pane, select **+ Create policy** and then select **iOS/iPadOS**.
 
 8. On the **Basics** tab, configure the following options and select **Next**:
 
 - Name: **Outlook – Developers**
 - Description: **Policy to prevent cut/copy and paste from Outlook**
 
-9. On the **Apps** tab, click **Select public apps**.
+9. On the **Apps** tab, click **+ Select public apps**.
 
 10. On the **Select apps to target** blade, in the text box, type **Outlook**. Select **Microsoft Outlook** and then select **Select**, and then select **Next**.
 
