@@ -94,7 +94,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. On **SEA-W10-CL3**, in the windows taskbar, select **Microsoft Edge**.
 
-2. In **Microsoft Edge**, navigate to **https://intune.microsoft.com**. Sign in with your **`Admin@yourtenant.onmicrosoft.com`** account.
+2. In **Microsoft Edge**, navigate to **https://intune.microsoft.com**. Sign in with your  **<inject key="AzureAdUserEmail"></inject>** account.
 
     >Note: You will be prompted to register for MFA. Follow the same procedures you used earlier in the course to add your phone number.
 
