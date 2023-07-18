@@ -46,7 +46,7 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 10. Under **Local administrator settings**, select **Manage Additional local administrators on all Azure AD joined devices**. The Device Administrators page opens.
 
-11. In the Device Administrators page, select **Add assignments**.
+11. In the Device Administrators page, select **+ Add assignments**.
 
 12. In the Search box, enter **Allan Deyoung**, select the **Allan Deyoung** user object, and then select **Add**. 
 
@@ -285,7 +285,7 @@ Some Contoso Windows devices are currently joined to the local Active Directory 
 
 6. In the output under **Device State**, verify that **AzureAdJoined : YES** and **DomainJoined : YES** are displayed.
 
-   > **Note**: If the device is not yet joined to Azure AD, switch back to **SEA-SRV1** and run the command below. Once completed, switch back to SEA-CL2 and restart the computer once more.
+   > **Note**: If the device is not yet joined to Azure AD, switch back to **SEA-SVR1** and run the command below. Once completed, switch back to SEA-CL2 and restart the computer once more.
    
    ```
    Start-ADSyncSyncCycle -PolicyType Delta
