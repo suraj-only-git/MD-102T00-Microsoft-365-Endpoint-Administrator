@@ -89,7 +89,7 @@ You have been asked to configure SEA-WS2 as a Windows 11 kiosk to allow Contoso 
 
 2. On the **Devices | Overview** page, select **Configuration Profiles**.
 
-3. On the **Devices | Configuration profiles** blade, in the details pane, select **Create profile**.
+3. On the **Devices | Configuration profiles** blade, in the details pane, select **+ Create profile**.
 
 4. In the **Create a profile** blade, select the following options, and then select **Create**:
 
