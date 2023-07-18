@@ -64,9 +64,9 @@ Contoso Corporation is currently managing users in both AD DS and Azure AD as se
 
 2. In the address bar, enter **https://admin.microsoft.com**.
 
-3. At the Sign-in prompt, enter **`admin@yourtenant.onmicrosoft.com`** and then select **Next**.
+3. At the Sign-in prompt, enter **<inject key="AzureAdUserEmail"></inject>** and then select **Next**.
 
-4. At the Enter password page, enter the password for the Admin account and then select **Sign in**. 
+4. At the Enter password page, enter the password for the Admin account as **<inject key="AzureAdUserPassword"></inject>** and then select **Sign in**. 
 
    > Note: Check with your instructor on the password to use for signing in with the Admin account.
 
