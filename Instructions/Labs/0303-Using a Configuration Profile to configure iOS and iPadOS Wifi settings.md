@@ -48,7 +48,7 @@ You have been asked to create a Configuration profile to be used to automaticall
 
 2. On the **Devices | Overview** page, scroll down and select **Configuration Profiles**.
 
-3. On the **Devices | Configuration profiles** blade, in the details pane, select **Create profile**.
+3. On the **Devices | Configuration profiles** blade, in the details pane, select **+ Create profile**.
 
 4. In the **Create a profile** blade, select the following options, and then select **Create**:
 
