@@ -18,11 +18,14 @@ In this lab, you will use the Azure Active Directory admin center to create and 
 
 You need to create user accounts in Azure AD for new employees that will start next week. New users are listed in the following table:
 
-| Name           | User Name                             | Password   | Job title        | Department |
-| -------------- | ------------------------------------- | ---------- | ---------------- | ---------- |
-| Edmund Reeve   | `ereeve@yourtenant.onmicrosoft.com`   | Pa55-w.rd! | HR Rep           | HR         |
-| Miranda Snider | `msnider@yourtenant.onmicrosoft.com`  | Pa55-w.rd! | Helpdesk Manager | Operations |
-| Cody Godinez   | `cgodinez@yourtenant.onmicrosoft.com` | Pa55-w.rd! | Sales Rep        | Sales      |
+| Name           | User Name                             | Password   | Job title         | Department |
+| -------------- | ------------------------------------- | ---------- | ----------------- | ---------- |
+| Edmund Reeve   | `ereeve@yourtenant.onmicrosoft.com`   | Pa55-w.rd! | HR Rep            | HR         |
+| Miranda Snider | `msnider@yourtenant.onmicrosoft.com`  | Pa55-w.rd! | Helpdesk Manager  | Operations |
+| Allan Deyoung  | `alland@yourtenant.onmicrosoft.com`   | Pa55-w.rd! | Accountant        | Accounting |
+| Joni Sherman   | `jonis@yourtenant.onmicrosoft.com`    | Pa55-w.rd! | Marketing Head    | Marketing  |
+| Alex Wilber    | `alexw@yourtenant.onmicrosoft.com`    | Pa55-w.rd! | Support Executive | Support    |
+| Cody Godinez   | `cgodinez@yourtenant.onmicrosoft.com` | Pa55-w.rd! | Sales Rep         | Sales      |
 
 _Note: For location use either your local region or United States._
 
