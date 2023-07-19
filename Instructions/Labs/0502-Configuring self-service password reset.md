@@ -38,6 +38,36 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 10. On the **Configuration complete** page, select **Exit**.
 
+11. On **SEA-SVR1**, on the taskbar select **Microsoft Edge**, in the address bar type **https://portal.azure.com/**, and then press **Enter**.
+
+12. Search and select **Azure Active Directory** from the portal.
+
+13. On the left, select **Azure AD Connect**.
+   
+14. On the left, select **Cloud sync**.
+
+15. On the left, select **Agent**.
+
+16. Select **Download on-premises agent**, and select Accept terms & download.
+
+17. Once the Azure AD Connect Provisioning Agent Package has completed downloading, run the **AADConnectProvisioningAgentSetup.exe** installation file from your downloads folder.
+
+18. On the splash screen, select **I agree to the license and conditions**, and then select **Install**.
+
+19. Once the installation operation completes, the configuration wizard will launch. Select Next to start the configuration.
+
+20. On the Select Extension screen, select **HR-driven provisioning (Workday and SuccessFactors) / Azure AD Connect Cloud Sync** and click **Next**.
+
+21. On the **Connect to Azure AD** page, if needed type **<inject key="AzureAdUserEmail"></inject>** in the **USERNAME** text box, type your Admin tenant password **<inject key="AzureAdUserPassword"></inject>** in the **PASSWORD** text box, to provide authentication.
+
+22. On the **Configure Service Account** screen, select **Create gMSA** and enter **Contoso.com\Administrator** under DOMAIN ADMIN USERNAME and **Pa55w.rd** under Password text box and click on **Next**.
+
+23. On the **Connect Active Directory** screen, leave the default configuration and click on **Next**.
+
+24. On the **Configuration complete** screen, select Confirm. This operation will register and restart the agent.
+
+25. Once this operation completes, you should be notified that **Your agent configuration was successfully verified**. You can select **Exit**.
+
 ### Task 2: Enable self-service password reset
 
 1. On **SEA-SVR1**, on the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com/**, and then press **Enter**.
