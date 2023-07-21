@@ -10,7 +10,7 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
 ### Task 1: Create a new Deployment Share
 
-1. On the taskbar of **LabVM**, select **File Explorer** and then browse to **D:\\Labfiles\\ISOs**.
+1. On the taskbar of **JumpVM**, select **File Explorer** and then browse to **D:\\Labfiles\\ISOs**.
 
 2. Right-click **Win11_21H2_Eval.iso** and then select **Mount**. The ISO mounts as DVD Drive E.
 
