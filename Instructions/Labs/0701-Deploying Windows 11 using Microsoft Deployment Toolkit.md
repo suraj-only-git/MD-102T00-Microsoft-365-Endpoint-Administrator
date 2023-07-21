@@ -10,7 +10,7 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
 ### Task 1: Create a new Deployment Share
 
-1. On the taskbar of JumpVM, select **File Explorer** and then browse to **D:\\Labfiles\\ISOs**.
+1. On the taskbar of **LabVM**, select **File Explorer** and then browse to **D:\\Labfiles\\ISOs**.
 
 2. Right-click **Win11_21H2_Eval.iso** and then select **Mount**. The ISO mounts as DVD Drive E.
 
@@ -22,7 +22,7 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
    > The **New Deployment Share Wizard** opens.
 
-6. On the **Path** page, under **Deployment share path**, change the value to **C:\DeploymentShare** and then select **Next**.
+6. On the **Path** page, under **Deployment share path**, change the value to **D:\DeploymentShare** and then select **Next**.
 
 7. On the **Share** page, take note of the **Share name**, but do not change it. Select **Next**.
 
@@ -170,37 +170,31 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
 1. On JumpVM, on the taskbar, select **Hyper-V Manager**.
 
-2. In Hyper-V Manager, select **Virtual Switch Manager**.
+2. In JumpVM Hyper-V Manager, select **New** in the Actions pane and then select **Virtual Machine**.
 
-3. Select **New virtual network switch** and then in the details pane, select **External**. Select **Create Virtual Switch**.
+3. On the **Before you Begin** page, select **Next**.
 
-4. In the **Virtual Switch Properties** page, under **Name**, enter **External network**, select **OK**, and then select **Yes**.
+4. On the **Specify Name and Location** page, in the **Name** box type **SEA-WS4**. 
 
-5. In JumpVM Hyper-V Manager, select **New** in the Actions pane and then select **Virtual Machine**.
+5. Select the check box next to **Store the virtual machine in a different location** and then next to **Location** type **D:\\Labfiles\\VirtualMachines**. Select **Next**.
 
-6. On the **Before you Begin** page, select **Next**.
+6. On the **Specify Generation** page, ensure that **Generation 2** is selected and then select **Next**.
 
-7. On the **Specify Name and Location** page, in the **Name** box type **SEA-WS4**. 
+7. On the **Assign Memory** page, next to **Startup memory** type **8192** and then select **Next**.
 
-8. Select the check box next to **Store the virtual machine in a different location** and then next to **Location** type **D:\\Labfiles\\VirtualMachines**. Select **Next**.
+8. On the **Configure Networking** page, next to **Connection**, select **Internalswitch** and then select **Next**.
 
-9. On the **Specify Generation** page, ensure that **Generation 2** is selected and then select **Next**.
-
-10. On the **Assign Memory** page, next to **Startup memory** type **8192** and then select **Next**.
-
-11. On the **Configure Networking** page, next to **Connection**, select **External Network** and then select **Next**.
-
-12. On the **Connect Virtual Hard Disk** page, select **Create a virtual hard disk** and enter the following and then click **Next**:
+9. On the **Connect Virtual Hard Disk** page, select **Create a virtual hard disk** and enter the following and then click **Next**:
 
     - Name: **SEA-WS4.vhdx**
     - Location: **D:\\Labfiles\\VirtualMachines**
     - Size: **60 GB**
 
-13. On the **Installation Options** page, select **Install an operating system from a bootable image file** and configure the following:
+10. On the **Installation Options** page, select **Install an operating system from a bootable image file** and configure the following:
 
-    - Image file (.iso): **C:\\DeploymentShare\\Boot\\LiteTouchPE_x64.iso**
+    - Image file (.iso): **D:\\DeploymentShare\\Boot\\LiteTouchPE_x64.iso**
 
-14. Select **Next** and then **Finish**.
+11. Select **Next** and then **Finish**.
 
 15. In Hyper-V Manager, right-click **SEA-WS4**, and then select **Settings**.
 
@@ -217,8 +211,8 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 21. On the **Welcome** page, select **Run the Deployment Wizard to install a new Operating System**.
 
 22. On the **Specify credentials for connecting to network shares** window, enter the following and then select **OK**:
-    - User Name: **Administrator**
-    - Password: **Pa55w.rd**
+    - User Name: **demouser**
+    - Password: **Password.1!!**
     - Domain: **Contoso**
 
 23. On the **Task Sequence** page, select **Deploy Windows 11 Enterprise** and then select **Next**.
@@ -263,9 +257,9 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
 41. On SEA-SVR2, close **Hyper-V Manager** and close the **Deployment Workbench**.
 
-42. Open **File Explorer**, right-click **DVD Drive F** and then select **Eject**.
+42. Open **File Explorer**, right-click **DVD Drive E** and then select **Eject**.
 
-43. Close **File Explorer** and sign out of **SEA-SVR2**.
+43. Close **File Explorer**.
 
 **Results**: After completing this exercise, you will have successfully used the Microsoft Deployment Toolkit to create and deploy a Windows 11 workstation.
 
