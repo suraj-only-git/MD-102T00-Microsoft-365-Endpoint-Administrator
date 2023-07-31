@@ -130,15 +130,15 @@ You've also been told that several more employees will be hired over the next co
 
 ### Task 2: Create users by using Windows Powershell
 
-1. On **SEA-SVR1**, click into the **Windows Search** bar and then type **Powershell**. Right click on **Windows PowerShell** and then select **Run as Administrator**.
+1. On **SEA-SVR1**, click into the **Windows Search** bar and then type **PWSH**. Right click on **PowerShell 7** and then select **Run as Administrator**.
 
-2. In the **Windows PowerShell** window, type the following command, and then press **Enter**. If prompted, Enter **Y** at the NuGet and repository messages:
+2. In the **Windows PowerShell** window, type the following command, and then press **Enter**. If prompted, enter **Y** at the NuGet and repository messages:
 
     ```
     Install-Module Microsoft.Graph -Scope CurrentUser
     ```
 
-3. In the **Windows PowerShell** window, type the following command, and then press **Enter**:
+3. In the **PowerShell 7** window, type the following command, and then press **Enter**:
 
     ```
     Connect-MgGraph -scopes "user.readwrite.all, group.readwrite.all"
@@ -150,7 +150,7 @@ You've also been told that several more employees will be hired over the next co
 
 6. Close out of the **Authentication complete** tab and then minimize **Microsoft Edge**
 
-7. Back In the **Windows PowerShell** window, type the following code to create a new profile object, and then press **enter**. Replace **Pa55-w.rd** with a complex password of your choice:
+7. Back In the **PowerShell 7** window, type the following code to create a new profile object, and then press **enter**. Replace **Pa55-w.rd** with a complex password of your choice:
 
     ```
     $PWProfile = @{
@@ -163,7 +163,7 @@ You've also been told that several more employees will be hired over the next co
 
     ```
     New-MgUser `
-        -DisplayName “Cody Godinez” `
+        -DisplayName "Cody Godinez" `
         -GivenName "Code" -Surname "Godinez" `
         -MailNickname "cgodinez" `
         -UsageLocation "US" `
@@ -174,7 +174,7 @@ You've also been told that several more employees will be hired over the next co
 
     ```
     New-MgUser `
-        -DisplayName “Allan Deyoung” `
+        -DisplayName "Allan Deyoung" `
         -GivenName "Allan" -Surname "Deyoung" `
         -MailNickname "alland" `
         -UsageLocation "US" `
@@ -185,7 +185,7 @@ You've also been told that several more employees will be hired over the next co
 
     ```
     New-MgUser `
-        -DisplayName “Joni Sherman” `
+        -DisplayName "Joni Sherman" `
         -GivenName "Joni" -Surname "Sherman" `
         -MailNickname "jonis" `
         -UsageLocation "US" `
@@ -196,7 +196,7 @@ You've also been told that several more employees will be hired over the next co
 
     ```
     New-MgUser `
-        -DisplayName “Alex Wilber” `
+        -DisplayName "Alex Wilber" `
         -GivenName "Alex" -Surname "Wilber" `
         -MailNickname "alexw" `
         -UsageLocation "US" `
@@ -205,7 +205,7 @@ You've also been told that several more employees will be hired over the next co
         -Department "Support" -JobTitle "Support Executive"
     ```    
    
-9. To confirm that the users was created, In the **Windows PowerShell** window, type the following command and then press **Enter**:
+9. To confirm that the users was created, In the **PowerShell 7** window, type the following command and then press **Enter**:
 
     ```
     Get-MgUser
@@ -330,10 +330,10 @@ You also been asked to modify the Company branding for the sign-in page.
 
 1. On SEA-SVR1, switch to Windows PowerShell.
 
-2. In the **Windows PowerShell** window, type the following code to create a new group, and then press **Enter**:
+2. In the **PowerShell 7** window, type the following code to create a new group, and then press **Enter**:
 
     ```
-    New-MgGroup -DisplayName “Contoso_Sales” -Description “Contoso Sales team users” -MailEnabled:$false -Mailnickname "Contoso_Sales" -SecurityEnabled
+    New-MgGroup -DisplayName “Contoso_Sales” -Description “Contoso_Sales_team_users” -MailEnabled:$false -Mailnickname "Contoso_Sales" -SecurityEnabled
     ```
 
 3. In the **Windows PowerShell** window, type the following command, and then press **Enter**:
@@ -344,16 +344,16 @@ You also been asked to modify the Company branding for the sign-in page.
 
 4. Verify that you get the list of groups in your tenant, including the Contoso_Sales group you just created.
 
-5. In the **Windows PowerShell** window, type the following code to define a variable as the Contoso_Sales group, and then press **Enter**:
+5. In the **PowerShell 7** window, type the following code to define a variable as the Contoso_Sales group, and then press **Enter**:
 
     ```
     $group = Get-MgGroup | Where-Object {$_.DisplayName -eq "Contoso_Sales"}
     ```
 
-6. In the **Windows PowerShell** window, type the following code to define another variable as the user, and then press **Enter**:
+6. In the **PowerShell 7** window, type the following code to define another variable as the user, and then press **Enter**:
 
     ```
-    $user = Get-MgUser | Where-Object {$_.DisplayName -eq “Cody Godinez”}
+    $user = Get-MgUser | Where-Object {$_.DisplayName -eq "Cody Godinez"}
     ```
 
 7. In the **Windows PowerShell** window, type the following code to add Cody to Contoso_Sales using set variables, and then press **Enter**:
@@ -368,9 +368,9 @@ You also been asked to modify the Company branding for the sign-in page.
     Get-MgGroupMember -GroupId $group.Id | FL
     ```
 
-9. Verify that you see **Cody Godinez** as value in **AdditionalProperties**.
+9. Verify that you see **Cody_Godinez** as value in **AdditionalProperties**.
 
-10. Close Windows PowerShell.
+10. Close PowerShell.
 
 ### Task 3: Review licenses and modify company branding
 
@@ -392,7 +392,7 @@ You also been asked to modify the Company branding for the sign-in page.
 
 7. In the Microsoft Entra admin center, in the Navigation pane, select **Users** > **All users**.
 
-8. In the user list, select **Cody Godinez**.
+8. In the user list, select **Cody_Godinez**.
 
 9. In the Cody Godinez Profile page, under Manage, select **Licenses**.
 
