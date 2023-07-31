@@ -229,15 +229,15 @@ You've also been told that several more employees will be hired over the next co
 
 ### Task 2: Create users by using PowerShell
 
-1. On **SEA-SVR1**, click into the **Windows Search** bar and then type **PWSH**. Right click on **PowerShell 7** and then select **Run as Administrator**.
+1. On **SEA-SVR1**, click into the **Windows Search** bar and then type **Powershell**. Right click on **Windows PowerShell** and then select **Run as Administrator**.
 
-2. In the **PowerShell 7** window, type the following command, and then press **Enter**. If prompted, enter **Y** at the NuGet and repository messages:
+2. In the **Windows PowerShell** window, type the following command, and then press **Enter**. If prompted, select **Yes** at the NuGet and repository messages:
 
     ```
     Install-Module Microsoft.Graph -Scope CurrentUser
     ```
 
-3. In the **PowerShell 7** window, type the following command, and then press **Enter**:
+3. In the **Windows PowerShell** window, type the following command, and then press **Enter**:
 
     ```
     Connect-MgGraph -scopes "user.readwrite.all, group.readwrite.all"
@@ -249,7 +249,7 @@ You've also been told that several more employees will be hired over the next co
 
 6. Close out of the **Authentication complete** tab and then minimize **Microsoft Edge**
 
-7. Back In the **PowerShell 7** window, type the following code to create a new profile object, and then press **enter**. Replace **Pa55w.rd** with a complex password of your choice:
+7. Back In the **Windows PowerShell** window, type the following code to create a new profile object, and then press **enter**. Replace **Pa55w.rd** with a complex password of your choice:
 
     ```
     $PWProfile = @{
@@ -395,15 +395,15 @@ You also been asked to modify the Company branding for the sign-in page.
 
 ### Task 2: Create groups by using PowerShell
 
-1. On SEA-SVR1, switch to PowerShell 7.
+1. On SEA-SVR1, switch to Windows PowerShell.
 
-2. In the **PowerShell 7** window, type the following code to create a new group, and then press **Enter**:
+2. In the **Windows PowerShell** window, type the following code to create a new group, and then press **Enter**:
 
     ```
     New-MgGroup -DisplayName “Contoso_Sales” -Description “Contoso Sales team users” -MailEnabled:$false -Mailnickname "Contoso_Sales" -SecurityEnabled
     ```
 
-3. In the **PowerShell 7** window, type the following command, and then press **Enter**:
+3. In the **Windows PowerShell** window, type the following command, and then press **Enter**:
 
     ```
     Get-MgGroup
@@ -411,25 +411,25 @@ You also been asked to modify the Company branding for the sign-in page.
 
 4. Verify that you get the list of groups in your tenant, including the Contoso_Sales group you just created.
 
-5. In the **PowerShell 7** window, type the following code to define a variable as the Contoso_Sales group, and then press **Enter**:
+5. In the **Windows PowerShell** window, type the following code to define a variable as the Contoso_Sales group, and then press **Enter**:
 
     ```
     $group = Get-MgGroup | Where-Object {$_.DisplayName -eq "Contoso_Sales"}
     ```
 
-6. In the **PowerShell 7** window, type the following code to define another variable as the user, and then press **Enter**:
+6. In the **Windows PowerShell** window, type the following code to define another variable as the user, and then press **Enter**:
 
     ```
     $user = Get-MgUser | Where-Object {$_.DisplayName -eq “Cody Godinez”}
     ```
 
-7. In the **PowerShell 7** window, type the following code to add Cody to Contoso_Sales using set variables, and then press **Enter**:
+7. In the **Windows PowerShell** window, type the following code to add Cody to Contoso_Sales using set variables, and then press **Enter**:
 
     ```
     New-MgGroupMember -GroupId $group.Id -DirectoryObjectId $user.Id
     ```
 
-8. In the **PowerShell 7** window, type the following code, and then press **Enter**:
+8. In the **Windows PowerShell** window, type the following code, and then press **Enter**:
 
     ```
     Get-MgGroupMember -GroupId $group.Id | FL
@@ -437,7 +437,7 @@ You also been asked to modify the Company branding for the sign-in page.
 
 9. Verify that you see **Cody Godinez** as value in **AdditionalProperties**.
 
-10. Close PowerShell 7.
+10. Close Windows PowerShell.
 
 ### Task 3: Review licenses and modify company branding
 
