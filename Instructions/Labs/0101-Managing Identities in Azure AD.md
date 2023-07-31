@@ -272,7 +272,7 @@ You've also been told that several more employees will be hired over the next co
     ```
    >**Note: Replace **yourtenant** with the tenant name provided to you.
 
-9. To confirm that the user **Cody Godinez** was created, In the **PowerShell 7** window, type the following command and then press **Enter**:
+9. To confirm that the user **Cody Godinez** was created, In the **Windows PowerShell** window, type the following command and then press **Enter**:
 
     ```
     Get-MgUser
