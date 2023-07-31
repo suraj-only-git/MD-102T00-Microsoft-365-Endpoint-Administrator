@@ -227,7 +227,7 @@ You've also been told that several more employees will be hired over the next co
       
 87. Minimize the **Microsoft Edge** window.
 
-### Task 2: Create users by using PowerShell
+### Task 2: Create users by using Windows Powershell
 
 1. On **SEA-SVR1**, click into the **Windows Search** bar and then type **Powershell**. Right click on **Windows PowerShell** and then select **Run as Administrator**.
 
@@ -258,7 +258,7 @@ You've also been told that several more employees will be hired over the next co
     }
     ```
 
-8. Next, type the following code to create a new user, and then press **Enter**. Be sure to replace "yourtenant" with your assigned tenant name:
+8. Next, type the following code to create a new user, and then press **Enter**. Be sure to replace **yourtenant** with your assigned tenant name:
 
     ```
     New-MgUser `
@@ -270,9 +270,41 @@ You've also been told that several more employees will be hired over the next co
         -PasswordProfile $PWProfile -AccountEnabled `
         -Department "Sales" -JobTitle "Sales Rep"
     ```
-   >**Note: Replace **yourtenant** with the tenant name provided to you.
 
-9. To confirm that the user **Cody Godinez** was created, In the **Windows PowerShell** window, type the following command and then press **Enter**:
+    ```
+    New-MgUser `
+        -DisplayName “Allan Deyoung” `
+        -GivenName "Allan" -Surname "Deyoung" `
+        -MailNickname "alland" `
+        -UsageLocation "US" `
+        -UserPrincipalName "alland@yourtenant.onmicrosoft.com" `
+        -PasswordProfile $PWProfile -AccountEnabled `
+        -Department "Accounting" -JobTitle "Accountant"
+    ```
+
+    ```
+    New-MgUser `
+        -DisplayName “Joni Sherman” `
+        -GivenName "Joni" -Surname "Sherman" `
+        -MailNickname "jonis" `
+        -UsageLocation "US" `
+        -UserPrincipalName "jonis@yourtenant.onmicrosoft.com" `
+        -PasswordProfile $PWProfile -AccountEnabled `
+        -Department "Marketing" -JobTitle "Marketing head"
+    ```
+
+    ```
+    New-MgUser `
+        -DisplayName “Alex Wilber” `
+        -GivenName "Alex" -Surname "Wilber" `
+        -MailNickname "alexw" `
+        -UsageLocation "US" `
+        -UserPrincipalName "alexw@yourtenant.onmicrosoft.com" `
+        -PasswordProfile $PWProfile -AccountEnabled `
+        -Department "Support" -JobTitle "Support Executive"
+    ```    
+   
+9. To confirm that the users was created, In the **Windows PowerShell** window, type the following command and then press **Enter**:
 
     ```
     Get-MgUser
