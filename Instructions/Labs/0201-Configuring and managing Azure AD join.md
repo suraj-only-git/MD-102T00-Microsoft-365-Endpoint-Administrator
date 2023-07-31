@@ -28,7 +28,7 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
    > The Microsoft Entra admin center opens.
 
-4. In the Microsoft Entra admin center, in the navigation pane, expand **Azure Active Directory**.
+4. In the Microsoft Entra admin center, in the navigation pane, expand **Identity**.
 
 5. Select **Devices** > **All devices**. 
 
