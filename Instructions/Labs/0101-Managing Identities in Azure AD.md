@@ -29,7 +29,7 @@ You need to create user accounts in Azure AD for new employees that will start n
 
 _Note: For location use either your local region or United States._
 
-You've also been told that several more employees will be hired over the next couple of months. You've decided that scripting would be a far more efficient method of adding a large number of new users. You've decided to create a PowerShell script and test it out when you create Cody Godinez's account.
+You've also been told that several more employees will be hired over the next couple of months. You've decided that scripting would be a far more efficient method of adding a large number of new users. You've decided to create a PowerShell script and test it out when you create Cody, Allan, Joni and Alex accounts.
 
 ### Task 1: Create users by using the Azure Active Directory admin center
 
@@ -392,7 +392,7 @@ You also been asked to modify the Company branding for the sign-in page.
 
 7. In the Microsoft Entra admin center, in the Navigation pane, select **Users** > **All users**.
 
-8. In the user list, select **Cody_Godinez**.
+8. In the user list, select **Cody Godinez**.
 
 9. In the Cody Godinez Profile page, under Manage, select **Licenses**.
 
