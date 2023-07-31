@@ -336,7 +336,7 @@ You also been asked to modify the Company branding for the sign-in page.
     New-MgGroup -DisplayName “Contoso_Sales” -Description “Contoso_Sales_team_users” -MailEnabled:$false -Mailnickname "Contoso_Sales" -SecurityEnabled
     ```
 
-3. In the **Windows PowerShell** window, type the following command, and then press **Enter**:
+3. In the **PowerShell 7** window, type the following command, and then press **Enter**:
 
     ```
     Get-MgGroup
@@ -356,19 +356,19 @@ You also been asked to modify the Company branding for the sign-in page.
     $user = Get-MgUser | Where-Object {$_.DisplayName -eq "Cody Godinez"}
     ```
 
-7. In the **Windows PowerShell** window, type the following code to add Cody to Contoso_Sales using set variables, and then press **Enter**:
+7. In the **PowerShell 7** window, type the following code to add Cody to Contoso_Sales using set variables, and then press **Enter**:
 
     ```
     New-MgGroupMember -GroupId $group.Id -DirectoryObjectId $user.Id
     ```
 
-8. In the **Windows PowerShell** window, type the following code, and then press **Enter**:
+8. In the **PowerShell 7** window, type the following code, and then press **Enter**:
 
     ```
     Get-MgGroupMember -GroupId $group.Id | FL
     ```
 
-9. Verify that you see **Cody_Godinez** as value in **AdditionalProperties**.
+9. Verify that you see **Cody Godinez** as value in **AdditionalProperties**.
 
 10. Close PowerShell.
 
