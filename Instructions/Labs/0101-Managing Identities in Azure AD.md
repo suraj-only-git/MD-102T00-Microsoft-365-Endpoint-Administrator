@@ -22,9 +22,9 @@ You need to create user accounts in Azure AD for new employees that will start n
 | -------------- | ------------------------------------- | ---------- | ----------------- | ---------- |
 | Edmund Reeve   | `ereeve@yourtenant.onmicrosoft.com`   | Pa55-w.rd! | HR Rep            | HR         |
 | Miranda Snider | `msnider@yourtenant.onmicrosoft.com`  | Pa55-w.rd! | Helpdesk Manager  | Operations |
-| Allan Deyoung  | `alland@yourtenant.onmicrosoft.com`   | Pa55-w.rd! | Accountant        | Accounting |
-| Joni Sherman   | `jonis@yourtenant.onmicrosoft.com`    | Pa55-w.rd! | Marketing Head    | Marketing  |
-| Alex Wilber    | `alexw@yourtenant.onmicrosoft.com`    | Pa55-w.rd! | Support Executive | Support    |
+| Allan Deyoung  | `AllanD@yourtenant.onmicrosoft.com`   | Pa55-w.rd! | Accountant        | Accounting |
+| Joni Sherman   | `JoniS@yourtenant.onmicrosoft.com`    | Pa55-w.rd! | Marketing Head    | Marketing  |
+| Alex Wilber    | `AlexW@yourtenant.onmicrosoft.com`    | Pa55-w.rd! | Support Executive | Support    |
 | Cody Godinez   | `cgodinez@yourtenant.onmicrosoft.com` | Pa55-w.rd! | Sales Rep         | Sales      |
 
 _Note: For location use either your local region or United States._
@@ -126,106 +126,7 @@ You've also been told that several more employees will be hired over the next co
 
 41. Select **Create**.
 
-42. On the **Users | All users** page, select **New user** then select **Create new user**.
-
-43. On the **Create new user** page, enter the following:
-
-    - User Principal Name: **`AllanD`**
-    - Display Name: **Allan Deyoung**
-
-44. Uncheck **Auto-generated password**
-
-45. Next to **Password**, enter **Pa55-w.rd!**.
-
-46. Select **Next:Properties** located at the bottom of the page.
-
-47. Next to **First name**, enter **Allan**.
-
-48. Next to **Last name**, enter **Deyoung**.
-
-49. Next to **User type**, make note that **Member** is selected.
-
-50. Next to **Job title**, enter **Accountant**.
-
-51. Next to **Department**, enter **Accounting**.
-
-52. Next to **Usage location**, select **United States**.
-
-53. Select **Next:Assignments** located at the bottom of the page.
-
-54. On the **Assignments** page, note that no assignments are selected.
-
-55. Select **Next:Review + create** located at the bottom of the page.
-
-56. Select **Create**.
-
-57. On the **Users | All users** page, select **New user** then select **Create new user**.
-
-58. On the **Create new user** page, enter the following:
-
-    - User Principal Name: **`Jonis`**
-    - Display Name: **Joni Sherman**
-
-59. Uncheck **Auto-generated password**
-
-60. Next to **Password**, enter **Pa55-w.rd!**.
-
-61. Select **Next:Properties** located at the bottom of the page.
-
-62. Next to **First name**, enter **Joni**.
-
-63. Next to **Last name**, enter **Sherman**.
-
-64. Next to **User type**, make note that **Member** is selected.
-
-65. Next to **Job title**, enter **Marketing Head**.
-
-66. Next to **Department**, enter **Marketing**.
-
-67. Next to **Usage location**, select **United States**.
-
-68. Select **Next:Assignments** located at the bottom of the page.
-
-69. On the **Assignments** page, note that no assignments are selected.
-
-70. Select **Next:Review + create** located at the bottom of the page.
-
-71. Select **Create**.
-
-72. On the **Users | All users** page, select **New user** then select **Create new user**.
-
-73. On the **Create new user** page, enter the following:
-
-    - User Principal Name: **`AlexW`**
-    - Display Name: **Alex Wilber**
-
-74. Uncheck **Auto-generated password**
-
-75. Next to **Password**, enter **Pa55-w.rd!**.
-
-76. Select **Next:Properties** located at the bottom of the page.
-
-77. Next to **First name**, enter **Alex**.
-
-78. Next to **Last name**, enter **Wilber**.
-
-79. Next to **User type**, make note that **Member** is selected.
-
-80. Next to **Job title**, enter **Support Executive**.
-
-81. Next to **Department**, enter **Support**.
-
-82. Next to **Usage location**, select **United States**.
-
-83. Select **Next:Assignments** located at the bottom of the page.
-
-84. On the **Assignments** page, note that no assignments are selected.
-
-85. Select **Next:Review + create** located at the bottom of the page.
-
-86. Select **Create**.
-      
-87. Minimize the **Microsoft Edge** window.
+42. Minimize the **Microsoft Edge** window.
 
 ### Task 2: Create users by using Windows Powershell
 
@@ -253,7 +154,7 @@ You've also been told that several more employees will be hired over the next co
 
     ```
     $PWProfile = @{
-      Password = "Pa55w.rd";
+      Password = "Pa55-w.rd";
       ForceChangePasswordNextSignIn = $false
     }
     ```
@@ -277,7 +178,7 @@ You've also been told that several more employees will be hired over the next co
         -GivenName "Allan" -Surname "Deyoung" `
         -MailNickname "alland" `
         -UsageLocation "US" `
-        -UserPrincipalName "alland@yourtenant.onmicrosoft.com" `
+        -UserPrincipalName "AllanD@yourtenant.onmicrosoft.com" `
         -PasswordProfile $PWProfile -AccountEnabled `
         -Department "Accounting" -JobTitle "Accountant"
     ```
@@ -288,7 +189,7 @@ You've also been told that several more employees will be hired over the next co
         -GivenName "Joni" -Surname "Sherman" `
         -MailNickname "jonis" `
         -UsageLocation "US" `
-        -UserPrincipalName "jonis@yourtenant.onmicrosoft.com" `
+        -UserPrincipalName "JoniS@yourtenant.onmicrosoft.com" `
         -PasswordProfile $PWProfile -AccountEnabled `
         -Department "Marketing" -JobTitle "Marketing head"
     ```
@@ -299,7 +200,7 @@ You've also been told that several more employees will be hired over the next co
         -GivenName "Alex" -Surname "Wilber" `
         -MailNickname "alexw" `
         -UsageLocation "US" `
-        -UserPrincipalName "alexw@yourtenant.onmicrosoft.com" `
+        -UserPrincipalName "AlexW@yourtenant.onmicrosoft.com" `
         -PasswordProfile $PWProfile -AccountEnabled `
         -Department "Support" -JobTitle "Support Executive"
     ```    
