@@ -150,6 +150,8 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 1. Switch to **SEA-CL1** and sign out if necessary.
 
+   >**Note : If you are unable to switch to SEA-CL1, then turnoff the Hyper-V VM's which are not being used in this lab from the HyperV-Manager and then try to switch to SEA-CL1.
+
 2. On **SEA-CL1**, select **Other user**, and then attempt to sign in as **Contoso\\Aaron** with the password of **Pa55w.rd**.
 
 4. Ensure that you get the message that the user name or password is incorrect.
