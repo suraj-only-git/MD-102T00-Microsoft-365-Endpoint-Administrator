@@ -1,0 +1,12 @@
+[
+    {
+     "Name": "Lab Scenario Preview - MD-102: Microsoft 365 Endpoint Administrator",
+     "Language": "English",
+     "Files": [
+         {
+           "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MD-102T00-Microsoft-365-Endpoint-Administrator/master/Instructions/Lab-Scenario-Preview/module1.md",
+           "Order": 1
+         }
+      ]  
+    } 
+ ]
