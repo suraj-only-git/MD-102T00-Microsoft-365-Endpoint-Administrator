@@ -132,7 +132,7 @@ You've also been told that several more employees will be hired over the next co
 
 1. On **SEA-SVR1**, click into the **Windows Search** bar and then type **PWSH**. Right click on **PowerShell 7** and then select **Run as Administrator**.
 
-2. In the **Windows PowerShell** window, type the following command, and then press **Enter**. If prompted, enter **Y** at the NuGet and repository messages:
+2. In the **PowerShell 7** window, type the following command, and then press **Enter**. If prompted, enter **Y** at the NuGet and repository messages:
 
     ```
     Install-Module Microsoft.Graph -Scope CurrentUser
