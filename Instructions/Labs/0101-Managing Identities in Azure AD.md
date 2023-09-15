@@ -128,7 +128,7 @@ You've also been told that several more employees will be hired over the next co
 
 42. Minimize the **Microsoft Edge** window.
 
-### Task 2: Create users by using Windows Powershell
+### Task 2: Create users by using Powershell
 
 1. On **SEA-SVR1**, click into the **Windows Search** bar and then type **PWSH**. Right click on **PowerShell 7** and then select **Run as Administrator**.
 
