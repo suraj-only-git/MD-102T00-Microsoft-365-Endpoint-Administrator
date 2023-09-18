@@ -150,17 +150,20 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 1. Switch to **SEA-CL1** and sign out if necessary.
 
-   >**Note : If you are unable to switch to SEA-CL1, then turnoff the Hyper-V VM's which are not being used in this lab from the HyperV-Manager and then try to switch to SEA-CL1.
+   >**Note** : If you are unable to switch to SEA-CL1, then turnoff the Hyper-V VM's which are not being used in this lab from the HyperV-Manager and then try to switch to SEA-CL1.
 
+   >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+
+   ![](../media/passwordwriteback.png)
 2. On **SEA-CL1**, select **Other user**, and then attempt to sign in as **Contoso\\Aaron** with the password of **Pa55w.rd**.
 
-4. Ensure that you get the message that the user name or password is incorrect.
+3. Ensure that you get the message that the user name or password is incorrect.
 
-5. Sign in to **SEA-CL1** as **Contoso\\Aaron** with the password **Pa55w.rd1234!**. 
+4. Sign in to **SEA-CL1** as **Contoso\\Aaron** with the password **Pa55w.rd1234!**. 
 
    > You should be able to sign in. This confirms that the password you changed in the Azure portal is written back to the local Active Directory Domain Services (AD DS) account.
 
-6. Sign out of **SEA-CL1**.
+5. Sign out of **SEA-CL1**.
 
 **Results**: After completing this exercise, you will have successfully configured and validated self-service password reset.
 
