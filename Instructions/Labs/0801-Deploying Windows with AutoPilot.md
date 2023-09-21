@@ -92,6 +92,24 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. Review the settings and click on finish.
 
+1. Once the virtual machine is created Right click on the virtual machine and click on start.
+
+1. Once the VM is in the Running state Right click on it and click on Connect.
+
+1. You can see the Windows setup wizard.
+
+1. Select the default language i.e English(united states) and click on next
+
+1. Click on Install
+
+1. Click on Agree for the terms and conditions. and click on next
+
+1. In the Installation type choose **Custom installation(advanced)**
+
+1. Select the storage and click on next. and the installation will begin.
+
+   >**Note**: Installation might roughly take upto 15-20 mins.
+
 ### Task 3: Generate a device-specific comma-separated value (CSV) file
 
 1. Switch to **SEA-W10-CL3** and sign in as **Contoso\Administrator** with the password of **Pa55w.rd**.
