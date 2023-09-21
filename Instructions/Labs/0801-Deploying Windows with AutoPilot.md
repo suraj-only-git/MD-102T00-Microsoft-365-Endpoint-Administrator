@@ -150,7 +150,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. The setup will take few minutes to complete.
 
-1. Once completedthe Connect screen pops up from hyper-v click on connect. The system reboots
+1. Once completed, the Connect screen pops up from hyper-v click on connect. The system reboots
 
    ![](media/018.png)
 
