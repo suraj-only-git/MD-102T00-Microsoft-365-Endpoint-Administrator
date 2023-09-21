@@ -158,7 +158,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. Once you are logged in Press **win key + R** or search **Run** in Start to open Run command.
 
-1. Type sysdm.cpl and press enter. It opens System properties.
+1. Type **sysdm.cpl** and press enter. It opens System properties.
 
 1. Click on **Change**.
 
