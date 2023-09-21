@@ -98,17 +98,25 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. Once the VM is in the Running state Right click on it and click on Connect.
 
+   ![](media/0008.png)
+
 1. You can see the Windows setup wizard.
 
 1. Select the default language i.e English(united states) and click on next
 
 1. Click on Install
 
-1. Click on Agree for the terms and conditions. and click on next
+   ![](media/008.png)
+
+1. Click on **I Accept** License terms. and click on next
+
+   ![](media/009.png)
 
 1. In the Installation type choose **Custom installation(advanced)**
 
 1. Select the storage and click on next. and the installation will begin.
+
+   ![](media/010.png)
 
    >**Note**: Installation might roughly take upto 15-20 mins.
 
@@ -116,9 +124,15 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. Select the Keyboard layout **US**
 
+   ![](media/011.png)
+
 1. Skip Additional keyboard layout.
 
+   ![](media/012.png)
+
 1. When the Wizard asks you to sign in with microsoft. Select **Domain join instead** from the bottom left.
+
+   ![](media/013.png)
 
 1. Give the username **Admin** and click on next.
 
@@ -126,13 +140,19 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. Click on Accept in Choose privacy settings.
 
+   ![](media/016.png)
+
 1. Click on Not now for the Cortana setup.
+
+   ![](media/017.png)
 
 1. It asks for three security questions. Give the values accordingly and press next. 
 
 1. The setup will take few minutes to complete.
 
 1. Once completedthe Connect screen pops up from hyper-v click on connect. The system reboots
+
+   ![](media/018.png)
 
 1. Once Rebooted it asks for username and password. Enter **Admin** for username and **Pa55w.rd** for password.
 
@@ -142,11 +162,21 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. Click on **Change**.
 
+   ![](media/022.png)
+
+   ![](media/023.png)
+
 1. When the screen pops-up leave the computer name as default, and under **member of** select Domain and Type **Contoso.com**, Select Ok
 
 1. Windows security screen pops-up Give username as **Administrator** And Password as **Pa55w.rd**. Press enter
 
+   ![](media/024.png)
+
+   ![](media/025.png)
+
 1. A screen pops-up with Restart request. Select Restart now.
+
+   ![](media/026.png)
 
 ### Task 4: Generate a device-specific comma-separated value (CSV) file
 
