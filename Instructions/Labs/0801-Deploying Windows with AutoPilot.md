@@ -182,7 +182,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 ### Task 4: Generate a device-specific comma-separated value (CSV) file
 
-1. Switch to **SEA-W10-CL3** and sign in as **Contoso\Administrator** with the password of **Pa55w.rd**.
+1. In the VM **SEA-W10-CL3** and sign in to **Admin** with the password of **Pa55w.rd**.
 
 2. Right-click **Start**, select **Windows PowerShell (Admin)**, and then select **Yes** at the **User Account Control** prompt.
 
