@@ -60,21 +60,35 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. In Actions click on New and Click on Virtual machine.
 
+   ![](media/001.png)
+
 1. In the New virtual machine wizard. Click on Next for before you begin.
+
+   ![](media/002.png)
 
 1. In Specify Name and location enter the name **SEA-W10-CL3** and click on next.
 
+   ![](media/003.png)
+
 1. In Specify Generation click on **gen 1** and click on next.
+
+   ![](media/004.png)
 
 1. In Assign Memory enter the size **4096** and enable **use dynamic memory for this virtual machine** and click on Next
 
+   ![](media/005.png)
+
 1. In Configure networking Select the drop down and choose **internal switch** and click on Next
+
+   ![](media/006.png)
 
 1. In Connect Virtual Hard disks Leave the default settings and click on next.
 
 1. In installation options select Install operating system from bootable CD/DVD ROM. Under that select **Image file iso**
 
 1. Click on browse and navigate to **D:\Labfiles\ISOs** and select **Win10.iso** and click on next summary
+
+   ![](media/007.png)
 
 1. Review the settings and click on finish.
 
