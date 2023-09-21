@@ -92,7 +92,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. Review the settings and click on finish.
 
-## Task 04: Configure Domain for the created virtual machine
+## Task 03: Configure Domain for the created virtual machine
 
 1. Once the virtual machine is created Right click on the virtual machine and click on start.
 
@@ -146,7 +146,9 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
    ![](media/017.png)
 
-1. It asks for three security questions. Give the values accordingly and press next. 
+1. It asks for three security questions.
+
+1. Select any question of your choice and fill in the answers Then click on next.
 
 1. The setup will take few minutes to complete.
 
