@@ -54,7 +54,31 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 ```
 14. Select **Save** to close **Dynamic membership rules**, and then select **Create** to create the group.
 
-### Task 2: Generate a device-specific comma-separated value (CSV) file
+### Task 2: Create a virtual machine using Hyper-V
+
+1. In the Task bar Click on Hyper-V manager.
+
+1. In Actions click on New and Click on Virtual machine.
+
+1. In the New virtual machine wizard. Click on Next for before you begin.
+
+1. In Specify Name and location enter the name **SEA-W10-CL3** and click on next.
+
+1. In Specify Generation click on **gen 1** and click on next.
+
+1. In Assign Memory enter the size **4096** and enable **use dynamic memory for this virtual machine** and click on Next
+
+1. In Configure networking Select the drop down and choose **internal switch** and click on Next
+
+1. In Connect Virtual Hard disks Leave the default settings and click on next.
+
+1. In installation options select Install operating system from bootable CD/DVD ROM. Under that select **Image file iso**
+
+1. Click on browse and navigate to **D:\Labfiles\ISOs** and select **Win10.iso** and click on next summary
+
+1. Review the settings and click on finish.
+
+### Task 3: Generate a device-specific comma-separated value (CSV) file
 
 1. Switch to **SEA-W10-CL3** and sign in as **Contoso\Administrator** with the password of **Pa55w.rd**.
 
@@ -90,7 +114,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 9. Close out of **Windows Powershell**.
 
-### Task 3: Work with a Windows Autopilot deployment profile
+### Task 4: Work with a Windows Autopilot deployment profile
 
 1. On **SEA-W10-CL3**, in the windows taskbar, select **Microsoft Edge**.
 
@@ -152,7 +176,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 19. Close out of **Microsoft Edge**
 
-### Task 4: Reset the PC
+### Task 5: Reset the PC
 
 1. On **SEA-W10-CL3**, select **Start**, type **reset** and select **Reset this PC**.
 
@@ -166,7 +190,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
    >Note: This process can take 30-60 minutes and will reboot several times during the process.
 
-### Task 5: Verify Autopilot deployment
+### Task 6: Verify Autopilot deployment
 
 1. At the **Contoso Corp. Sign-in Page**, enter **`Aaron@yourtenant.onmicrosoft.com`** and select **Next**.
 
