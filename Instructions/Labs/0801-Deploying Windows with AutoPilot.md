@@ -92,6 +92,8 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. Review the settings and click on finish.
 
+## Task 04: Configure Domain for the created virtual machine
+
 1. Once the virtual machine is created Right click on the virtual machine and click on start.
 
 1. Once the VM is in the Running state Right click on it and click on Connect.
@@ -110,7 +112,43 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
    >**Note**: Installation might roughly take upto 15-20 mins.
 
-### Task 3: Generate a device-specific comma-separated value (CSV) file
+1. Once the installation is completed it will ask you to select Region. Select The default one (United States)
+
+1. Select the Keyboard layout **US**
+
+1. Skip Additional keyboard layout.
+
+1. When the Wizard asks you to sign in with microsoft. Select **Domain join instead** from the bottom left.
+
+1. Give the username **Admin** and click on next.
+
+1. For passwod Type Pa55w.rd. Select Next.
+
+1. Click on Accept in Choose privacy settings.
+
+1. Click on Not now for the Cortana setup.
+
+1. It asks for three security questions. Give the values accordingly and press next. 
+
+1. The setup will take few minutes to complete.
+
+1. Once completedthe Connect screen pops up from hyper-v click on connect. The system reboots
+
+1. Once Rebooted it asks for username and password. Enter **Admin** for username and **Pa55w.rd** for password.
+
+1. Once you are logged in Press **win key + R** or search **Run** in Start to open Run command.
+
+1. Type sysdm.cpl and press enter. It opens System properties.
+
+1. Click on **Change**.
+
+1. When the screen pops-up leave the computer name as default, and under **member of** select Domain and Type **Contoso.com**, Select Ok
+
+1. Windows security screen pops-up Give username as **Administrator** And Password as **Pa55w.rd**. Press enter
+
+1. A screen pops-up with Restart request. Select Restart now.
+
+### Task 4: Generate a device-specific comma-separated value (CSV) file
 
 1. Switch to **SEA-W10-CL3** and sign in as **Contoso\Administrator** with the password of **Pa55w.rd**.
 
@@ -146,7 +184,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 9. Close out of **Windows Powershell**.
 
-### Task 4: Work with a Windows Autopilot deployment profile
+### Task 5: Work with a Windows Autopilot deployment profile
 
 1. On **SEA-W10-CL3**, in the windows taskbar, select **Microsoft Edge**.
 
@@ -208,7 +246,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 19. Close out of **Microsoft Edge**
 
-### Task 5: Reset the PC
+### Task 6: Reset the PC
 
 1. On **SEA-W10-CL3**, select **Start**, type **reset** and select **Reset this PC**.
 
@@ -222,7 +260,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
    >Note: This process can take 30-60 minutes and will reboot several times during the process.
 
-### Task 6: Verify Autopilot deployment
+### Task 7: Verify Autopilot deployment
 
 1. At the **Contoso Corp. Sign-in Page**, enter **`Aaron@yourtenant.onmicrosoft.com`** and select **Next**.
 
