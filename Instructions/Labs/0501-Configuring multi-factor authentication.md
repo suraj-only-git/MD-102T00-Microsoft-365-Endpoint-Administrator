@@ -172,7 +172,7 @@ To provide additional security for user sign on events, you need to configure an
 
    > The Microsoft Entra admin center opens.
 
-4. In the Microsoft Entra admin center, expand **Azure Active Directory**.
+4. In the Microsoft Entra admin center, expand **Microsoft Entra ID**.
 
 5. In the navigation pane, expand **Protect & Secure** page, and then select **Conditional Access**.
 
