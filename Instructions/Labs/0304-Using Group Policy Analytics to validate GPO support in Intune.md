@@ -14,7 +14,7 @@ Contoso has traditionally used Active Directory GPOs to deploy computer and user
 
 2. If necessary, open **Server Manager**.
 
-3. In Server Manager, select **Tools** and then select **Group Policy Management**.
+3. In Server Manager, select **Tools** located in top right and then select **Group Policy Management**.
 
 4. In the Group Policy Management console, expand **Forest:Contoso.com**, **Domains**, **Contoso.com**, and then select **Group Policy Objects**.
 
