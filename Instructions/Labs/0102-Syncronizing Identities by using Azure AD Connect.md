@@ -30,7 +30,7 @@ Contoso Corporation is currently managing users in both AD DS and Azure AD as se
 
 9. On the **User sign-in** page, ensure that **Password Hash Synchronization** is selected, and then select **Next**.
 
-10. On the **Connect to Azure AD** page, in the **USERNAME** and **PASSWORD** boxes, enter **<inject key="AzureAdUserEmail"></inject>**, and your provided password, and then select **Next**.
+10. On the **Connect to Azure AD** page, in the **USERNAME** and **PASSWORD** boxes, enter **<inject key="AzureAdUserEmail"></inject>**, and your provided password **<inject key="AzureAdUserPassword"></inject>**, and then select **Next**.
 
 11. On the **Connect your directories** page, ensure that **Contoso.com** is listed under **FOREST**, and then select **Add Directory**.
 
@@ -82,7 +82,7 @@ Contoso Corporation is currently managing users in both AD DS and Azure AD as se
 
 10. Verify that you see users from your local AD DS. Ensure that these users have the value **Yes** in the **On-premises sync enabled** column. 
 
-11. In the Navigation pane, under **Azure Active Directory**, select **Groups** > **All groups**. Verify that you see groups from your local AD DS. Ensure that these groups have the value **Windows Server AD** in the **Source** column.
+11. In the Navigation pane, under **Identity**, select **Groups** > **All groups**. Verify that you see groups from your local AD DS. Ensure that these groups have the value **Windows Server AD** in the **Source** column.
 
 12. Select the **Managers** group.
 
