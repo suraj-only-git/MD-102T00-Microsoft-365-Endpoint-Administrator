@@ -54,9 +54,135 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 ```
 14. Select **Save** to close **Dynamic membership rules**, and then select **Create** to create the group.
 
-### Task 2: Generate a device-specific comma-separated value (CSV) file
+### Task 2: Create a virtual machine using Hyper-V
 
-1. Switch to **SEA-W10-CL3** and sign in as **Contoso\Administrator** with the password of **Pa55w.rd**.
+1. In the Task bar Click on Hyper-V manager.
+
+1. In Actions click on New and Click on Virtual machine.
+
+   ![](media/001.png)
+
+1. In the New virtual machine wizard. Click on Next for before you begin.
+
+   ![](media/002.png)
+
+1. In Specify Name and location enter the name **SEA-W10-CL3** and click on next.
+
+   ![](media/003.png)
+
+1. In Specify Generation click on **gen 1** and click on next.
+
+   ![](media/004.png)
+
+1. In Assign Memory enter the size **4096** and enable **use dynamic memory for this virtual machine** and click on Next
+
+   ![](media/005.png)
+
+1. In Configure networking Select the drop down and choose **internal switch** and click on Next
+
+   ![](media/006.png)
+
+1. In Connect Virtual Hard disks Leave the default settings and click on next.
+
+1. In installation options select Install operating system from bootable CD/DVD ROM. Under that select **Image file iso**
+
+1. Click on browse and navigate to **D:\Labfiles\ISOs** and select **Win10.iso** and click on next summary
+
+   ![](media/007.png)
+
+1. Review the settings and click on finish.
+
+## Task 03: Configure Domain for the created virtual machine
+
+1. Once the virtual machine is created Right click on the virtual machine and click on start.
+
+1. Once the VM is in the Running state Right click on it and click on Connect.
+
+   ![](media/0008.png)
+
+1. You can see the Windows setup wizard.
+
+1. Select the default language i.e English(united states) and click on next
+
+1. Click on Install
+
+   ![](media/008.png)
+
+1. Click on **I Accept** License terms. and click on next
+
+   ![](media/009.png)
+
+1. In the Installation type choose **Custom installation(advanced)**
+
+1. Select the storage and click on next. and the installation will begin.
+
+   ![](media/010.png)
+
+   >**Note**: Installation might roughly take upto 15-20 mins.
+
+1. Once the installation is completed it will ask you to select Region. Select The default one (United States)
+
+1. Select the Keyboard layout **US**
+
+   ![](media/011.png)
+
+1. Skip Additional keyboard layout.
+
+   ![](media/012.png)
+
+1. When the Wizard asks you to sign in with microsoft. Select **Domain join instead** from the bottom left.
+
+   ![](media/013.png)
+
+1. Give the username **Admin** and click on next.
+
+1. For passwod Type Pa55w.rd. Select Next.
+
+1. Click on Accept in Choose privacy settings.
+
+   ![](media/016.png)
+
+1. Click on Not now for the Cortana setup.
+
+   ![](media/017.png)
+
+1. It asks for three security questions.
+
+1. Select any question of your choice and fill in the answers Then click on next.
+
+1. The setup will take few minutes to complete.
+
+1. Once completed, the Connect screen pops up from hyper-v click on connect. The system reboots
+
+   ![](media/018.png)
+
+1. Once Rebooted it asks for username and password. Enter **Admin** for username and **Pa55w.rd** for password.
+
+1. Once you are logged in Press **win key + R** or search **Run** in Start to open Run command.
+
+1. Type **sysdm.cpl** and press enter. It opens System properties.
+
+1. Click on **Change**.
+
+   ![](media/022.png)
+
+   ![](media/023.png)
+
+1. When the screen pops-up leave the computer name as default, and under **member of** select Domain and Type **Contoso.com**, Select Ok
+
+1. Windows security screen pops-up Give username as **Administrator** And Password as **Pa55w.rd**. Press enter
+
+   ![](media/024.png)
+
+   ![](media/025.png)
+
+1. A screen pops-up with Restart request. Select Restart now.
+
+   ![](media/026.png)
+
+### Task 4: Generate a device-specific comma-separated value (CSV) file
+
+1. In the VM **SEA-W10-CL3** and sign in to **Admin** with the password of **Pa55w.rd**.
 
 2. Right-click **Start**, select **Windows PowerShell (Admin)**, and then select **Yes** at the **User Account Control** prompt.
 
@@ -90,7 +216,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 9. Close out of **Windows Powershell**.
 
-### Task 3: Work with a Windows Autopilot deployment profile
+### Task 5: Work with a Windows Autopilot deployment profile
 
 1. On **SEA-W10-CL3**, in the windows taskbar, select **Microsoft Edge**.
 
@@ -152,7 +278,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 19. Close out of **Microsoft Edge**
 
-### Task 4: Reset the PC
+### Task 6: Reset the PC
 
 1. On **SEA-W10-CL3**, select **Start**, type **reset** and select **Reset this PC**.
 
@@ -166,7 +292,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
    >Note: This process can take 30-60 minutes and will reboot several times during the process.
 
-### Task 5: Verify Autopilot deployment
+### Task 7: Verify Autopilot deployment
 
 1. At the **Contoso Corp. Sign-in Page**, enter **`Aaron@yourtenant.onmicrosoft.com`** and select **Next**.
 
