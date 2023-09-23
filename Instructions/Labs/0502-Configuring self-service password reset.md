@@ -42,11 +42,11 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 12. Search and select **Azure Active Directory** from the portal.
 
-13. On the left, select **Azure AD Connect**.
+13. On the left, select **Microsoft Entra Connect**.
    
 14. On the left, select **Cloud sync**.
 
-15. On the left, select **Agent**.
+15. On the left, select **Agents**.
 
 16. Select **Download on-premises agent**, and select Accept terms & download.
 
