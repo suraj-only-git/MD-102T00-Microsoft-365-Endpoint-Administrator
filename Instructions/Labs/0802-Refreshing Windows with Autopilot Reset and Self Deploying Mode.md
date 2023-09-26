@@ -86,7 +86,7 @@ SEA-WS4 has been deployed by using Windows Autopilot. You need to test out anoth
 
 9. Wait until the sync is completed. Then additionally wait for (5-10) minutes efore proceeding to the next step.
 
-7. Restart **SEA-W10-CL3**.
+10. Restart **SEA-W10-CL3**.
 
    > Note: This process can take 30-45 minutes and will reboot several times during the process. 
 
