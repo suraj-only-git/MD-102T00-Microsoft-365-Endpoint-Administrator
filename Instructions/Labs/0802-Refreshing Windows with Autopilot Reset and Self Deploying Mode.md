@@ -96,6 +96,8 @@ SEA-WS4 has been deployed by using Windows Autopilot. You need to test out anoth
 
 2. At the **Use Windows Hello with your account**, select **OK**.
 
+   >**Note**: If windows hello doesn't show up and if it directly logs you in, Try signing out and signing in again.
+
 3. At the **Verify your identity** page, select the Text verification method.
 
 4. At the **Enter code** page, enter the code that has been texted to your mobile device and then select **Verify**.
