@@ -83,8 +83,8 @@ Settings will be verified by testing on an enrolled device, SEA-WS1 and a non-en
    - Allow scanning of all downloaded files and attachments: **Allowed**
    - Allow Realtime Monitoring: **Allowed**
    - Check For Signatures Before Running Scan: **Enabled**
-   - Days to Retain Cleaned Malware: **60**
-   - Schedule Quick Scan Time: **60** (represents 1:00AM)
+   - Days to Retain Cleaned Malware: **Enable** and give the value **60**
+   - Schedule Quick Scan Time: **Enable** and give the value **60** (represents 1:00AM)
    - Submit samples consent: **Send safe samples automatically**
 
 6. On the **Configuration settings** tab, select **Next** twice.
@@ -110,6 +110,8 @@ Settings will be verified by testing on an enrolled device, SEA-WS1 and a non-en
 1. Switch to **SEA-CL1**.
 
 2. If necessary, sign in as **Contoso\Administrator** with the password of **Pa55w.rd**.
+
+  >**Note**: Incase if you see the warning "Not enough memory" Go-to hyper-v manager in task bar and right click on any un used VM  and turn it off.
 
 3. On **SEA-CL1**, select **Start**, type **Windows Security**, and then under the Windows Security icon select **Open**.
 
