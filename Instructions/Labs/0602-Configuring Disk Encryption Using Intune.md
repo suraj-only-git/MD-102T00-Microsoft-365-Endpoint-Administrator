@@ -92,7 +92,7 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
 
 6. On the **Are you ready to start encryption?** dialog, select the checkbox next to **I don't have any other disk encryption software installed, encrypt all my disks**, and select **Yes**.
 
-7. On the **Choose how to unlock your drive at startup?** page, select **Enter a PIN**
+7. On the **Choose how to unlock your drive at startup?** page, select **Enter a Password**
 
 8. On the **Enter a Password** page, in the **Password** and **Reenter Password** boxes, enter **Pa55w.rd**, and then select **Set PIN**.
 
