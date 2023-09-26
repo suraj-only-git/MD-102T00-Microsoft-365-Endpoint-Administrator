@@ -204,11 +204,13 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
 18. Select **OK** to close the Settings dialog box.
 
-19. In Hyper-V Manager, select **SEA-WS4**, select **Connect**,  and then select **Start**. 
+19. In Hyper-V Manager, select **SEA-WS4**, select **Connect**,  and then select **Start**.
+
+   >**Note**: Incase if you see any warning such as "Not enough storage" turn off any other unused VM  and try again.
 
 20. As the computer starts press any key on the keyboard to invoke the MDT Deployment Wizard. Maximize the window as needed.
 
-21. On the **Welcome** page, select **Run the Deployment Wizard to install a new Operating System**.
+21. On the **Welcome** page, select **Run the Deployment Wizard to install a new Operating System**. It might take few seconds or minutes to load.
 
 22. On the **Specify credentials for connecting to network shares** window, enter the following and then select **OK**:
     - User Name: **demouser**
@@ -233,7 +235,7 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
     > The installation begins. It will take 15-20 minutes to complete and will reboot SEA-WS4 during the installation as needed.
 
-31. Switch to the **Deployment Workbench**.
+31. On Start menu under **Microsoft deployment toolkit** Select the **Deployment Workbench**.
 
 32. In the Deployment Workbench, expand **Deployment Shares**, and expand **MDT Deployment Share**.
 
