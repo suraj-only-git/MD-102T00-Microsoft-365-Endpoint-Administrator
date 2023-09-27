@@ -78,8 +78,10 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
 
 ### Task 2: Verify and enable BitLocker settings
 
-1. On **SEA-WS1**, sign in as **Aaron Nicholls** with the PIN **102938**.
+1. On **SEA-WS1**, sign in as **Aaron Nicholls** with the PIN **102938**. If pin is not Prompted you can use the password **Pa55w.rd1234!** .
     
+  >**Note**: Inorder for the **PIN** to prompt you must start the VM in **basicmode** which will result in deactivating the clipboard shortcuts. You can use the Clipboard option in toolbar to perform copy paste actions.  
+
 2. On the taskbar, select **Start** and then select the **Settings** app.
 
 3. In the **Settings** app, select **Accounts** and then select **Access work or school**.
@@ -105,6 +107,8 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
 13. At the **Encryption of C: is complete** message, select **Close**, and then restart **SEA-WS1**.
 
 14. When **SEA-WS1** restarts, type **Pa55w.rd** and press **Enter** to unlock the drive.
+
+15. And enter the user password **Pa55w.rd1234!** to log in.
 
 ### Task 3: Verify BitLocker protection
 
