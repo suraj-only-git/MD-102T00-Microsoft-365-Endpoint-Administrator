@@ -92,6 +92,10 @@ SEA-WS4 has been deployed by using Windows Autopilot. You need to test out anoth
 
 ### Task 3: Verify Autopilot deployment
 
+  >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+
+   ![](../media/passwordwriteback1.png)
+
 1. At the sign-in page, enter **`Aaron@yourtenant.onmicrosoft.com`** with the Password of **Pa55w.rd1234!**.
 
 2. At the **Use Windows Hello with your account**, select **OK**.
@@ -115,8 +119,6 @@ SEA-WS4 has been deployed by using Windows Autopilot. You need to test out anoth
 10. On the **Managed by Contoso** page, scroll down and then select **Sync**.
 
 11. On **SEA-W10-CL3**, close the **Settings** window.
-
-    >**Note**: After logging in if the the Windows Hello screen doesn't show up you might have to perform Signing out and signing back in. And perform the above steps.
 
     **Results**: After completing this exercise, you will have provisioned a Windows device with Autopilot Reset using Self-Deploying mode.
 
