@@ -125,6 +125,8 @@ Settings will be verified by testing on an enrolled device, SEA-WS1 and a non-en
 
 5. Switch to **SEA-WS1**, and sign in as as **Aaron Nicholls** with the PIN: **102938**. or if it asks for password type **Pa55w.rd1234!**
 
+  >**Note**: Inorder for the **PIN** to prompt you must start the VM in **basicmode** which will result in deactivating the clipboard shortcuts. You can use the Clipboard option in toolbar to perform copy paste actions.  
+
 6. Select **Start**, type **Windows Security**, and then under the Windows Security icon select **Open**.
 
    > Notice that all of the restricted areas as configured in the Intune policy are not displayed. SEA-WS1 is enrolled in Intune, which has applied the security settings.
