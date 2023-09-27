@@ -111,7 +111,7 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 
  - Sign out of **SEA-WS1**.
 
-   >**Note**: You Can ignore the above steps if the profile is already been setup.
+   >**Note**: After logging in if the the Windows Hello screen doesn't show up you might have to perform Signing out and signing back in.
 
 ### Task 4: Verifying device enrollment in the Intune console
 
