@@ -74,7 +74,7 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
    >**Note**: Replace **"yourtenant"** with your Tenant Name
 
-9. On the **Enter password** page, enter the tenant password provided by your instructor i.e **Pa55w.rd**  and then select **Sign in**.
+9. On the **Enter password** page, enter the tenant password provided by your instructor i.e **Pa55-w.rd!**  and then select **Sign in**.
 
 10. On the **Make sure this is your organization** dialog box, select **Join**.
 
@@ -129,7 +129,7 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 1. On the sign-in page select Other User 
 
-1. Then sign in as **`JoniS@yourtenant.onmicrosoft.com`** with the Tenant password as provided by your instructor i.e **Pa55w.rd** . 
+1. Then sign in as **`JoniS@yourtenant.onmicrosoft.com`** with the Tenant password as provided by your instructor i.e **Pa55-w.rd!** . 
 
    > Wait for the profile to be created.
 
