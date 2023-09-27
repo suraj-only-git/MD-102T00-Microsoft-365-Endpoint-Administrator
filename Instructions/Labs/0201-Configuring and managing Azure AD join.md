@@ -151,6 +151,8 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 11. On the **All set!** page, select **OK**.
 
+    >**Note**: After logging in if the the Windows Hello screen doesn't show up you might have to perform Signing out and signing back in.
+
 ### Task 5: Remove a Windows device from Azure AD
 
 1. On SEA-WS1, signed in as **azuread\jonisherman**, select **Start** and then select **Settings**.
