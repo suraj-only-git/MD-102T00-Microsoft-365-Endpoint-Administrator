@@ -44,7 +44,7 @@ Several users have asked to use their personal iOS, Android, and Windows devices
 
 6. In the **Microsoft account** window, in the Email address box, enter **`JoniS@yourtenant.onmicrosoft.com`** and then select **Next**.
 
-7. On the **Enter password** page, enter the tenant password provided by your instructor **Pa55-w.rd** and then select **Sign in**.
+7. On the **Enter password** page, enter the tenant password provided by your instructor **Pa55-w.rd!** and then select **Sign in**.
 
 8. On the **You're all set!** page, select **Done**.
 

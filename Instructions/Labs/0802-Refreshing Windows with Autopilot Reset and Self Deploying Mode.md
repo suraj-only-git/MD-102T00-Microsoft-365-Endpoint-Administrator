@@ -80,7 +80,13 @@ SEA-WS4 has been deployed by using Windows Autopilot. You need to test out anoth
 
    > Note: SEA-W10-CL3 should still be running from the previous lab.
 
-7. Restart **SEA-W10-CL3**.
+7. Go-to Settings and click on Accounts then Select Access work or school
+
+8. Click on your organisation account Then select on info and scroll down click on **Sync** button.
+
+9. Wait until the sync is completed. Then additionally wait for (5-10) minutes efore proceeding to the next step.
+
+10. Restart **SEA-W10-CL3**.
 
    > Note: This process can take 30-45 minutes and will reboot several times during the process. 
 
@@ -89,6 +95,8 @@ SEA-WS4 has been deployed by using Windows Autopilot. You need to test out anoth
 1. At the sign-in page, enter **`Aaron@yourtenant.onmicrosoft.com`** with the Password of **Pa55w.rd1234!**.
 
 2. At the **Use Windows Hello with your account**, select **OK**.
+
+   >**Note**: If windows hello doesn't show up and if it directly logs you in, Try signing out and signing in again.
 
 3. At the **Verify your identity** page, select the Text verification method.
 
@@ -107,6 +115,8 @@ SEA-WS4 has been deployed by using Windows Autopilot. You need to test out anoth
 10. On the **Managed by Contoso** page, scroll down and then select **Sync**.
 
 11. On **SEA-W10-CL3**, close the **Settings** window.
+
+    >**Note**: After logging in if the the Windows Hello screen doesn't show up you might have to perform Signing out and signing back in. And perform the above steps.
 
     **Results**: After completing this exercise, you will have provisioned a Windows device with Autopilot Reset using Self-Deploying mode.
 

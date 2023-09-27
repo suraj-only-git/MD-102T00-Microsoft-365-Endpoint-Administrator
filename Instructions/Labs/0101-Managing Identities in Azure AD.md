@@ -152,13 +152,13 @@ You've also been told that several more employees will be hired over the next co
 
 6. Close out of the **Authentication complete** tab and then minimize **Microsoft Edge**
 
-7. Back In the **PowerShell 7** window, type the following code to create a new profile object, and then press **enter**. Replace **Pa55-w.rd** with a complex password of your choice:
+7. Back In the **PowerShell 7** window, type the following code to create a new profile object, and then press **enter**. Replace **Pa55-w.rd!** with a complex password of your choice:
 
    >**Note**: Copy paste the Commands on notepad before pasting it in the powershell to avoid mistakes and gli.
 
     ```
     $PWProfile = @{
-      Password = "Pa55-w.rd";
+      Password = "Pa55-w.rd!";
       ForceChangePasswordNextSignIn = $false
     }
     ```
