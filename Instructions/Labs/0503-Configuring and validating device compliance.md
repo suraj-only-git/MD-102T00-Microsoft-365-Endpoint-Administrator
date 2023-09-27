@@ -137,6 +137,10 @@ When a user uses a device that is marked as non-compliant, they should not be ab
 
 10. **Close** all windows and sign out of **SEA-WS3**.
 
+  >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+
+   ![](../media/passwordwriteback1.png)
+
 11. Switch to **SEA-WS1**, and sign in as as Aaron Nicholls with the PIN **102938** or if it asks for password type **Pa55w.rd1234!** . 
 
     > Note: SEA-WS1 is a managed Windows 11 device that is enrolled in Intune.
