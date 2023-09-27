@@ -143,17 +143,17 @@ When a user uses a device that is marked as non-compliant, they should not be ab
 
 11. Switch to **SEA-WS1**, and sign in as as Aaron Nicholls with the PIN **102938** or if it asks for password type **Pa55w.rd1234!** . 
 
-    > Note: SEA-WS1 is a managed Windows 11 device that is enrolled in Intune.
+  >**Note**: Inorder for the **PIN** to prompt you must start the VM in **basicmode** which will result in deactivating the clipboard shortcuts. You can use the Clipboard option in toolbar to perform copy paste actions. SEA-WS1 is a managed Windows 11 device that is enrolled in Intune.
 
-12. On the taskbar, select **Microsoft Edge**.
+13. On the taskbar, select **Microsoft Edge**.
 
-13. In Microsoft Edge, type **outlook.office.com** and then press Enter. 
+14. In Microsoft Edge, type **outlook.office.com** and then press Enter. 
 
-14. Verify that you can access Aaron's mailbox. 
+15. Verify that you can access Aaron's mailbox. 
 
     > Note: This is because SEA-WS1 is a managed device and marked as compliant._
 
-15. Close Microsoft Edge and sign out of SEA-WS1.
+16. Close Microsoft Edge and sign out of SEA-WS1.
 
 ### Task 3: Disable the conditional access policy
 
