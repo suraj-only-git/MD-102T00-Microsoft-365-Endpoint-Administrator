@@ -89,10 +89,14 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 
 1. Sign out of **SEA-WS1**. (Close the VM once signed out)
 
+   >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+
+   ![](../media/passwordwriteback1.png)
+
 2. Open the VM **SEA-WS1** in log in screen Select **Other user**, and sign in as **`Aaron@yourtenant.onmicrosoft.com`** with the password **Pa55w.rd**. Wait for the profile to be created.
 
  - At the **Use Windows Hello with your account** page, select **OK**.
-
+ 
  - On the **More information required** page, select **Next**.
 
  - On the **Keep your account secure** page, select **I want to set up a different method**.
