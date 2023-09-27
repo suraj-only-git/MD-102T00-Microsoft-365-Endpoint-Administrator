@@ -308,7 +308,6 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 8. Select **Start** and select **Settings**. 
 
-
 9. Select **Accounts**, and then select **Access work or school**. Verify the device is connected to Contoso's Azure AD.
 
 10. Select **Connected to Contoso's Azure AD** and select **Info**.
@@ -316,6 +315,8 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 11. On the **Managed by Contoso** page, scroll down and then select **Sync**.
 
 12. On **SEA-W10-CL3**, close the **Settings** window.
+
+   >**Note**: After logging in if the the Windows Hello screen doesn't show up you might have to perform Signing out and signing back in.
 
 13. Switch to **SEA-SVR1**.
 
