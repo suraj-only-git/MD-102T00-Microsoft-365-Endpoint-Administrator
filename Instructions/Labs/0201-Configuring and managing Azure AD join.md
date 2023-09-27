@@ -139,6 +139,8 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 3. At the **Use Windows Hello with your account** page, select **OK**.
 
+  >**Note**: After logging in if the the Windows Hello screen doesn't show up you might have to perform Signing out and signing back in.
+
 4. On the **More information required** page, select **Next**.
 
 5. On the **Keep your account secure** page, select **I want to set up a different method**.
@@ -154,8 +156,6 @@ You need to configure Azure Active Directory device settings to ensure that all 
 10. On the **Set up a PIN** page, in the **New PIN** and **Confirm PIN** boxes, type **102938** and then select **OK**.
 
 11. On the **All set!** page, select **OK**.
-
-    >**Note**: After logging in if the the Windows Hello screen doesn't show up you might have to perform Signing out and signing back in.
 
 ### Task 5: Remove a Windows device from Azure AD
 
