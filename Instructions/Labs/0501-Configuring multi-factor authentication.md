@@ -86,7 +86,7 @@ To provide additional security for user sign on events, you need to configure an
 
 4. On the **Pick an account** page, select **`AlexW@yourtenant.onmicrosoft.com`**.
 
-5. On the **Enter password** page, enter the tenant password and select **Sign in**.
+5. On the **Enter password** page, enter the tenant password **Pa55-w.rd!** and select **Sign in**.
 
 6. At the **More information required** page, select **Next**. The Keep your account secure page opens.
 
@@ -152,7 +152,7 @@ To provide additional security for user sign on events, you need to configure an
 
 4. On the **Pick an account** page, select **`AlexW@yourtenant.onmicrosoft.com`**.
 
-5. On the **Enter password** page, enter the tenant password and select **Sign in**.
+5. On the **Enter password** page, enter the tenant password **Pa55-w.rd!** and select **Sign in**.
 
 6. On the **Stay signed in** page, select **No**. 
 
@@ -216,7 +216,7 @@ To provide additional security for user sign on events, you need to configure an
 
 4. On the **Pick an account** page, select **`AlexW@yourtenant.onmicrosoft.com`**.
 
-5. On the **Enter password** page, enter the tenant password and select **Sign in**. 
+5. On the **Enter password** page, enter the tenant password **Pa55-w.rd!** and select **Sign in**. 
 
 6. At the Verify your identity prompt, select your phone number.
 

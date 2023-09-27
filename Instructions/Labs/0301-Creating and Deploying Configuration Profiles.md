@@ -33,6 +33,10 @@ You need to use Azure Active Directory (Azure AD) and Intune to manage members o
 
 ### Task 1: Verify device settings
 
+   >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+
+   ![](../media/passwordwriteback1.png)
+
 1. Sign in to **SEA-WS1** as **Aaron Nicholls** with the PIN **102938** or useremail **Aaron@otuwamoc100158.onmicrosost.com** and password **Pa55w.rd** .
 
 2. On the taskbar, select **Start** and then select **Settings**.

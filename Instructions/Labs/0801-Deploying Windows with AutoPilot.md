@@ -292,6 +292,10 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 ### Task 7: Verify Autopilot deployment
 
+  >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+
+   ![](../media/passwordwriteback1.png)
+
 1. At the **Contoso Corp. Sign-in Page**, enter **`Aaron@yourtenant.onmicrosoft.com`** and select **Next**.
 
 2. At the Password page, enter **Pa55w.rd1234!** and select **Sign in**.

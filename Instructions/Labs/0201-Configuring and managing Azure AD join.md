@@ -127,13 +127,19 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 1. Switch to **SEA-WS1** Sign out if you are already signed in to admin.
 
-1. On the sign-in page select Other User 
+  >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+
+   ![](../media/passwordwriteback1.png)
+
+1. On the sign-in page select Other User
 
 1. Then sign in as **`JoniS@yourtenant.onmicrosoft.com`** with the Tenant password as provided by your instructor i.e **Pa55-w.rd!** . 
 
    > Wait for the profile to be created.
 
 3. At the **Use Windows Hello with your account** page, select **OK**.
+
+  >**Note**: After logging in if the the Windows Hello screen doesn't show up you might have to perform Signing out and signing back in.
 
 4. On the **More information required** page, select **Next**.
 
@@ -150,8 +156,6 @@ You need to configure Azure Active Directory device settings to ensure that all 
 10. On the **Set up a PIN** page, in the **New PIN** and **Confirm PIN** boxes, type **102938** and then select **OK**.
 
 11. On the **All set!** page, select **OK**.
-
-    >**Note**: After logging in if the the Windows Hello screen doesn't show up you might have to perform Signing out and signing back in.
 
 ### Task 5: Remove a Windows device from Azure AD
 
