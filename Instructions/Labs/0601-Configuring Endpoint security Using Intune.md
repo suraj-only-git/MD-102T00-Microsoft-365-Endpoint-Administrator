@@ -115,9 +115,13 @@ Settings will be verified by testing on an enrolled device, SEA-WS1 and a non-en
 
 3. On **SEA-CL1**, select **Start**, type **Windows Security**, and then under the Windows Security icon select **Open**.
 
-   > Notice that all security options are displayed. This is because SEA-CL1 is not enrolled to Intune.
+  > Notice that all security options are displayed. This is because SEA-CL1 is not enrolled to Intune.
 
 4. Close **Windows Security** and sign out of SEA-CL1.
+
+  >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If     not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+
+   ![](../media/passwordwriteback.png)
 
 5. Switch to **SEA-WS1**, and sign in as as **Aaron Nicholls** with the PIN: **102938**.
 
