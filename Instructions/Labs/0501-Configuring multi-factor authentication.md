@@ -44,7 +44,7 @@ To provide additional security for user sign on events, you need to configure an
 
 3. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
-4. Sign in as user **`Admin@yourtenant.onmicrosoft.com`**, and use the tenant Admin password. If the **Stay signed in?** prompt appears, select **No**. 
+4. Sign in as user **<inject key="AzureAdUserEmail"></inject>** and use the tenant Admin password  **<inject key="AzureAdUserPassword"></inject>**. If the **Stay signed in?** prompt appears, select **No**. 
 
    > The Microsoft Entra admin center opens.
 
@@ -86,7 +86,7 @@ To provide additional security for user sign on events, you need to configure an
 
 4. On the **Pick an account** page, select **`AlexW@yourtenant.onmicrosoft.com`**.
 
-5. On the **Enter password** page, enter the tenant password and select **Sign in**.
+5. On the **Enter password** page, enter the tenant password **Pa55-w.rd!** and select **Sign in**.
 
 6. At the **More information required** page, select **Next**. The Keep your account secure page opens.
 
@@ -152,7 +152,7 @@ To provide additional security for user sign on events, you need to configure an
 
 4. On the **Pick an account** page, select **`AlexW@yourtenant.onmicrosoft.com`**.
 
-5. On the **Enter password** page, enter the tenant password and select **Sign in**.
+5. On the **Enter password** page, enter the tenant password **Pa55-w.rd!** and select **Sign in**.
 
 6. On the **Stay signed in** page, select **No**. 
 
@@ -168,11 +168,11 @@ To provide additional security for user sign on events, you need to configure an
 
 2. On **SEA-SVR1**, on the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
-3. Sign in as **`Admin@yourtenant.onmicrosoft.com`**, and use the tenant Admin password. If the **Stay signed in?** prompt appears, select **No**. 
+3. Sign in as **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**. If the **Stay signed in?** prompt appears, select **No**. 
 
    > The Microsoft Entra admin center opens.
 
-4. In the Microsoft Entra admin center, expand **Azure Active Directory**.
+4. In the Microsoft Entra admin center, expand **Microsoft Entra ID**.
 
 5. In the navigation pane, expand **Protect & Secure** page, and then select **Conditional Access**.
 
@@ -216,7 +216,7 @@ To provide additional security for user sign on events, you need to configure an
 
 4. On the **Pick an account** page, select **`AlexW@yourtenant.onmicrosoft.com`**.
 
-5. On the **Enter password** page, enter the tenant password and select **Sign in**. 
+5. On the **Enter password** page, enter the tenant password **Pa55-w.rd!** and select **Sign in**. 
 
 6. At the Verify your identity prompt, select your phone number.
 
@@ -238,7 +238,7 @@ To provide additional security for user sign on events, you need to configure an
 
 2. On **SEA-SVR1**, on the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
-3. Sign in as user **`Admin@yourtenant.onmicrosoft.com`**, and use the tenant Admin password. If the **Stay signed in?** prompt appears, select **No**. 
+3. Sign in as user **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**. If the **Stay signed in?** prompt appears, select **No**. 
 
    > The Microsoft Entra admin center opens.
 

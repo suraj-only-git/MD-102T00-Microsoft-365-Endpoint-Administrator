@@ -29,7 +29,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 3. In Microsoft Edge, in the address bar, type **https://entra.microsoft.com**, and then press **Enter**. If prompted, sign in with your **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**
 
-4. In the navigation pane, Expand **Azure Active Directory**.
+4. In the navigation pane, Expand **Identity**.
 
 5. Under **Groups**, select **All groups**.
 
@@ -56,7 +56,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 ### Task 2: Create a virtual machine using Hyper-V
 
-1. In the Task bar Click on Hyper-V manager.
+1. On the JumpVM/LabVM, Click on Hyper-V manager available on the Task bar
 
 1. In Actions click on New and Click on Virtual machine.
 
@@ -136,19 +136,17 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. Give the username **Admin** and click on next.
 
-1. For passwod Type Pa55w.rd. Select Next.
+1. For password and Confirm password, enter **Pa55w.rd** and Select Next.
 
-1. Click on Accept in Choose privacy settings.
+1. On create security questions for this account page, Select any three question of your choice and fill in the answers Then click on next.
+
+1. Click on Accept for Choose privacy settings for your device page.
 
    ![](media/016.png)
 
 1. Click on Not now for the Cortana setup.
 
    ![](media/017.png)
-
-1. It asks for three security questions.
-
-1. Select any question of your choice and fill in the answers Then click on next.
 
 1. The setup will take few minutes to complete.
 
@@ -182,7 +180,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 ### Task 4: Generate a device-specific comma-separated value (CSV) file
 
-1. In the VM **SEA-W10-CL3** and sign in to **Admin** with the password of **Pa55w.rd**.
+1. In the **SEA-W10-CL3** VM, sign in with **Admin** enter **Pa55w.rd** for password.
 
 2. Right-click **Start**, select **Windows PowerShell (Admin)**, and then select **Yes** at the **User Account Control** prompt.
 
@@ -222,7 +220,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 2. In **Microsoft Edge**, navigate to **https://intune.microsoft.com**. Sign in with your  **<inject key="AzureAdUserEmail"></inject>** account.
 
-    >Note: You will be prompted to register for MFA. Follow the same procedures you used earlier in the course to add your phone number.
+    >Note: If prompted to register for MFA. Follow the same procedures you used earlier in the course to add your phone number.
 
 3. In the **Microsoft Intune admin center**, select **Devices**.
 
@@ -294,6 +292,10 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 ### Task 7: Verify Autopilot deployment
 
+  >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+
+   ![](../media/passwordwriteback1.png)
+
 1. At the **Contoso Corp. Sign-in Page**, enter **`Aaron@yourtenant.onmicrosoft.com`** and select **Next**.
 
 2. At the Password page, enter **Pa55w.rd1234!** and select **Sign in**.
@@ -310,7 +312,6 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 8. Select **Start** and select **Settings**. 
 
-
 9. Select **Accounts**, and then select **Access work or school**. Verify the device is connected to Contoso's Azure AD.
 
 10. Select **Connected to Contoso's Azure AD** and select **Info**.
@@ -319,9 +320,11 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 12. On **SEA-W10-CL3**, close the **Settings** window.
 
+   >**Note**: After logging in if the the Windows Hello screen doesn't show up you might have to perform Signing out and signing back in.
+
 13. Switch to **SEA-SVR1**.
 
-14. In the Microsoft Entra admin center, select **Azure Active Directory**, select **Devices** and then select **All devices**. 
+14. In the Microsoft Entra admin center, select **Identity**, select **Devices** and then select **All devices**. 
 
     > Note that the new device displays with an icon that indicates an Autopilot device. Also note that the Join Type is **Azure AD joined** with Aaron Nicholls as the owner.
 

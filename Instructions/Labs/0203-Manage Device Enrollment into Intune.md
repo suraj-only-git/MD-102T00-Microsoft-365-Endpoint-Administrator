@@ -28,7 +28,7 @@ You need to prepare for device management using Microsoft Intune. First of all, 
 
    > The Microsoft Entra admin center opens.
 
-4. In the navigation pane, Expand **Azure Active Directory** and then select **Show more**.
+4. In the navigation pane, Expand **Identity** and then select **Show more**.
 
 5. Select **Billing** > **Licenses**.
 
@@ -40,7 +40,7 @@ You need to prepare for device management using Microsoft Intune. First of all, 
 
 8. Under **General**, select **Service plan details**. Take note of the services included in the Enterprise Mobility + Security E5 license. Microsoft Intune is one of the supported services for this license.
 
-9. In the Entra admin center navigation pane, under **Azure Active Directory**, select **Users** > **All users**.
+9. In the Entra admin center navigation pane, under **Identity**, select **Users** > **All users**.
 
 10. Select **Aaron Nicholls**.
 
@@ -64,7 +64,7 @@ You need to prepare for device management using Microsoft Intune. First of all, 
 
 2. In the Microsoft Intune admin center, select **Devices**.
 
-3. On the Devices pane, select **Enroll devices**.
+3. On the Devices pane, under **Device enrollment** select **Enroll devices**.
 
 4. In the Enroll devices pane, select **Windows enrollment**.
 
@@ -78,7 +78,7 @@ You need to prepare for device management using Microsoft Intune. First of all, 
 
 1. In the Microsoft Intune admin center, select **Devices**.
 
-2. On the Devices pane, select **Enroll devices**.
+2. On the Devices pane, under **Device enrollment** select **Enroll devices**.
 
 3. On the **Enroll devices** pane, note that you can create enrollment device limit and platform restrictions. 
 

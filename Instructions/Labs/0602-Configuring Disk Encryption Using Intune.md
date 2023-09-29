@@ -78,8 +78,14 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
 
 ### Task 2: Verify and enable BitLocker settings
 
-1. On **SEA-WS1**, sign in as **Aaron Nicholls** with the PIN **102938**.
+  >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+
+   ![](../media/passwordwriteback1.png)
+
+1. On **SEA-WS1**, sign in as **Aaron Nicholls** with the PIN **102938**. If pin is not Prompted you can use the password **Pa55w.rd1234!** .
     
+  >**Note**: Inorder for the **PIN** to prompt you must start the VM in **basicmode** which will result in deactivating the clipboard shortcuts. You can use the Clipboard option in toolbar to perform copy paste actions.  
+
 2. On the taskbar, select **Start** and then select the **Settings** app.
 
 3. In the **Settings** app, select **Accounts** and then select **Access work or school**.
@@ -92,7 +98,7 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
 
 6. On the **Are you ready to start encryption?** dialog, select the checkbox next to **I don't have any other disk encryption software installed, encrypt all my disks**, and select **Yes**.
 
-7. On the **Choose how to unlock your drive at startup?** page, select **Enter a PIN**
+7. On the **Choose how to unlock your drive at startup?** page, select **Enter a Password**
 
 8. On the **Enter a Password** page, in the **Password** and **Reenter Password** boxes, enter **Pa55w.rd**, and then select **Set PIN**.
 
@@ -105,6 +111,8 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
 13. At the **Encryption of C: is complete** message, select **Close**, and then restart **SEA-WS1**.
 
 14. When **SEA-WS1** restarts, type **Pa55w.rd** and press **Enter** to unlock the drive.
+
+15. And enter the user password **Pa55w.rd1234!** to log in.
 
 ### Task 3: Verify BitLocker protection
 

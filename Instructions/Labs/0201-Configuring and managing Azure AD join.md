@@ -34,7 +34,7 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
    > Notice that there are no devices found, as you have not joined any devices yet.
 
-6. On the **Devices | All devices** page, select **Device settings**.
+6. On the **Devices | All devices** page, On the left menu select **Device settings**.
 
 7. On the **Devices|Device settings** page, in the details pane, under **Users may join devices to Azure AD**, verify that **All** is selected. 
 
@@ -72,15 +72,17 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 7. On the **Sign in** page, type **`JoniS@yourtenant.onmicrosoft.com`** and then select **Next**.
 
-8. On the **Enter password** page, enter the tenant password provided by your instructor and then select **Sign in**.
+   >**Note**: Replace **"yourtenant"** with your Tenant Name
 
-9. On the **Make sure this is your organization** dialog box, select **Join**.
+9. On the **Enter password** page, enter the tenant password provided by your instructor i.e **Pa55-w.rd!**  and then select **Sign in**.
 
-10. On the **You're all set!** page, select **Done**.
+10. On the **Make sure this is your organization** dialog box, select **Join**.
 
-11. On the **Access work or school** page, verify that **Connected to Contoso's Azure AD** is displayed.
+11. On the **You're all set!** page, select **Done**.
 
-12. Close the **Settings** page.
+12. On the **Access work or school** page, verify that **Connected to Contoso's Azure AD** is displayed.
+
+13. Close the **Settings** page.
 
 ### Task 3: Validate Azure AD Join
 
@@ -111,7 +113,7 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 9. Switch to **SEA-SVR1**.
 
-10. In Microsoft Edge, in the Microsoft Entra admin center, expand **Azure Active Directory**.
+10. In Microsoft Edge, go to `https://entra.microsoft.com/` in the Microsoft Entra admin center,Sign in if required and expand **Identity**.
 
 11. Select **Devices**, and then select **All devices**. 
 
@@ -123,27 +125,37 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 ### Task 4: Sign in to Windows as an Azure AD User
 
-1. Switch to **SEA-WS1** and then sign in as **`JoniS@yourtenant.onmicrosoft.com`** with the Tenant password as provided by your instructor. 
+1. Switch to **SEA-WS1** Sign out if you are already signed in to admin.
+
+  >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+
+   ![](../media/passwordwriteback1.png)
+
+1. On the sign-in page select Other User
+
+1. Then sign in as **`JoniS@yourtenant.onmicrosoft.com`** with the Tenant password as provided by your instructor i.e **Pa55-w.rd!** . 
 
    > Wait for the profile to be created.
 
-2. At the **Use Windows Hello with your account** page, select **OK**.
+3. At the **Use Windows Hello with your account** page, select **OK**.
 
-3. On the **More information required** page, select **Next**.
+  >**Note**: After logging in if the the Windows Hello screen doesn't show up you might have to perform Signing out and signing back in.
 
-4. On the **Keep your account secure** page, select **I want to set up a different method**.
+4. On the **More information required** page, select **Next**.
 
-5. In the **Choose a different method** dialog box, select **Phone** and then select **Confirm**.
+5. On the **Keep your account secure** page, select **I want to set up a different method**.
 
-6. On the **Phone** page, in the **Enter phone number** field, enter your mobile phone number which is able to receive text messages. Select **Next**.
+6. In the **Choose a different method** dialog box, select **Phone** and then select **Confirm**.
 
-7. When you receive the verification code, enter the code on the Phone page and then select **Next**.
+7. On the **Phone** page, in the **Enter phone number** field, enter your mobile phone number which is able to receive text messages. Select **Next**.
 
-8. On the verification page, select **Next** and then select **Done**.
+8. When you receive the verification code, enter the code on the Phone page and then select **Next**.
 
-9. On the **Set up a PIN** page, in the **New PIN** and **Confirm PIN** boxes, type **102938** and then select **OK**.
+9. On the verification page, select **Next** and then select **Done**.
 
-10. On the **All set!** page, select **OK**.
+10. On the **Set up a PIN** page, in the **New PIN** and **Confirm PIN** boxes, type **102938** and then select **OK**.
+
+11. On the **All set!** page, select **OK**.
 
 ### Task 5: Remove a Windows device from Azure AD
 
@@ -197,7 +209,7 @@ Some Contoso Windows devices are currently joined to the local Active Directory 
 
 3. On the **Additional tasks** page, select **Customize synchronization options** and select **Next**.
 
-4. On the **Connect to Azure AD** page enter the Admin Tenant password into the **PASSWORD** box, then select **Next**.
+4. On the **Connect to Azure AD** page enter the Admin Tenant password into the **PASSWORD** box i.e **<inject key="AzureAdUserPassword"></inject>** then select **Next**.
 
 5. On the **Connect your directories** page, select **Next**.
 
@@ -207,13 +219,15 @@ Some Contoso Windows devices are currently joined to the local Active Directory 
 
 8. In the **Optional features** page, do not make any changes and then select **Next**.
 
-9. In the **Ready to configure** window, select **Configure** to run the configuration and start synchronization.
+9. In the **Ready to configure** window, select **Configure** to run the configuration
 
-10. When the configuration is complete, select **Exit**.
+10. Again Click on **Configuration** and start synchronization.
 
-11. On the taskbar, right-click **Start** and select **Windows Powershell (Admin)**.
+11. When the configuration is complete, select **Exit**.
 
-12. In the **Windows PowerShell** window, type the following command, and then press **Enter**:
+12. On the taskbar, right-click **Start** and select **Windows Powershell (Admin)**.
+
+13. In the **Windows PowerShell** window, type the following command, and then press **Enter**:
 
     ```
     Start-ADSyncSyncCycle -PolicyType Initial
@@ -222,7 +236,7 @@ Some Contoso Windows devices are currently joined to the local Active Directory 
     
     > **Note**: If you recieve an error running the command above, please wait 5 minutes for the previous re-configuration to fully synchronize. You can also view the current Sync status by opening the **Synchronization Service Manager**. In the windows taskbar select **Start**, expand **Azure AD Connect**, and then select **Synchronization Service**. In **Synchronization Service Manager**, verify all operations show a status of **Success** and not **In-Progress** before continuing. 
 
-13. Close the PowerShell window.
+14. Close the PowerShell window.
 
     > Wait for approximately 5 minutes for the synchronization to complete.
 
@@ -236,7 +250,7 @@ Some Contoso Windows devices are currently joined to the local Active Directory 
 
 4. On the **Overview** page, select **Next**.
 
-5. On the **Connect to Azure AD** page, enter the Admin Tenant password into the **PASSWORD** box, then select **Next**.
+5. On the **Connect to Azure AD** page, enter the Admin Tenant password into the **PASSWORD** box i.e **<inject key="AzureAdUserPassword"></inject>** then select **Next**.
 
 6. On the **Device options** page, select **Configure Hybrid Azure AD join**, and then select **Next**.
 
@@ -295,7 +309,7 @@ Some Contoso Windows devices are currently joined to the local Active Directory 
 
 8. Switch to **SEA-SVR1** and switch to the Microsoft Entra admin center.
 
-9. Expand **Azure Active Directory**, and then select **Devices** > **All devices**. 
+9. Expand **Identity**, and then select **Devices** > **All devices**. 
 
 10. Verify that **SEA-CL2** has **Hybrid Azure AD joined** as value for the row **Join Type**. If necessary, select the **Refresh** button if SEA-CL2 is not listed.
 

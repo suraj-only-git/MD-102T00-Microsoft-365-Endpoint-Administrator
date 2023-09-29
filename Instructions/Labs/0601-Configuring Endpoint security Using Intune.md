@@ -83,8 +83,8 @@ Settings will be verified by testing on an enrolled device, SEA-WS1 and a non-en
    - Allow scanning of all downloaded files and attachments: **Allowed**
    - Allow Realtime Monitoring: **Allowed**
    - Check For Signatures Before Running Scan: **Enabled**
-   - Days to Retain Cleaned Malware: **60**
-   - Schedule Quick Scan Time: **60** (represents 1:00AM)
+   - Days to Retain Cleaned Malware: **Enable** and give the value **60**
+   - Schedule Quick Scan Time: **Enable** and give the value **60** (represents 1:00AM)
    - Submit samples consent: **Send safe samples automatically**
 
 6. On the **Configuration settings** tab, select **Next** twice.
@@ -111,13 +111,21 @@ Settings will be verified by testing on an enrolled device, SEA-WS1 and a non-en
 
 2. If necessary, sign in as **Contoso\Administrator** with the password of **Pa55w.rd**.
 
+  >**Note**: Incase if you see the warning "Not enough memory" Go-to hyper-v manager in task bar and right click on any un used VM  and turn it off.
+
 3. On **SEA-CL1**, select **Start**, type **Windows Security**, and then under the Windows Security icon select **Open**.
 
-   > Notice that all security options are displayed. This is because SEA-CL1 is not enrolled to Intune.
+  > Notice that all security options are displayed. This is because SEA-CL1 is not enrolled to Intune.
 
 4. Close **Windows Security** and sign out of SEA-CL1.
 
-5. Switch to **SEA-WS1**, and sign in as as **Aaron Nicholls** with the PIN: **102938**.
+  >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If     not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+
+   ![](../media/passwordwriteback1.png)
+
+5. Switch to **SEA-WS1**, and sign in as as **Aaron Nicholls** with the PIN: **102938**. or if it asks for password type **Pa55w.rd1234!**
+
+  >**Note**: Inorder for the **PIN** to prompt you must start the VM in **basicmode** which will result in deactivating the clipboard shortcuts. You can use the Clipboard option in toolbar to perform copy paste actions.  
 
 6. Select **Start**, type **Windows Security**, and then under the Windows Security icon select **Open**.
 

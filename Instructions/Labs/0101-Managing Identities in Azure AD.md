@@ -49,84 +49,86 @@ You've also been told that several more employees will be hired over the next co
 
 8. At the Stay signed in prompt, select **No**. The Microsoft 365 admin center opens.
 
-9. Select the **Navigation menu** and then select **Show all**.
+   >**Note**: If the prompt asks for **Action Required** Select **Ask later**.
 
-10. In the Navigation pane, under **Admin centers** select **Identity**. The Microsoft Entra admin center opens.
+10. Select the **Navigation menu** and then select **Show all**.
 
-11. In the Microsoft Entra admin center, in the left navigation pane, under **Identity**; select **All users**.
+11. In the Navigation pane, under **Admin centers** select **Identity**. The Microsoft Entra admin center opens.
+
+12. In the Microsoft Entra admin center, in the left navigation pane, under **Identity** click on  **Users** and select **All users**.
 
     > Take note of the users that already exist as members of the Azure AD domain. The **On-premises sync enabled** column states **No** for all current users. This indicates that each user was created directly in Azure AD and not synchronized from an on-premises directory service.
 
-12. On the **Users | All users** page, select **+ New user** then select **Create new user**.
+13. On the **Users | All users** page, select **+ New user** then select **Create new user**.
 
-13. On the **Create new user** page, enter the following:
+14. On the **Create new user** page, enter the following:
 
     - User Principal Name: **`ereeve`**
     - Display Name: **Edmund Reeve**
 
-14. Uncheck **Auto-generated password**
+15. Uncheck **Auto-generated password**
 
-15. Next to **Password**, enter **Pa55-w.rd!**
+16. Next to **Password**, enter **Pa55-w.rd!**
 
-16. Select **Next:Properties** located at the bottom of the page.
+17. Select **Next:Properties** located at the bottom of the page.
 
-17. Next to **First name**, enter **Edmund**.
+18. Next to **First name**, enter **Edmund**.
 
-18. Next to **Last name**, enter **Reeve**.
+19. Next to **Last name**, enter **Reeve**.
 
-19. Next to **User type**, make note that **Member** is selected.
+20. Next to **User type**, make note that **Member** is selected.
     > Note: The **Member** user type is the default user type. This user type is used for most users in an organization.
 
-20. Next to **Job title**, enter **HR Rep**.
+21. Next to **Job title**, enter **HR Rep**.
 
-21. Next to **Department**, enter **HR**.
+22. Next to **Department**, enter **HR**.
 
-22. Under **Settings**, next to **Usage location**, select **United States**.
+23. Under **Settings**, next to **Usage location**, select **United States**.
 
-23. Select **Next:Assignments** located at the bottom of the page.
+24. Select **Next:Assignments** located at the bottom of the page.
 
-24. On the **Assignments** page, note that no assignments are selected.
+25. On the **Assignments** page, note that no assignments are selected.
     > by default no groups are assigned to the user. This is because the user is not a member of any groups until you assign them.
 
-25. Select **Next:Review + create** located at the bottom of the page.
+26. Select **Next:Review + create** located at the bottom of the page.
     > Review the information on this page to ensure that it is correct.
 
-26. Select **Create**.
+27. Select **Create**.
 
-27. On the **Users | All users** page, select **New user** then select **Create new user**.
+28. On the **Users | All users** page, select **New user** then select **Create new user**.
 
-28. On the **Create new user** page, enter the following:
+29. On the **Create new user** page, enter the following:
 
     - User Principal Name: **`msnider`**
     - Display Name: **Miranda Snider**
 
-29. Uncheck **Auto-generated password**
+30. Uncheck **Auto-generated password**
 
-30. Next to **Password**, enter **Pa55-w.rd!**.
+31. Next to **Password**, enter **Pa55-w.rd!**.
 
-31. Select **Next:Properties** located at the bottom of the page.
+32. Select **Next:Properties** located at the bottom of the page.
 
-32. Next to **First name**, enter **Miranda**.
+33. Next to **First name**, enter **Miranda**.
 
-33. Next to **Last name**, enter **Snider**.
+34. Next to **Last name**, enter **Snider**.
 
-34. Next to **User type**, make note that **Member** is selected.
+35. Next to **User type**, make note that **Member** is selected.
 
-35. Next to **Job title**, enter **Helpdesk Manager**.
+36. Next to **Job title**, enter **Helpdesk Manager**.
 
-36. Next to **Department**, enter **Operations**.
+37. Next to **Department**, enter **Operations**.
 
-37. Next to **Usage location**, select **United States**.
+38. Next to **Usage location**, select **United States**.
 
-38. Select **Next:Assignments** located at the bottom of the page.
+39. Select **Next:Assignments** located at the bottom of the page.
 
-39. On the **Assignments** page, note that no assignments are selected.
+40. On the **Assignments** page, note that no assignments are selected.
 
-40. Select **Next:Review + create** located at the bottom of the page.
+41. Select **Next:Review + create** located at the bottom of the page.
 
-41. Select **Create**.
+42. Select **Create**.
 
-42. Minimize the **Microsoft Edge** window.
+43. Minimize the **Microsoft Edge** window.
 
 ### Task 2: Create users by using Powershell
 
@@ -150,16 +152,18 @@ You've also been told that several more employees will be hired over the next co
 
 6. Close out of the **Authentication complete** tab and then minimize **Microsoft Edge**
 
-7. Back In the **PowerShell 7** window, type the following code to create a new profile object, and then press **enter**. Replace **Pa55-w.rd** with a complex password of your choice:
+7. Back In the **PowerShell 7** window, type the following code to create a new profile object, and then press **enter**. Replace **Pa55-w.rd!** with a complex password of your choice:
+
+   >**Note**: Copy paste the Commands on notepad before pasting it in the powershell to avoid mistakes and gli.
 
     ```
     $PWProfile = @{
-      Password = "Pa55-w.rd";
+      Password = "Pa55-w.rd!";
       ForceChangePasswordNextSignIn = $false
     }
     ```
 
-8. Next, type the following code to create a new user, and then press **Enter**. Be sure to replace **yourtenant** with your assigned tenant name:
+9. Next, type the following code to create a new user, and then press **Enter**. Be sure to replace **yourtenant** with your assigned tenant name:
 
     ```
     New-MgUser `
@@ -205,7 +209,7 @@ You've also been told that several more employees will be hired over the next co
         -Department "Support" -JobTitle "Support Executive"
     ```    
    
-9. To confirm that the users was created, In the **PowerShell 7** window, type the following command and then press **Enter**:
+10. To confirm that the users was created, In the **PowerShell 7** window, type the following command and then press **Enter**:
 
     ```
     Get-MgUser
@@ -233,7 +237,7 @@ You have been provided a list of users should have administrative roles assigned
 
 1. On SEA-SVR1, switch to Microsoft Edge.
 
-2. In the Microsoft Entra admin center, in the Navigation pane, select **Show more**.
+2. In the **Microsoft Entra admin center**, in the Navigation pane, select **Show more**.
 
 3. In the Navigation pane, select **Roles & admins** > **Roles & admins**.
     > Note that you can scroll down the list or use the search box to find the **Role** you are looking for.

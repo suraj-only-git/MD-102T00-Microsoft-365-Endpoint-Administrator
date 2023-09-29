@@ -20,7 +20,7 @@ Several users have asked to use their personal iOS, Android, and Windows devices
 
    > The Microsoft Entra admin center opens.
 
-4. In the Microsoft Entra admin center, in the navigation pane, expand **Azure Active Directory**.
+4. In the Microsoft Entra admin center, in the navigation pane, expand **Identity**.
 
 5. Select **Devices** > **All devices**. 
 
@@ -44,7 +44,7 @@ Several users have asked to use their personal iOS, Android, and Windows devices
 
 6. In the **Microsoft account** window, in the Email address box, enter **`JoniS@yourtenant.onmicrosoft.com`** and then select **Next**.
 
-7. On the **Enter password** page, enter the tenant password provided by your instructor and then select **Sign in**.
+7. On the **Enter password** page, enter the tenant password provided by your instructor **Pa55-w.rd!** and then select **Sign in**.
 
 8. On the **You're all set!** page, select **Done**.
 
@@ -68,7 +68,7 @@ Several users have asked to use their personal iOS, Android, and Windows devices
 
 5. Switch to **SEA-SVR1**.
 
-6. In Microsoft Edge, in the Microsoft Entra admin center, expand **Azure Active Directory**.
+6. In Microsoft Edge, in the Microsoft Entra admin center, expand **Identity**.
 
 7. Select **Devices**, then select **All devices**. In the Devices pane, notice that SEA-WS1 is listed. 
 
@@ -82,23 +82,25 @@ Several users have asked to use their personal iOS, Android, and Windows devices
 
 1. Switch to **SEA-WS1** and attempt to sign in as **`JoniS@yourtenant.onmicrosoft.com`**.
 
-   Notice that unlike Azure AD Joined devices, an Azure AD registered device does not allow a user to sign in to the device with an Azure AD credential. 
+   >**Note**: You might have to restart the VM so that the other user appears in the log-in screen.
 
-2. On SEA-WS1, sign in as **Admin** with the password of **Pa55w.rd**. 
+2. Notice that unlike Azure AD Joined devices, an Azure AD registered device does not allow a user to sign in to the device with an Azure AD credential. 
 
-3. Select **Start** and then select **Settings**.
+3. On SEA-WS1, sign in as **Admin** with the password of **Pa55w.rd**. 
 
-4. In the **Settings** window, select **Accounts**.
+4. Select **Start** and then select **Settings**.
 
-5. On the Accounts page, select **Access work or school**.
+5. In the **Settings** window, select **Accounts**.
 
-6. In the **Access work or school** page, select the **JoniS** Work or School account.
+6. On the Accounts page, select **Access work or school**.
 
-7. Next to Disconnect this account, select **Disconnect** and then select **Yes**.
+7. In the **Access work or school** page, select the **JoniS** Work or School account.
+
+8. Next to Disconnect this account, select **Disconnect** and then select **Yes**.
 
    > Notice that you do not have to restart to disconnect a registered device from Azure AD.
 
-8. Sign out of SEA-WS1.
+9. Sign out of SEA-WS1.
 
 **Results**: After completing this exercise, you will have configured Azure AD device registration.
 
