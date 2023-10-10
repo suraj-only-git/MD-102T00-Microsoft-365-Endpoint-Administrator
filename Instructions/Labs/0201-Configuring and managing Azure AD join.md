@@ -311,10 +311,10 @@ Some Contoso Windows devices are currently joined to the local Active Directory 
 
 9. Expand **Identity**, and then select **Devices** > **All devices**. 
 
-10. Verify that **SEA-CL2** has **Hybrid Azure AD joined** as value for the row **Join Type**. If necessary, select the **Refresh** button if SEA-CL2 is not listed.
+10. Verify that **SEA-CL2** has **Microsoft Entra Hybrid joined** as value for the row **Join Type**. If necessary, select the **Refresh** button if SEA-CL2 is not listed.
 
 11. Close all windows on **SEA-SVR1**.
 
-**Results**: After completing this exercise, you will have successfully configured and validated hybrid Azure AD join.
+**Results**: After completing this exercise, you will have successfully configured and validated Microsoft Entra Hybrid join.
 
 **END OF LAB**
