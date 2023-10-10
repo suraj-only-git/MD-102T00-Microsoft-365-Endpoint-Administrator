@@ -412,9 +412,9 @@ You also been asked to modify the Company branding for the sign-in page.
 
 14. On the Groups|All groups page, select **Contoso_Admins**.
 
-15. On the Contoso_Managers page, select **Licenses**.
+15. On the Contoso_Admins page, select **Licenses**.
 
-    > Notice that the Contoso_Managers group does not have any current license assignments.
+    > Notice that the Contoso_Admins group does not have any current license assignments.
 
 16. Select **Assignments**.
 
