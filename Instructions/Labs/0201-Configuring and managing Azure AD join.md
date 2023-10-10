@@ -119,7 +119,7 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
     > In the Devices pane, notice that SEA-WS1 is listed. 
 
-12. Verify that the **Join Type** is listed as **Azure AD joined** and that the owner is **Joni Sherman**. 
+12. Verify that the **Join Type** is listed as **Microsoft Entra joined** and that the owner is **Joni Sherman**. 
 
     > Also note that the MDM column shows None. This indicates that this device is not yet managed by Microsoft Intune.
 
