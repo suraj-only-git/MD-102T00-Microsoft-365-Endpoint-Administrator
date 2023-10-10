@@ -72,7 +72,7 @@ Several users have asked to use their personal iOS, Android, and Windows devices
 
 7. Select **Devices**, then select **All devices**. In the Devices pane, notice that SEA-WS1 is listed. 
 
-8. Verify that the **Join Type** is listed as **Azure AD registered** and that the owner is **Joni Sherman**. 
+8. Verify that the **Join Type** is listed as **Microsoft Entra registered** and that the owner is **Joni Sherman**. 
 
    Notice that the device is Azure AD registered, NOT Azure AD joined. Azure AD registered devices are typically devices that cannot be Azure AD joined, or devices that are personally owned by the user. Registering a device will provide access to Cloud based resources.
 
