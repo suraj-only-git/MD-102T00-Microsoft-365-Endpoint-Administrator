@@ -22,7 +22,7 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 
 ### Task 1: Automatically enroll a Windows device to Microsoft Intune
 
-1. Sign in to **SEA-WS1** as **Admin** with the password of **Pa55w.rd**.
+1. Switch to **HOSTVM** and Sign in to **SEA-WS1** VM from the desktop as **Admin** with the password of **Pa55w.rd**.
 
 2. Select **Start** and then select **Settings**.
 
