@@ -40,7 +40,7 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 11. On **SEA-SVR1**, on the taskbar select **Microsoft Edge**, in the address bar type **https://portal.azure.com/**, and then press **Enter**.
 
-12. Search and select **Azure Active Directory** from the portal.
+12. Search and select **Microsoft Entra ID** from the portal.
 
 13. On the left, select **Microsoft Entra Connect**.
    
