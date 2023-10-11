@@ -33,7 +33,7 @@ You've also been told that several more employees will be hired over the next co
 
 ### Task 1: Create users by using the Azure Active Directory admin center
 
-1. On **SEA-SVR1**, sign in as **Contoso\\Administrator** with the password of **Pa55w.rd**.
+1. Switch to **SEA-SVR1**, sign in as **Contoso\\Administrator** with the password of **Pa55w.rd**.
 
 2. Close **Server Manager**.
 
