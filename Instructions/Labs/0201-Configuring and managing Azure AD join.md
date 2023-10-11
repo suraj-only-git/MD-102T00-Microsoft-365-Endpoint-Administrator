@@ -60,6 +60,8 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 1. Switch to **HOSTVM** and sign in to **SEA-WS1** VM through desktop shortcut as **Admin** with the password of **Pa55w.rd**.
 
+   ![](../media/dsk.png)
+
 2. On the taskbar, select **Start** and then select **Settings**.
 
 3. In the **Settings** window, select **Accounts**.
