@@ -129,9 +129,9 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 1. Switch to **HOSTVM** and Sign out from **SEA-WS1** VM, if you are already signed in to admin and sign in with Other user.
 
-     >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+   >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
 
-       ![](../media/passwordwriteback1.png)
+    ![](../media/passwordwriteback1.png)
 
 2. On the sign-in page select Other User
 
