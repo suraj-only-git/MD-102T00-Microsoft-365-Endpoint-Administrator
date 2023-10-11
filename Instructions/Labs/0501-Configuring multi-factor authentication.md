@@ -22,11 +22,11 @@ To provide additional security for user sign on events, you need to configure an
 
 3. In the address bar, enter **outlook.office.com** and press Enter.
   
-  >**Note**: Before Proceeding to next step, verify that Alex Wilber assigned with Office 365 E5, Enterprise Mobility + Security E5. If not assigned, then asssign both the licenses and proceed further.
-
 4. At the **Sign in** page, enter **`AlexW@yourtenant.onmicrosoft.com`** and then select **Next**.
 
-5. On the **Enter password** page, enter the tenant password provided by your instructor and select **Sign in**. At the Edge Save password prompt, select **Save & Turn on**.
+    >**Note** : Replace **yourtenant** with tenant name provided to you.
+
+5. On the **Enter password** page, enter **Pa55-w.rd!** and select **Sign in**. At the Edge Save password prompt, select **Save & Turn on**.
 
 6. At the **Stay signed in** prompt, select **No**.
 
@@ -78,7 +78,7 @@ To provide additional security for user sign on events, you need to configure an
 
 ### Task 3: Register and Validate MFA
 
-1. Switch to **SEA-WS3**. 
+1. Switch to **SEA-WS3** and sign in as **Admin** with the password **Pa55w.rd**. 
 
 2. On the taskbar, select **Microsoft Edge**.
 
@@ -110,7 +110,7 @@ To provide additional security for user sign on events, you need to configure an
 
 ### Task 3: Remove per-user MFA
 
-1. Switch to **SEA-SVR1**.
+1. Switch to **SEA-SVR1** and sign in with the password **Pa55w.rd**. 
 
 2. On **SEA-SVR1**, on the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
@@ -164,7 +164,7 @@ To provide additional security for user sign on events, you need to configure an
 
 ### Task 2: Configure conditional access with MFA
 
-1. Switch to **SEA-SVR1**.
+1. Switch to **SEA-SVR1** and sign in with the password **Pa55w.rd**. 
 
 2. On **SEA-SVR1**, on the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
@@ -172,43 +172,41 @@ To provide additional security for user sign on events, you need to configure an
 
    > The Microsoft Entra admin center opens.
 
-4. In the Microsoft Entra admin center, expand **Microsoft Entra ID**.
+4. In the navigation pane, expand **Protection**, and then select **Conditional Access**.
 
-5. In the navigation pane, expand **Protect & Secure** page, and then select **Conditional Access**.
+5. On the **Conditional Access** page, select **Policies**, and then select **New policy**.
 
-6. On the **Conditional Access** page, select **Policies**, and then select **New policy**.
+6. On the **New Conditional access policy** page, in the **Name** box, enter **Contoso MFA Policy**.
 
-7. On the **New Conditional access policy** page, in the **Name** box, enter **Contoso MFA Policy**.
+7. Under **Assignments**, select **0 users and groups selected**.
 
-8. Under **Assignments**, select **0 users and groups selected**.
+8. In the Users and groups pane, select the option next to **Select users and groups** and then select the check box next to **Users and groups**.
 
-9. In the Users and groups pane, select the option next to **Select users and groups** and then select the check box next to **Users and groups**.
-
-10. On the **Select users and groups** page, select **Alex Wilber** and then select **Select**. 
+9. On the **Select users and groups** page, select **Alex Wilber** and then select **Select**. 
 
     > Note that typically you would specify a group, however for this exercise we will just test the setting on Alex Wilber.
 
-11. Select **No target resources selected** and then click **Select apps**.
+10. Select **No target resources selected** and then click **Select apps**.
 
     > Note the Control access based on client app setting. This setting allows you to specify the client app that is used to access the resource. For example, you can specify that only the Outlook app can be used to access Exchange Online. 
 
-12. On the **Select** section of the page, click **None**.
+11. On the **Select** section of the page, click **None**.
 
-13. On the **Select** page, select the check box next to **Office 365** and then click **Select**.
+12. On the **Select** page, select the check box next to **Office 365** and then click **Select**.
 
-14. Under **Access controls**, in the **Grant** section, select **0 controls selected**.
+13. Under **Access controls**, in the **Grant** section, select **0 controls selected**.
 
-15. On the **Grant** page, select **Grant access**, select the check box next to **Require multifactor authentication**, and then click **Select**.
+14. On the **Grant** page, select **Grant access**, select the check box next to **Require multifactor authentication**, and then click **Select**.
 
-16. Under **Enable policy**, select **On**.
+15. Under **Enable policy**, select **On**.
 
-17. Select **Create** to create the Contoso MFA Policy. Notice that the policy is listed with a State of **On**.
+16. Select **Create** to create the Contoso MFA Policy. Notice that the policy is listed with a State of **On**.
 
-18. Close Microsoft Edge.
+17. Close Microsoft Edge.
 
 ### Task 3: Validate conditional access MFA
 
-1. Switch to **SEA-WS3**. 
+1. Switch to **SEA-WS3** as **Admin** with the password **Pa55w.rd**. 
 
 2. On the taskbar, select **Microsoft Edge**.
 
@@ -234,7 +232,7 @@ To provide additional security for user sign on events, you need to configure an
 
 ### Task 4: Remove conditional access MFA
 
-1. Switch to **SEA-SVR1**.
+1. Switch to **SEA-SVR1** and sign in with the password **Pa55w.rd**. 
 
 2. On **SEA-SVR1**, on the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
