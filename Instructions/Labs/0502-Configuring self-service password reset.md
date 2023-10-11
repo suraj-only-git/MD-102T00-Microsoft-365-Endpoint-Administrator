@@ -38,36 +38,6 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 10. On the **Configuration complete** page, select **Exit**.
 
-11. On **SEA-SVR1**, on the taskbar select **Microsoft Edge**, in the address bar type **https://portal.azure.com/**, and then press **Enter**.
-
-12. Search and select **Microsoft Entra ID** from the portal.
-
-13. On the left, select **Microsoft Entra Connect**.
-   
-14. On the left, select **Cloud sync**.
-
-15. On the left, select **Agents**.
-
-16. Select **Download on-premises agent**, and select Accept terms & download.
-
-17. Once the Azure AD Connect Provisioning Agent Package has completed downloading, run the **AADConnectProvisioningAgentSetup.exe** installation file from your downloads folder.
-
-18. On the splash screen, select **I agree to the license and conditions**, and then select **Install**.
-
-19. Once the installation operation completes, the configuration wizard will launch. Select Next to start the configuration.
-
-20. On the Select Extension screen, select **HR-driven provisioning (Workday and SuccessFactors) / Azure AD Connect Cloud Sync** and click **Next**.
-
-21. On the **Connect to Azure AD** page, if needed type **<inject key="AzureAdUserEmail"></inject>** in the **USERNAME** text box, type your Admin tenant password **<inject key="AzureAdUserPassword"></inject>** in the **PASSWORD** text box, to provide authentication.
-
-22. On the **Configure Service Account** screen, select **Create gMSA** and enter **Contoso.com\Administrator** under DOMAIN ADMIN USERNAME and **Pa55w.rd** under Password text box and click on **Next**.
-
-23. On the **Connect Active Directory** screen, leave the default configuration and click on **Next**.
-
-24. On the **Configuration complete** screen, select Confirm. This operation will register and restart the agent.
-
-25. Once this operation completes, you should be notified that **Your agent configuration was successfully verified**. You can select **Exit**.
-
 ### Task 2: Enable self-service password reset
 
 1. On **SEA-SVR1**, on the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com/**, and then press **Enter**.
@@ -148,18 +118,19 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 ### Task 5: Verify password writeback
 
-1. Switch to **SEA-CL1** and sign out if necessary.
+1. Switch to **HOSTVM** and sign in to **SEA-CL1**.
 
-   >**Note** : If you are unable to switch to SEA-CL1, then turnoff the Hyper-V VM's which are not being used in this lab from the HyperV-Manager and then try to switch to SEA-CL1.
+   >**Note** : If you are unable to sign in to SEA-CL1, then turnoff the Hyper-V VM's which are not being used in this lab from the HyperV-Manager which is available in the HOSTVM and then try to sign in to SEA-CL1.
 
    >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
 
    ![](../media/passwordwriteback.png)
+
 2. On **SEA-CL1**, select **Other user**, and then attempt to sign in as **Contoso\\Aaron** with the password of **Pa55w.rd**.
 
 3. Ensure that you get the message that the user name or password is incorrect.
 
-4. Sign in to **SEA-CL1** as **Contoso\\Aaron** with the password **Pa55w.rd1234!**. 
+4. Sign in to **SEA-CL1** as **Contoso\Aaron** with the password **Pa55w.rd1234!**. 
 
    > You should be able to sign in. This confirms that the password you changed in the Azure portal is written back to the local Active Directory Domain Services (AD DS) account.
 
