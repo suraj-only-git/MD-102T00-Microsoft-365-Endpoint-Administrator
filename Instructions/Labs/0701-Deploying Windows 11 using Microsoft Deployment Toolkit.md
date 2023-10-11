@@ -257,7 +257,7 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
 40. Right-click **SEA-WS4** and then select **Checkpoint** to create a checkpoint of the current state of SEA-WS4.
 
-41. On SEA-SVR2, close **Hyper-V Manager** and close the **Deployment Workbench**.
+41. On HOSTVM, close **Hyper-V Manager** and close the **Deployment Workbench**.
 
 42. Open **File Explorer**, right-click **DVD Drive E** and then select **Eject**.
 
