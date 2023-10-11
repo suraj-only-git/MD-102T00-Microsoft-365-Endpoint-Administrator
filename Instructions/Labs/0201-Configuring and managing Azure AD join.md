@@ -129,35 +129,35 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 1. Switch to **HOSTVM** and Sign out from **SEA-WS1** VM, if you are already signed in to admin and sign in with Other user.
 
-  >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+     >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
 
-   ![](../media/passwordwriteback1.png)
+       ![](../media/passwordwriteback1.png)
 
-1. On the sign-in page select Other User
+2. On the sign-in page select Other User
 
-1. Then sign in as **`JoniS@yourtenant.onmicrosoft.com`** with the Tenant password as provided by your instructor i.e **Pa55-w.rd!** . 
+3. Then sign in as **`JoniS@yourtenant.onmicrosoft.com`** with the Tenant password as provided by your instructor i.e **Pa55-w.rd!** . 
 
    > Wait for the profile to be created.
 
-3. At the **Use Windows Hello with your account** page, select **OK**.
+4. At the **Use Windows Hello with your account** page, select **OK**.
 
   >**Note**: After logging in if the the Windows Hello screen doesn't show up you might have to perform Signing out and signing back in.
 
-4. On the **More information required** page, select **Next**.
+5. On the **More information required** page, select **Next**.
 
-5. On the **Keep your account secure** page, select **I want to set up a different method**.
+6. On the **Keep your account secure** page, select **I want to set up a different method**.
 
-6. In the **Choose a different method** dialog box, select **Phone** and then select **Confirm**.
+7. In the **Choose a different method** dialog box, select **Phone** and then select **Confirm**.
 
-7. On the **Phone** page, in the **Enter phone number** field, enter your mobile phone number which is able to receive text messages. Select **Next**.
+8. On the **Phone** page, in the **Enter phone number** field, enter your mobile phone number which is able to receive text messages. Select **Next**.
 
-8. When you receive the verification code, enter the code on the Phone page and then select **Next**.
+9. When you receive the verification code, enter the code on the Phone page and then select **Next**.
 
-9. On the verification page, select **Next** and then select **Done**.
+10. On the verification page, select **Next** and then select **Done**.
 
-10. On the **Set up a PIN** page, in the **New PIN** and **Confirm PIN** boxes, type **102938** and then select **OK**.
+11. On the **Set up a PIN** page, in the **New PIN** and **Confirm PIN** boxes, type **102938** and then select **OK**.
 
-11. On the **All set!** page, select **OK**.
+12. On the **All set!** page, select **OK**.
 
 ### Task 5: Remove a Windows device from Azure AD
 
