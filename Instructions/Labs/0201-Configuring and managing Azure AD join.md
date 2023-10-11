@@ -141,8 +141,6 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 4. At the **Use Windows Hello with your account** page, select **OK**.
 
-  >**Note**: After logging in if the the Windows Hello screen doesn't show up you might have to perform Signing out and signing back in.
-
 5. On the **More information required** page, select **Next**.
 
 6. On the **Keep your account secure** page, select **I want to set up a different method**.
@@ -289,7 +287,7 @@ Some Contoso Windows devices are currently joined to the local Active Directory 
 
     _Note: The reboot will trigger the hybrid Azure AD join on SEA-CL2._
    
-3. After **SEA-CL2** has restarted, sign in as **Contoso\\Administrator** with the password of **Pa55w.rd**.
+3. Click on **reconnect** after few seconds until **SEA-CL2** has restarted, sign in as **Contoso\\Administrator** with the password of **Pa55w.rd**.
     
 4. On the taskbar, right-click **Start** and select **Windows Terminal (Admin)**.
 
