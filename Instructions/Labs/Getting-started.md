@@ -8,7 +8,9 @@
 
 1. You can also open the Lab Guide on a separate full window by selecting the **Split Window** button from the bottom right corner.
 
-    ![](../media/splitw.png)    
+    ![](../media/splitw.png)
+
+1. To hide the lab guide, click on **>** symbol and to expose the lab guide, click on **<** symbol.   
 
 1. Also, you can **start, stop and restart** the virtual machines from the **Resources** tab.
 
