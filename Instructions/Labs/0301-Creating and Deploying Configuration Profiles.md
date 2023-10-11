@@ -37,9 +37,7 @@ You need to use Azure Active Directory (Azure AD) and Intune to manage members o
 
    ![](../media/passwordwriteback1.png)
 
-1. Sign in to **SEA-WS1** as **Aaron Nicholls** with the PIN **102938** or useremail **Aaron@yourtenant.onmicrosoft.com** and password **Pa55w.rd** .
-
-   >**Note** : Replace **yourtenant** with the tenant name provided to you.
+1. Switch to **HOSTVM** and Sign in to **SEA-WS1** VM from the desktop shortcut as **Aaron Nicholls** with the PIN **102938**
 
 2. On the taskbar, select **Start** and then select **Settings**.
 
@@ -67,7 +65,7 @@ You need to use Azure Active Directory (Azure AD) and Intune to manage members o
 
 ### Task 2: Create a Configuration profile based on scenario requirements
 
-1. Switch to **SEA-SVR1**.
+1. Switch to **SEA-SVR1** and enter **Pa55w.rd** at the Password section.
 
 2. On **SEA-SVR1**, on the taskbar, select **Microsoft Edge**.
 
@@ -177,7 +175,7 @@ You need to use Azure Active Directory (Azure AD) and Intune to manage members o
 
 ### Task 6: Verify that the Configuration profile is applied
 
-1. Switch to **SEA-WS1**.
+1. Switch to **HOSTVM** and sign in to **SEA-WS1** VM from the desktop shortcut.
 
 2. On **SEA-WS1**, on the taskbar, select **Start** and then select **Settings**.
 
@@ -221,7 +219,7 @@ There was an exception to Contoso's policy that specifies that members of the De
 
 ### Task 1: Change settings in an assigned Configuration profile
 
-1. Switch to **SEA-SVR1**.
+1. Switch to **SEA-SVR1** and use password **Pa55w.rd** to login.
 
 2. On **SEA-SVR1**, in the Microsoft Intune admin center, select **Devices** and then select **Configuration Profiles**. 
 
@@ -249,7 +247,7 @@ There was an exception to Contoso's policy that specifies that members of the De
 
 ### Task 3: Verify changes on SEA-WS1
 
-1. Switch to **SEA-WS1**.
+1. Switch to **HOSTVM** and sign in to **SEA-WS1** VM from desktop shortcurt.
 
 2. On **SEA-WS1** and on the taskbar, select **Start** and then select the **Settings** app.
 
