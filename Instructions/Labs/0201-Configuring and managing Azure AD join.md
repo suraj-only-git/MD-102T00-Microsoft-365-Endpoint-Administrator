@@ -133,7 +133,7 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
     ![](../media/passwordwriteback1.png)
 
-2. On the sign-in page select Other User
+2. On the sign-in page select Other Users
 
 3. Then sign in as **`JoniS@yourtenant.onmicrosoft.com`** with the Tenant password as provided by your instructor i.e **Pa55-w.rd!** . 
 
