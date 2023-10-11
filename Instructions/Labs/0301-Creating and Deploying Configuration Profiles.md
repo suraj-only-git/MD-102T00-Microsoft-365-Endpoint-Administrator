@@ -33,35 +33,35 @@ You need to use Azure Active Directory (Azure AD) and Intune to manage members o
 
 ### Task 1: Verify device settings
 
-   >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+1. Switch to **HOSTVM** and Sign in to **SEA-WS1** VM from the desktop shortcut as **Aaron Nicholls** with the PIN **102938**
+
+   >**Note** : Ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image and then sign in with PIN.
 
    ![](../media/passwordwriteback1.png)
 
-1. Switch to **HOSTVM** and Sign in to **SEA-WS1** VM from the desktop shortcut as **Aaron Nicholls** with the PIN **102938**
+3. On the taskbar, select **Start** and then select **Settings**.
 
-2. On the taskbar, select **Start** and then select **Settings**.
+4. On the **Settings** navigation list, verify that you can see the **Gaming** setting.
 
-3. On the **Settings** navigation list, verify that you can see the **Gaming** setting.
+5. Select the **Personalization** setting and then on the Personalization page, select **Start**. Ensure that **Show recently added apps** and **Show most used apps** are both set to **On**.
 
-4. Select the **Personalization** setting and then on the Personalization page, select **Start**. Ensure that **Show recently added apps** and **Show most used apps** are both set to **On**.
+6. In the **Settings** app, select **Privacy & security**.
 
-5. In the **Settings** app, select **Privacy & security**.
+7. On the **Privacy & security** page, take note of the options under **Security**, **Windows permissions**, and **App permissions**.
 
-6. On the **Privacy & security** page, take note of the options under **Security**, **Windows permissions**, and **App permissions**.
+8. On the **Privacy & security** page, select **Windows Security** and then select **Open Windows Security**.
 
-7. On the **Privacy & security** page, select **Windows Security** and then select **Open Windows Security**.
+9. On the **Windows Security** page, select **Virus & threat protection**.
 
-8. On the **Windows Security** page, select **Virus & threat protection**.
+10. On the **Virus & threat protection** page, under **Virus & threat protection settings**, select **Manage settings** . 
 
-9. On the **Virus & threat protection** page, under **Virus & threat protection settings**, select **Manage settings** . 
+11. Scroll down to **Exclusions** and select **Add or remove exclusions**. At the User Account Control, select **Yes**.
 
-10. Scroll down to **Exclusions** and select **Add or remove exclusions**. At the User Account Control, select **Yes**.
+12. On the **Exclusions** page, verify that no exclusions have been configured.
 
-11. On the **Exclusions** page, verify that no exclusions have been configured.
+13. Close the **Windows Security** window.
 
-12. Close the **Windows Security** window.
-
-13. Close the **Settings** window.
+14. Close the **Settings** window.
 
 ### Task 2: Create a Configuration profile based on scenario requirements
 
