@@ -115,7 +115,7 @@ When a user uses a device that is marked as non-compliant, they should not be ab
 
 ### Task 2: Verify that the conditional access policy is working
 
-1. Switch to **SEA-WS3** and sign in as **Admin** with the password of **Pa55w.rd**.
+1. Switch to **HOSTVM** and sign in to **SEA-WS3** VM from the desktop shortcut as **Admin** with the password of **Pa55w.rd**.
 
 2. On **SEA-WS3**, on the taskbar, select **Microsoft Edge**.
 
@@ -127,7 +127,7 @@ When a user uses a device that is marked as non-compliant, they should not be ab
 
 6. You should receive a message that ask you to switch Edge profile. Select **Switch Edge profile**.
 
-7. You will be prompted with a message stating, "**Continue with your work or school account**". Select Sign in to sync data.
+7. You will be prompted with a message stating, "**Continue with your work or school account**". Select **Sign in to sync data**
 
 8. You will be required to enter your password again. Enter **Pa55w.rd1234!** and select **Sign in**.
 
@@ -137,23 +137,21 @@ When a user uses a device that is marked as non-compliant, they should not be ab
 
 10. **Close** all windows and sign out of **SEA-WS3**.
 
-  >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+11. Switch to **SEA-WS1** VM through desktop shortcut inside HOSTVM, and sign in as as Aaron Nicholls with the PIN **102938** or if it asks for password type **Pa55w.rd1234!** . 
+  
+    >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
 
    ![](../media/passwordwriteback1.png)
 
-11. Switch to **SEA-WS1**, and sign in as as Aaron Nicholls with the PIN **102938** or if it asks for password type **Pa55w.rd1234!** . 
+12. On the taskbar, select **Microsoft Edge**.
 
-  >**Note**: Inorder for the **PIN** to prompt you must start the VM in **basicmode** which will result in deactivating the clipboard shortcuts. You can use the Clipboard option in toolbar to perform copy paste actions. SEA-WS1 is a managed Windows 11 device that is enrolled in Intune.
+13. In Microsoft Edge, type **outlook.office.com** and then press Enter. 
 
-13. On the taskbar, select **Microsoft Edge**.
-
-14. In Microsoft Edge, type **outlook.office.com** and then press Enter. 
-
-15. Verify that you can access Aaron's mailbox. 
+14. Verify that you can access Aaron's mailbox. 
 
     > Note: This is because SEA-WS1 is a managed device and marked as compliant._
 
-16. Close Microsoft Edge and sign out of SEA-WS1.
+15. Close Microsoft Edge and sign out of SEA-WS1.
 
 ### Task 3: Disable the conditional access policy
 
