@@ -10,7 +10,7 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
 ### Task 1: Create a new Deployment Share
 
-1. On the taskbar of **JumpVM**, select **File Explorer** and then browse to **D:\\Labfiles\\ISOs**.
+1. Switch to **HOSTVM**, select **File Explorer** from the taskbar and then browse to **D:\\Labfiles\\ISOs**.
 
 2. Right-click **Win11_21H2_Eval.iso** and then select **Mount**. The ISO mounts as DVD Drive E.
 
@@ -168,9 +168,9 @@ You need to deploy a new Windows 11 virtual machine named SEA-WS4. You decide to
 
 ### Task 6: Deploy Windows 11 Using MDT
 
-1. On JumpVM, on the taskbar, select **Hyper-V Manager**.
+1. On HOSTVM, select **Hyper-V Manager** in the taskbar.
 
-2. In JumpVM Hyper-V Manager, select **New** in the Actions pane and then select **Virtual Machine**.
+2. In Hyper-V Manager, select **New** in the Actions pane and then select **Virtual Machine**.
 
 3. On the **Before you Begin** page, select **Next**.
 
