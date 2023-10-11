@@ -78,10 +78,6 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
 
 ### Task 2: Verify and enable BitLocker settings
 
-  >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
-
-   ![](../media/passwordwriteback1.png)
-
 1. Switch to **HOSTVM** and sign in to **SEA-WS1** VM through desktop shortcut as **Aaron Nicholls** with the PIN **102938**. 
    
      >**Note** : Ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
