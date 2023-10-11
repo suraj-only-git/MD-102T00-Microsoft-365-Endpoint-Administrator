@@ -76,7 +76,7 @@ SEA-WS4 has been deployed by using Windows Autopilot. You need to test out anoth
 
 5. At the message prompt, select **Yes**.
 
-6. Switch to **SEA-W10-CL3**.
+6. Switch to **HOSTVM** and sign in to **SEA-W10-CL3**.
 
    > Note: SEA-W10-CL3 should still be running from the previous lab.
 
@@ -99,8 +99,6 @@ SEA-WS4 has been deployed by using Windows Autopilot. You need to test out anoth
 1. At the sign-in page, enter **`Aaron@yourtenant.onmicrosoft.com`** with the Password of **Pa55w.rd1234!**.
 
 2. At the **Use Windows Hello with your account**, select **OK**.
-
-   >**Note**: If windows hello doesn't show up and if it directly logs you in, Try signing out and signing in again.
 
 3. At the **Verify your identity** page, select the Text verification method.
 

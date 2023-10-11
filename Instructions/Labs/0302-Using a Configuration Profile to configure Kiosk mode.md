@@ -26,7 +26,7 @@ You have been asked to configure SEA-WS2 as a Windows 11 kiosk to allow Contoso 
 
 ### Task 1: Enroll SEA-WS2 to Microsoft Intune
 
-1. Sign in to **SEA-WS2** as **Admin** with the password of **Pa55w.rd**.
+1. Switch to **HOSTVM** and sign in to **SEA-WS2** VM through desktop shortcut as **Admin** with the password of **Pa55w.rd**.
 
 2. Select **Start** and then select **Settings**.
 
@@ -125,7 +125,11 @@ You have been asked to configure SEA-WS2 as a Windows 11 kiosk to allow Contoso 
 
 ### Task 4: Verify that the Configuration profile is applied
 
-1. Switch to **SEA-WS2**.
+1. Switch to **HOSTVM** and sign in to **SEA-WS2** as **Admin** with the password of **Pa55w.rd**.
+  
+    >**Note** : Ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+
+   ![](../media/passwordwriteback1.png)
 
 2. On **SEA-WS2**, on the taskbar, select **Start** and then select **Settings**.
 

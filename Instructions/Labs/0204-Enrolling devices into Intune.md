@@ -22,7 +22,7 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 
 ### Task 1: Automatically enroll a Windows device to Microsoft Intune
 
-1. Sign in to **SEA-WS1** as **Admin** with the password of **Pa55w.rd**.
+1. Switch to **HOSTVM** and Sign in to **SEA-WS1** VM from the desktop shortcut as **Admin** with the password of **Pa55w.rd**.
 
 2. Select **Start** and then select **Settings**.
 
@@ -114,8 +114,6 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
  - On the **All set!** page, select **OK**.
 
  - Sign out of **SEA-WS1**.
-
-   >**Note**: After logging in if the the Windows Hello screen doesn't show up you might have to perform Signing out and signing back in.
 
 ### Task 4: Verifying device enrollment in the Intune console
 

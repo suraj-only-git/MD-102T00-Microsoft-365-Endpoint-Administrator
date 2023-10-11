@@ -56,7 +56,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 ### Task 2: Create a virtual machine using Hyper-V
 
-1. On the JumpVM/LabVM, Click on Hyper-V manager available on the Task bar
+1. Switch to **HOSTVM**, Click on Hyper-V manager available on the Task bar
 
 1. In Actions click on New and Click on Virtual machine.
 
@@ -82,29 +82,29 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
    ![](media/006.png)
 
-1. In Connect Virtual Hard disks Leave the default settings and click on next.
+1. In Connect Virtual Hard disks Leave the default settings and click on **Next**
 
 1. In installation options select Install operating system from bootable CD/DVD ROM. Under that select **Image file iso**
 
-1. Click on browse and navigate to **D:\Labfiles\ISOs** and select **Win10.iso** and click on next summary
+1. Click on browse and navigate to **D:\Labfiles\ISOs** and select **Win10.iso** and click on **Next**
 
    ![](media/007.png)
 
-1. Review the settings and click on finish.
+1. Review the settings on summary page and click on **Finish**
 
 ## Task 03: Configure Domain for the created virtual machine
 
-1. Once the virtual machine is created Right click on the virtual machine and click on start.
+1. Once the **SEA-W10-CL3** VM is created, right click and select **start**.
 
-1. Once the VM is in the Running state Right click on it and click on Connect.
+1. Once it is in the Running state, right click and select **Connect**.
 
    ![](media/0008.png)
 
 1. You can see the Windows setup wizard.
 
-1. Select the default language i.e English(united states) and click on next
+1. Click on **Next**
 
-1. Click on Install
+1. Click on **Install**
 
    ![](media/008.png)
 
@@ -112,7 +112,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
    ![](media/009.png)
 
-1. In the Installation type choose **Custom installation(advanced)**
+1. On the *Which type of installation do you want* page, choose **Custom:Install Windows Only (advanced)** option
 
 1. Select the storage and click on next. and the installation will begin.
 
@@ -120,7 +120,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
    >**Note**: Installation might roughly take upto 15-20 mins.
 
-1. Once the installation is completed it will ask you to select Region. Select The default one (United States)
+1. Once the installation is completed it will ask you to select Region. Select The default one (United States) and select **Yes**
 
 1. Select the Keyboard layout **US**
 
@@ -134,11 +134,11 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
    ![](media/013.png)
 
-1. Give the username **Admin** and click on next.
+1. On *Who is going to use this PC* page, enter **Admin** at the Name text box and click on **Next**.
 
-1. For password and Confirm password, enter **Pa55w.rd** and Select Next.
+1. For password and Confirm password, enter **Pa55w.rd** and Select **Next**.
 
-1. On create security questions for this account page, Select any three question of your choice and fill in the answers Then click on next.
+1. On create security questions for this account page, Select any three question of your choice and fill in the answers, then click on next.
 
 1. Click on Accept for Choose privacy settings for your device page.
 
@@ -156,9 +156,9 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. Once Rebooted it asks for username and password. Enter **Admin** for username and **Pa55w.rd** for password.
 
-1. Once you are logged in Press **win key + R** or search **Run** in Start to open Run command.
+1. Once logged in to **SEA-W10-CL3** and search and select **Run** from Start menu to open Run command.
 
-1. Type **sysdm.cpl** and press enter. It opens System properties.
+1. Type **sysdm.cpl** and press enter which opens System properties.
 
 1. Click on **Change**.
 
@@ -298,7 +298,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. At the **Contoso Corp. Sign-in Page**, enter **`Aaron@yourtenant.onmicrosoft.com`** and select **Next**.
 
-2. At the Password page, enter **Pa55w.rd1234!** and select **Sign in**.
+2. At the Password page, enter **Pa55w.rd1234!** and select **Next**.
 
 3. At the **Use Windows Hello with your account**, select **OK**.
 
@@ -320,13 +320,11 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 12. On **SEA-W10-CL3**, close the **Settings** window.
 
-   >**Note**: After logging in if the the Windows Hello screen doesn't show up you might have to perform Signing out and signing back in.
-
 13. Switch to **SEA-SVR1**.
 
 14. In the Microsoft Entra admin center, select **Identity**, select **Devices** and then select **All devices**. 
 
-    > Note that the new device displays with an icon that indicates an Autopilot device. Also note that the Join Type is **Azure AD joined** with Aaron Nicholls as the owner.
+    > Note that the new device displays with an icon that indicates an Autopilot device. Also note that the Join Type is **Microsoft Entra joined** with Aaron Nicholls as the owner.
 
 15. Select the Autopilot device and then select **Manage**. 
 

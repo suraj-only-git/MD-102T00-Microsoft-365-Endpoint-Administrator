@@ -42,7 +42,7 @@ You use Microsoft Intune to manage desktops and apps for Contoso Corporation. Th
 
 8. On the **Select app type** page, click the drop-down menu and then Choose **Microsoft store app (new)**. Click **Select**.
 
-9. On the **Add App** page, click **Seach the  Microsoft Store app (new)**, search for and select **Microsoft Remote Desktop**. Click **Select**.
+9. On the **Add App** page, click **Search the  Microsoft Store app (new)**, search for and select **Microsoft Remote Desktop**. Click **Select**.
 
 10. On the **App information** page, verify the following information and then select **Next**:
     - Name: **Microsoft Remote Desktop**
@@ -82,7 +82,7 @@ You use Microsoft Intune to manage desktops and apps for Contoso Corporation. Th
 
    > **Note**: It can take several minutes for the app to appear in the Company Portal Website. If the app does not appear, wait a few minutes and then refresh the page. If the app still does not appear, verify that you have assigned the app to the correct group and that the device is a member of the group. (This could take up to 30 minutes.)
 
-1. Switch to **SEA-WS1**.
+1. Switch to **HOSTVM** and sign in to **SEA-WS1** VM through desktop shortcut and verify that you are in basic session mode.
 
 2. Sign in as **Aaron Nicholls** with the PIN **102938**.
 
@@ -194,13 +194,15 @@ All the users of the Research department at Contoso require Microsoft 365 Apps. 
 
 ### Task 4: Verify Microsoft 365 apps are installed
 
-1. Switch to **SEA-WS1** and wait approximately 10-15 minutes for the Microsoft 365 Suite to install on the device.
+1. Switch to **HOSTVM** and sign in to **SEA-WS1** and wait approximately 10-15 minutes for the Microsoft 365 Suite to install on the device.
 
 2. Sign out of **SEA-WS1** and then sign back in as **Aaron Nicholls** with the PIN **102938**.
 
 3. On **SEA-WS1**, on the taskbar, select **Start** and then select the **Settings** app.
 
 4. In the **Settings** app, select **Apps** and on the **Apps & features** page, scroll down and verify that **Microsoft 365 Apps for enterprise - en-us** is listed.
+  
+   >**Note**: If the above said app is not listed, restart the SEA-WS1 and sign in back with PIN **102938**
 
 5. Close the **Settings** app and select the **Start** button.
 
@@ -229,6 +231,8 @@ All the users of the Research department at Contoso require Microsoft 365 Apps. 
 6. Select **Device install status**.
 
    > In the details pane, you can see the devices that the app is installed on, and also the name of the user. The **Device Name** column should list **SEA-WS1** and the **Status** column should say **Installed**. This means that the app is installed on SEA-WS1.
+
+   _Note: that it may take some time for the information to display._
 
 7. In the **Microsoft Intune admin center**, select **Devices**.
 

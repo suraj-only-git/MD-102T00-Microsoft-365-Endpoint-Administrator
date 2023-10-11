@@ -154,7 +154,7 @@ You've also been told that several more employees will be hired over the next co
 
 7. Back In the **PowerShell 7** window, type the following code to create a new profile object, and then press **enter**. Replace **Pa55-w.rd!** with a complex password of your choice:
 
-   >**Note**: Copy paste the Commands on notepad before pasting it in the powershell to avoid mistakes and gli.
+   >**Note**: Copy paste the Commands on notepad before pasting it in the powershell to avoid mistakes.
 
     ```
     $PWProfile = @{

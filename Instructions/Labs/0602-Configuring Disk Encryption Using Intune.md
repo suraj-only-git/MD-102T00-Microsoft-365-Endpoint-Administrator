@@ -58,7 +58,7 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
      - Compatible TPM startup PIN: **Allowed**
      - System drive recovery: **Configure**
      - Recovery key file creation: **Allowed**
-     - Require device to back up recovery information to Azure: **Yes**
+     - Require device to back up recovery information to Azure AD: **Yes**
      - Recovery password creation: **Required**
      - Hide recovery options during BitLocker setup: **Yes**
      - Enable BitLocker after recovery information to store: **Yes**
@@ -82,7 +82,11 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
 
    ![](../media/passwordwriteback1.png)
 
-1. On **SEA-WS1**, sign in as **Aaron Nicholls** with the PIN **102938**. If pin is not Prompted you can use the password **Pa55w.rd1234!** .
+1. Switch to **HOSTVM** and sign in to **SEA-WS1** VM through desktop shortcut as **Aaron Nicholls** with the PIN **102938**. 
+   
+     >**Note** : Ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+
+   ![](../media/passwordwriteback1.png)
     
   >**Note**: Inorder for the **PIN** to prompt you must start the VM in **basicmode** which will result in deactivating the clipboard shortcuts. You can use the Clipboard option in toolbar to perform copy paste actions.  
 
@@ -100,7 +104,7 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
 
 7. On the **Choose how to unlock your drive at startup?** page, select **Enter a Password**
 
-8. On the **Enter a Password** page, in the **Password** and **Reenter Password** boxes, enter **Pa55w.rd**, and then select **Set PIN**.
+8. On the **Enter a Password** page, in the **Password** and **Reenter Password** boxes, enter **Pa55w.rd** and select **Next**.
 
 9. On the **Choose how much of your drive to encrypt** page, select **Encrypt used disk space only** and select **Next**.
    
@@ -111,8 +115,6 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
 13. At the **Encryption of C: is complete** message, select **Close**, and then restart **SEA-WS1**.
 
 14. When **SEA-WS1** restarts, type **Pa55w.rd** and press **Enter** to unlock the drive.
-
-15. And enter the user password **Pa55w.rd1234!** to log in.
 
 ### Task 3: Verify BitLocker protection
 

@@ -32,7 +32,7 @@ Several users have asked to use their personal iOS, Android, and Windows devices
 
 ### Task 2: Perform Azure AD registration
 
-1. Switch to **SEA-WS1** and sign in as **Admin** with the password of **Pa55w.rd**.
+1. Switch to **HOSTVM** and sign in to **SEA-WS1** VM through desktop shortcut as **Admin** with the password of **Pa55w.rd**.
 
 2. On the taskbar, select **Start** and then select **Settings**.
 
@@ -80,7 +80,7 @@ Several users have asked to use their personal iOS, Android, and Windows devices
 
 ### Task 4: Sign in to Windows and disconnect from the organization
 
-1. Switch to **SEA-WS1** and attempt to sign in as **`JoniS@yourtenant.onmicrosoft.com`**.
+1. Switch to **HOSTVM** and attempt to sign in to **SEA-WS1** as **`JoniS@yourtenant.onmicrosoft.com`**.
 
    >**Note**: You might have to restart the VM so that the other user appears in the log-in screen.
 
