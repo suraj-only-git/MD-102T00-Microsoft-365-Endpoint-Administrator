@@ -92,11 +92,13 @@ SEA-WS4 has been deployed by using Windows Autopilot. You need to test out anoth
 
 ### Task 3: Verify Autopilot deployment
 
-  >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+   >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
 
    ![](../media/passwordwriteback1.png)
 
 1. At the sign-in page, enter **`Aaron@yourtenant.onmicrosoft.com`** with the Password of **Pa55w.rd1234!**.
+
+  >**Note**: Replace **yourtenant** with the tenant name provided to you 
 
 2. At the **Use Windows Hello with your account**, select **OK**.
 
