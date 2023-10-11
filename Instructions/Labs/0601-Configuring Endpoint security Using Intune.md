@@ -107,11 +107,12 @@ Settings will be verified by testing on an enrolled device, SEA-WS1 and a non-en
 
 ### Task 4: Verify the configuration
 
-1. Switch to **SEA-CL1**.
+1. Switch to **HOSTVM** and sign in to **SEA-CL1**.
 
 2. If necessary, sign in as **Contoso\Administrator** with the password of **Pa55w.rd**.
 
   >**Note**: Incase if you see the warning "Not enough memory" Go-to hyper-v manager in task bar and right click on any un used VM  and turn it off.
+   >**Note**: Incase if you see the warning that restart is required, then Go-to hyper-v manager in task bar and right click on SEA-CL1 VM and select **turn off ** and do the right click again select **Settings** and disable the security boot enabled option and sign in again.
 
 3. On **SEA-CL1**, select **Start**, type **Windows Security**, and then under the Windows Security icon select **Open**.
 
@@ -119,13 +120,11 @@ Settings will be verified by testing on an enrolled device, SEA-WS1 and a non-en
 
 4. Close **Windows Security** and sign out of SEA-CL1.
 
-  >**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If     not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
+5. Switch to **SEA-WS1** VM through desktop shortcut inside HOSTVM and signout if necessary, and sign in as as **Aaron Nicholls** with the PIN: **102938**
+  
+>**Note** : Before proceeding with the next step, ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
 
-   ![](../media/passwordwriteback1.png)
-
-5. Switch to **SEA-WS1**, and sign in as as **Aaron Nicholls** with the PIN: **102938**. or if it asks for password type **Pa55w.rd1234!**
-
-  >**Note**: Inorder for the **PIN** to prompt you must start the VM in **basicmode** which will result in deactivating the clipboard shortcuts. You can use the Clipboard option in toolbar to perform copy paste actions.  
+   ![](../media/passwordwriteback1.png) 
 
 6. Select **Start**, type **Windows Security**, and then under the Windows Security icon select **Open**.
 
