@@ -130,7 +130,31 @@ You've also been told that several more employees will be hired over the next co
 
 43. Minimize the **Microsoft Edge** window.
 
-### Task 2: Create users by using Powershell
+### Task 2: Disable the security defaults (Only if they set to Enabled)
+
+1. On the taskbar, select **Microsoft Edge**.
+
+2. In the address bar, enter **https://portal.azure.com/**.
+
+3. At the Sign-in prompt, enter **<inject key="AzureAdUserEmail"></inject>** and then select **Next**.
+
+4. At the Enter password page, enter the password for the Admin account as **<inject key="AzureAdUserPassword"></inject>** and then select **Sign in**.
+
+5. At the Save password prompt, select **Save & Turn on**.
+
+6. At the Stay signed in prompt, select **No**. The Microsoft 365 admin center opens.
+
+   >**Note**: If the prompt asks for **Action Required** Select **Ask later**.
+
+7. Go to Microsoft Entra ID.
+
+8. Select **Properties**, then select **Manage Security defaults**.
+
+9. On the **Security defaults** side screen, set the Security defaults to **disabled** only if it is showing enabled and from the drop down list, select the option **My organization is using Conditional Access** , then select **Save**.
+
+10. A pop-up will appear about the confirmation to disable the Security defaults, select **Disable**.
+
+### Task 3: Create users by using Powershell
 
 1. On **SEA-SVR1**, click into the **Windows Search** bar and then type **PWSH**. Right click on **PowerShell 7** and then select **Run as Administrator**.
 
