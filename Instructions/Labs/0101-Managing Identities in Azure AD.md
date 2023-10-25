@@ -130,7 +130,7 @@ You've also been told that several more employees will be hired over the next co
 
 43. Minimize the **Microsoft Edge** window.
 
-### Task 2: Disable the security defaults (Only if they set to Enabled)
+### Task 2: Disable the security defaults (Only if it set to Enabled)
 
 1. On the taskbar, select **Microsoft Edge**.
 
