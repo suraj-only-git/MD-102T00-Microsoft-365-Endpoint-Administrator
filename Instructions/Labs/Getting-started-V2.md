@@ -1,6 +1,6 @@
-# Getting Started with Your AZ-800: Administering Windows Server Hybrid Core Infrastructure Workshop
+# Getting Started with Your MD-102: Endpoint Administrator Workshop
  
-Welcome to your AZ-800: Administering Windows Server Hybrid Core Infrastructure workshop! We've prepared a seamless environment for you to explore and learn about configuring and managing Windows Server on-premises, hybrid, and infrastructure as a service (IaaS) platform workloads. Let's begin by making the most of this experience:
+Welcome to your MD-102: Endpoint Administrator workshop! We've prepared a seamless environment for you to explore and learn about deploying, configuring, protecting, managing, and monitoring devices and client applications in a Microsoft 365 environment. Let's begin by making the most of this experience:
  
 ## Accessing Your Lab Environment
  
