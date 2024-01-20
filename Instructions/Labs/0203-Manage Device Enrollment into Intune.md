@@ -72,6 +72,8 @@ You need to prepare for device management using Microsoft Intune. First of all, 
 
 6. On the **MDM user scope** row, select **All** and then select **Save**.
 
+     ![](../media/11.png)
+
    _**Note**: By performing this step, you enabled automatic enrollment into Intune for any User that performs an Azure AD join with a Windows device._
 
 ### Task 3: Configure Enrollment Restrictions
@@ -87,6 +89,8 @@ You need to prepare for device management using Microsoft Intune. First of all, 
    > Notice that there is a Default device type restriction that is assigned to **All Users**. This default restriction allows all device types.
 
 5. In the details pane, select the **Android restrictions** tab, and then select **+ Create restriction**.
+
+   ![](../media/10.png)
 
 6. On the Create restriction page, in the Name box enter **Android Personal Device Restriction**. Select **Next**.
 

@@ -189,6 +189,8 @@ Some Contoso Windows devices are currently joined to the local Active Directory 
 
 2. Select **Start**, expand **Windows Administrative Tools**, and then select **Active Directory Users and Computers**.
 
+   ![](../media/15.png)
+
 3. In **Active Directory Users and Computers**, right-click **Contoso.com**, point to **New**, and then select **Organizational Unit**.
 
 4. In the **New-Object - Organizational Unit** dialog box, type **Azure AD clients** and then select **OK**.

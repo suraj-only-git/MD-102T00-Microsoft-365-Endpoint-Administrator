@@ -46,6 +46,8 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 
 12. Select **Connected to Contoso's Azure AD** and then select **Info**.
 
+    ![](../media/09.png)
+
 13. Take note of the information regarding the areas managed by Contoso, scroll down, and then select **Sync**. This will force a Device sync with Intune.
 
 14. Close the **Settings** window.
@@ -61,6 +63,8 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 -   MS-Organization-P2P-Access \[2023\]
 
     This indicates that the device is enrolled in Azure AD and Intune.
+
+    ![](../media/08.png)
 
     >**Note**: Wait for 5-10 mins to get certificates.
 
@@ -116,6 +120,8 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 
  - Sign out of **SEA-WS1**.
 
+   ![](../media/07.png)
+
 ### Task 4: Verifying device enrollment in the Intune console
 
 1. Switch to **SEA-SVR1** as **Contoso\Administrator** with the password of **Pa55w.rd**. 
@@ -125,6 +131,8 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 3. In the navigation pane, select **Devices**.
 
 4. On the **Devices | Overview** blade under **Intune enrolled devices**, verify that **1** is displayed next to **Windows**. It may take a while to display.
+
+    ![](../media/06.png)
 
 5. On the **Devices** blade, select **All devices** and verify that **SEA-WS1** is listed.
 

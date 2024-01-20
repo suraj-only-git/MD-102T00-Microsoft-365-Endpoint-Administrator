@@ -77,7 +77,9 @@ You need to use Azure Active Directory (Azure AD) and Intune to manage members o
 
 6. On the **Devices | Overview** page, select **Configuration Profiles**.
 
-7. On the **Devices | Configuration profiles** blade, in the details pane, select **+ Create profile**.
+7. On the **Devices | Configuration profiles** blade, in the details pane, click on **Create** and select **+ New policy**.
+
+   ![](../media/03.png)
 
 8. In the **Create a profile** blade, select the following options, and then select **Create**:
 
@@ -153,6 +155,8 @@ You need to use Azure Active Directory (Azure AD) and Intune to manage members o
 
 6. On the **Dynamic membership rules** blade, select **Save**.
 
+   ![](../media/02.png)
+
 7. On the **New Group** page, select **Create**.
 
 ### Task 5: Assign a Configuration profile to Windows devices
@@ -164,6 +168,8 @@ You need to use Azure Active Directory (Azure AD) and Intune to manage members o
 3. On the **Devices | Configuration profiles** blade, in the details pane, select the **Contoso Developer – standard** profile.
 
 4. On the **Contoso Developer – standard** blade, scroll down to the **Assignments** section, and select **Edit**.
+
+   ![](../media/01.png)
 
 5. On the Assignments page, under **Included groups** select **Add groups**.
 
@@ -198,6 +204,8 @@ You need to use Azure Active Directory (Azure AD) and Intune to manage members o
 10. In the **Settings** app, select **Privacy and Security**.
 
 11. On the **Privacy & Security** page, select **Windows Security** and then select **Open Windows Security**.
+
+    ![](../media/04.png)
 
 12. On the **Windows Security** page, select **Virus & threat protection**.
 
@@ -240,6 +248,8 @@ There was an exception to Contoso's policy that specifies that members of the De
 2. In the details pane, select **SEA-WS1**. 
     
 3. On the **SEA-WS1** blade, select **Sync** and when prompted select **Yes**. 
+
+    ![](../media/05.png)
 
    _Note: Intune will contact the device and tell it to synchronize all policies. This may take up to 5 minutes._
 
