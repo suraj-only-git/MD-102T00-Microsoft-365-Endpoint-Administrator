@@ -32,7 +32,7 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 
 5. In the **Access work or school** page, select **Connect**.
 
-6. In the **Microsoft account** window, select **Join this device to Azure Active Directory**.
+6. In the **Microsoft account** window, select **Join this device to Microsoft Intra ID**.
 
 7. On the **Sign in** page, type **`Aaron@yourtenant.onmicrosoft.com`** and then select **Next**.
 
