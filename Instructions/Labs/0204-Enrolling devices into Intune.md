@@ -2,7 +2,7 @@
 
 ## Summary
 
-In this lab, you will join a Windows client to Azure AD and verify that the device has automatically enrolled in to Microsoft Intune.
+In this lab, you will join a Windows client to Azure AD and verify that the device has automatically enrolled into Microsoft Intune.
 
 ### Prerequisites
 
@@ -14,7 +14,7 @@ To following lab(s) must be completed before this lab:
 
 - 0203-Manage Device Enrollment into Intune
 
-  > Note: You will also need a mobile phone that can receive text messages used to secure Windows Hello sign in authentication to Azure AD.
+  > Note: You will also need a mobile phone that can receive text messages used to secure Windows Hello sign-in authentication to Azure AD.
 
 ### Scenario
 
@@ -35,7 +35,6 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 6. In the **Microsoft account** window, select **Join this device to Microsoft Entra ID**.
 
 7. On the **Sign in** page, type **`Aaron@yourtenant.onmicrosoft.com`** and then select **Next**.
-
 
 8. On the **Enter password** page, enter **Pa55w.rd** and then select **Sign in**.
 
@@ -62,6 +61,8 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 -   MS-Organization-P2P-Access \[2023\]
 
     This indicates that the device is enrolled in Azure AD and Intune.
+
+    >**Note**: Wait for 5-10 mins to get certificates.
 
 3. Close the Certificates window.
 
@@ -129,7 +130,7 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 
 6. Note that for SEA-WS1, the **Managed by** column displays **Intune** and the **Ownership** column displays **Corporate**. 
 
-   _Note: This view lists devices that are joined to Azure AD. Remember that you configured automatic enrollment between Azure AD and Intune, and because of that, any device that is joined to Azure AD is automatically enrolled to Intune. Any devices joined prior to setting up enrollment are only joined to Azure AD, but not enrolled in Intune._
+   _Note: This view lists devices that are joined to Azure AD. Remember that you configured automatic enrollment between Azure AD and Intune, and because of that, any device that is joined to Azure AD is automatically enrolled in Intune. Any devices joined prior to setting up enrollment are only joined to Azure AD, but not enrolled in Intune._
 
 7. Open a new tab in **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
@@ -141,6 +142,6 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 
 10. Close all open Windows.
 
-**Results**: After completing this exercise, you will have successfully joined a Windows client to Azure AD and verified that the device has automatically enrolled in to Microsoft Intune.
+**Results**: After completing this exercise, you will have successfully joined a Windows client to Azure AD and verified that the device has automatically enrolled into Microsoft Intune.
 
 **END OF LAB**
