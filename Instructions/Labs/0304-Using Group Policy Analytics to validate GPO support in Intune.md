@@ -22,6 +22,8 @@ Contoso has traditionally used Active Directory GPOs to deploy computer and user
 
 5. In the details pane, select the **Windows Client Policy** GPO.
 
+   ![](../media/16.png)
+
 6. Right-click **Windows Client Policy** and then select **Save Report**.
 
 7. In the Save GPO Report dialog box, select **Documents**, change the **Save as type** to **XML file**, and then select **Save**.
