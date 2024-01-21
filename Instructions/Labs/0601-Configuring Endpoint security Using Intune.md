@@ -124,7 +124,7 @@ Settings will be verified by testing on an enrolled device, SEA-WS1 and a non-en
   
 >**Note** : Ensure that you are in basic session mode and able to view Clipboard in the menu bar as shown in the below image. If not please change it to the basic session by selecting the icon which was highlighted in the tool bar in the below image.
 
-   ![](../media/passwordwriteback1.png) 
+  ![](../media/passwordwriteback1.png) 
 
 6. Select **Start**, type **Windows Security**, and then under the Windows Security icon select **Open**.
 

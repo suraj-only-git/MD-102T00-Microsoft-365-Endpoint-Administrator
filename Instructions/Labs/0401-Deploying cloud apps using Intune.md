@@ -50,7 +50,7 @@ You use Microsoft Intune to manage desktops and apps for Contoso Corporation. Th
     - Category: **Business(3)**
     - Show this as a featured app in the Company Portal: **Yes(4)**
  
-   ![](../media/13-1.png) 
+    ![](../media/13-1.png) 
 
 11. Select **Next** twice and then select **Create**.
 
