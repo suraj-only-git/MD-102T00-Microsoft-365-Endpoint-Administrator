@@ -84,7 +84,7 @@ SEA-WS4 has been deployed by using Windows Autopilot. You need to test out anoth
 
 8. Click on your organisation account Then select on info and scroll down click on **Sync** button.
 
-9. Wait until the sync is completed. Then additionally wait for (5-10) minutes efore proceeding to the next step.
+9. Wait until the sync is completed. 
 
 10. Restart **SEA-W10-CL3**.
 
