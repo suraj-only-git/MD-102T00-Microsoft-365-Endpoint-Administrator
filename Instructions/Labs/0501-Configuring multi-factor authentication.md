@@ -222,13 +222,15 @@ To provide additional security for user sign on events, you need to configure an
 
 7. At the **Enter code** page, enter the code sent to your mobile phone, and then select **Verify**.
 
-8. At the Stay signed in message, select **No**. 
+8. At the **Protect your account** page, select **skip for now**.
+
+9. At the Stay signed in message, select **No**. 
 
    > Outlook on the Web opens to Alex Wilber's inbox.
 
-9. At the top-right corner, select the **Account manager for Alex Wilber** and then select **Sign out**.
+10. At the top-right corner, select the **Account manager for Alex Wilber** and then select **Sign out**.
 
-10. Close Microsoft Edge.
+11. Close Microsoft Edge.
 
 ### Task 4: Remove conditional access MFA
 
