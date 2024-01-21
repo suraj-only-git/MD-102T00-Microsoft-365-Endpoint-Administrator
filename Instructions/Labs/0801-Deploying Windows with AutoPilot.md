@@ -58,35 +58,35 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. Switch to **HOSTVM**, Click on Hyper-V manager available on the Task bar
 
-1. In Actions click on New and Click on Virtual machine.
+1. In Actions click on **New(1)** and Click on **Virtual machine(2)**.
 
    ![](media/001.png)
 
-1. In the New virtual machine wizard. Click on Next for before you begin.
+1. In the before you begin page, click on **Next**.
 
    ![](media/002.png)
 
-1. In Specify Name and location enter the name **SEA-W10-CL3** and click on next.
+1. In Specify Name and location page, enter the name **SEA-W10-CL3(1)** and click on **Next(2)**.
 
    ![](media/003.png)
 
-1. In Specify Generation click on **gen 1** and click on next.
+1. In Specify Generation page,  choose **Generation 1(1)** and click on **Next(2)**.
 
    ![](media/004.png)
 
-1. In Assign Memory enter the size **4096** and enable **use dynamic memory for this virtual machine** and click on Next
+1. In Assign Memory enter the size **4096**(1) and enable **Use dynamic memory for this virtual machine(2)** and click on **Next(2)**
 
    ![](media/005.png)
 
-1. In Configure networking Select the drop down and choose **internal switch** and click on Next
+1. In Configure networking Select the drop down and choose **Internalswitch(1)** and click on **Next(2)**
 
    ![](media/006.png)
 
 1. In Connect Virtual Hard disks Leave the default settings and click on **Next**
 
-1. In installation options select Install operating system from bootable CD/DVD ROM. Under that select **Image file iso**
+1. In installation options select **Install operating system from bootable CD/DVD ROM(1)**. Under that select **Image file iso(2)**
 
-1. Click on browse and navigate to **D:\Labfiles\ISOs** and select **Win10.iso** and click on **Next**
+1. Click on **Browse(3)** and navigate to **D:\Labfiles\ISOs** and select **Win10.iso(4)** and click on **Next(5)**
 
    ![](media/007.png)
 
@@ -104,17 +104,17 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. Click on **Next**
 
-1. Click on **Install**
+1. Click on **Install now**
 
    ![](media/008.png)
 
-1. Click on **I Accept** License terms. and click on next
+1. Select the checkbox **I Accept the License terms(1)**. and click on **Next(2)**
 
    ![](media/009.png)
 
 1. On the *Which type of installation do you want* page, choose **Custom:Install Windows Only (advanced)** option
 
-1. Select the storage and click on next. and the installation will begin.
+1. On the *Which type of installation do you want* page, select the **Drive 0 unallocated space(1)** and click on **Next(2)** to begin the installation process.
 
    ![](media/010.png)
 
@@ -140,11 +140,11 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. On create security questions for this account page, Select any three question of your choice and fill in the answers, then click on next.
 
-1. Click on Accept for Choose privacy settings for your device page.
+1. Click on **Accept** for Choose privacy settings for your device page.
 
    ![](media/016.png)
 
-1. Click on Not now for the Cortana setup.
+1. Click on **Not now** for the Cortana setup.
 
    ![](media/017.png)
 
@@ -160,17 +160,17 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 1. Type **sysdm.cpl** and press enter which opens System properties.
 
-1. Click on **Change**.
-
    ![](media/022.png)
+   
+1. Click on **Change**.
 
    ![](media/023.png)
 
-1. When the screen pops-up leave the computer name as default, and under **member of** select Domain and Type **Contoso.com**, Select Ok
-
-1. Windows security screen pops-up Give username as **Administrator** And Password as **Pa55w.rd**. Press enter
+1. When the screen pops-up leave the computer name as default, and under **Member of** select Domain and Type **Contoso.com**, Select Ok
 
    ![](media/024.png)
+
+1. Windows security screen pops-up Give username as **Administrator** And Password as **Pa55w.rd**. Press enter
 
    ![](media/025.png)
 
@@ -246,7 +246,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 12. On the **Out-of-box experience (OOBE)** tab, ensure that the **Deployment mode** is set to **User-Driven**.
 
-13. Ensure that **Join to Azure AD as** is set to **Azure AD Joined**.
+13. Ensure that **Join to Microsoft Entra ID as** is set to **Microsoft Entra Joined**.
 
 14. Ensure that the following options are set:
 
@@ -288,7 +288,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
    >Note: Normally this task is not required for new deployment of physical devices. The device’s autopilot info is either provided by the manufacturer or can be obtained from the device prior to the OOBE. For the purposes of this lab, we must initiate a reset to simulate a new device OOBE.
 
-   >Note: This process can take 30-60 minutes and will reboot several times during the process.
+   >**Note**: This process can take 30-60 minutes and will reboot several times during the process.
 
 ### Task 7: Verify Autopilot deployment
 
@@ -297,6 +297,8 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
    ![](../media/passwordwriteback1.png)
 
 1. At the **Contoso Corp. Sign-in Page**, enter **`Aaron@yourtenant.onmicrosoft.com`** and select **Next**.
+
+   >**Note**: Replace **yourtenant** with the tenant name provided to you.
 
 2. At the Password page, enter **Pa55w.rd1234!** and select **Next**.
 
