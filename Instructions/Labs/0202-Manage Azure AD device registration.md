@@ -82,25 +82,23 @@ Several users have asked to use their personal iOS, Android, and Windows devices
 
 1. Switch to **HOSTVM** and attempt to sign in to **SEA-WS1** as **`JoniS@yourtenant.onmicrosoft.com`**.
 
-   >**Note**: You might have to restart the VM so that the other user appears in the log-in screen.
+   >**Note**: Notice that unlike Azure AD Joined devices, an Azure AD registered device does not allow a user to sign in to the device with an Azure AD credential. There will be no option to sign-in as other user.
 
-2. Notice that unlike Azure AD Joined devices, an Azure AD registered device does not allow a user to sign in to the device with an Azure AD credential. 
+2. On SEA-WS1, sign in as **Admin** with the password of **Pa55w.rd**. 
 
-3. On SEA-WS1, sign in as **Admin** with the password of **Pa55w.rd**. 
+3. Select **Start** and then select **Settings**.
 
-4. Select **Start** and then select **Settings**.
+4. In the **Settings** window, select **Accounts**.
 
-5. In the **Settings** window, select **Accounts**.
+5. On the Accounts page, select **Access work or school**.
 
-6. On the Accounts page, select **Access work or school**.
+6. In the **Access work or school** page, select the **JoniS** Work or School account.
 
-7. In the **Access work or school** page, select the **JoniS** Work or School account.
-
-8. Next to Disconnect this account, select **Disconnect** and then select **Yes**.
+7. Next to Disconnect this account, select **Disconnect** and then select **Yes**.
 
    > Notice that you do not have to restart to disconnect a registered device from Azure AD.
 
-9. Sign out of SEA-WS1.
+8. Sign out of SEA-WS1.
 
 **Results**: After completing this exercise, you will have configured Azure AD device registration.
 
