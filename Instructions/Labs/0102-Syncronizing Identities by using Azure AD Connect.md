@@ -2,7 +2,7 @@
 
 ## Summary
 
-In this lab, you will configure synchronization from Active Directory Domain Services to Azure Active Directory.
+In this lab, you will configure synchronization from Active Directory Domain Services to Microsoft Entra ID.
 
 ### Scenario
 
