@@ -8,9 +8,9 @@ In this lab, you will use Microsoft Intune to create and apply a Configuration p
 
 To following lab(s) must be completed before this lab:
 
-- 0101-Managing Identities in Azure AD
+- 0101-Managing Identities in Entra ID
 
-- 0102-Synchronizing Identities by using Azure AD Connect
+- 0102-Synchronizing Identities by using Microsoft Entra Connect
 
 - 0203-Manage Device Enrollment into Intune
 
@@ -22,7 +22,7 @@ To following lab(s) must be completed before this lab:
 
 ### Scenario
 
-You need to use Azure Active Directory (Azure AD) and Intune to manage members of the Developers department at Contoso . You have been asked to evaluate the solutions that would enable the users to work effectively and securely on Windows 11 devices. Aaron Nicholls has volunteered to help you test and evaluate the solution and provide feedback. He has also given you some initial requirements that must be included and applied to the developer's Windows devices:
+You need to use Entra and Intune to manage members of the Developers department at Contoso . You have been asked to evaluate the solutions that would enable the users to work effectively and securely on Windows 11 devices. Aaron Nicholls has volunteered to help you test and evaluate the solution and provide feedback. He has also given you some initial requirements that must be included and applied to the developer's Windows devices:
 
 - The Gaming section in Settings should not be visible.
 - The Privacy section in Settings should be restricted as much as possible.
@@ -133,7 +133,7 @@ You need to use Azure Active Directory (Azure AD) and Intune to manage members o
 
 7. On the **Groups | All groups** blade, verify that the **Contoso developer devices** group is displayed.
 
-### Task 4: Create a dynamic Azure AD device group
+### Task 4: Create a dynamic Entra device group
 
 1. On the **Groups | All Groups** blade, on the details pane, select **New group**.
 
