@@ -1,4 +1,4 @@
-# Practice Lab: Synchronizing Identities by using Azure AD Connect 
+# Practice Lab: Synchronizing Identities by using Microsoft Entra Connect 
 
 ## Summary
 
@@ -8,7 +8,7 @@ In this lab, you will configure synchronization from Active Directory Domain Ser
 
 Contoso Corporation is currently managing users in both AD DS and Azure AD as separate processes. This is time consuming and has led to inconsistent information. You have been tasked with addressing this issue by connecting the two directories by using the Azure AD Connect synchronization tool.
 
-#### Task 1: Configure directory synchronization with Azure AD Connect
+#### Task 1: Configure directory synchronization with Microsoft Entra Connect
 
 1. On **SEA-SVR1**, if necessary, sign in as **Contoso\\Administrator** with the password of **Pa55w.rd** and close **Server Manager**.
 
@@ -58,7 +58,7 @@ Contoso Corporation is currently managing users in both AD DS and Azure AD as se
 
 22. Close all open windows.
 
-#### Task 2: Verify synchronization in Azure AD
+#### Task 2: Verify synchronization in Entra ID
 
 1. On the taskbar, select **Microsoft Edge**.
 
@@ -92,6 +92,6 @@ Contoso Corporation is currently managing users in both AD DS and Azure AD as se
 
 14. Close Microsoft Edge.
 
-**Results**: After completing this exercise, you will have successfully configured Azure AD Connect to synchronize identity from Active Directory Domain Services to Azure Active Directory.
+**Results**: After completing this exercise, you will have successfully configured Microsoft Entra Connect to synchronize identity from Active Directory Domain Services to Entra ID.
 
 **END OF LAB**
