@@ -1,4 +1,4 @@
-# Practice Lab: Configuring and managing Azure AD Join
+# Practice Lab: Configuring and managing Entra Join
 
 ## Summary
 
@@ -8,17 +8,17 @@ In this lab, you will configure Azure AD Join settings and perform both standard
 
 To following lab(s) must be completed before this lab:
 
-- 0102-Synchronizing Identities by using Azure AD Connect
+- 0102-Synchronizing Identities by using Microsoft Entra Connect
 
   > Note: You will also need a mobile phone that can receive text messages used to secure Windows Hello sign in authentication to Azure AD.
 
-## Exercise 1: Configuring Azure AD Join
+## Exercise 1: Configuring Entra Join
 
 ### Scenario
 
-You need to configure Azure Active Directory device settings to ensure that all users are allowed to join devices to Azure AD. You also need to ensure that users can only join a maximum of 20 devices and that Allan Deyoung is added as a local administrator on all Azure AD joined devices. Finally, you will verify that Azure AD join works as expected by having Joni Sherman join SEA-WS1 to the tenant.
+You need to configure Entra ID device settings to ensure that all users are allowed to join devices to Entra ID. You also need to ensure that users can only join a maximum of 20 devices and that Allan Deyoung is added as a local administrator on all Entra joined devices. Finally, you will verify that Entra join works as expected by having Joni Sherman join SEA-WS1 to the tenant.
 
-### Task 1: Configure Azure AD join Device settings
+### Task 1: Configure Entra join Device settings
 
 1. On **SEA-SVR1**, if necessary, sign in as **Contoso\\Administrator** with the password of **Pa55w.rd** and close Server Manager.
 
@@ -36,27 +36,27 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 6. On the **Devices | All devices** page, On the left menu select **Device settings**.
 
-7. On the **Devices|Device settings** page, in the details pane, under **Users may join devices to Azure AD**, verify that **All** is selected. 
+7. On the **Devices|Device settings** page, in the details pane, under **Users may join devices to Microsoft Entra**, verify that **All** is selected. 
 
-   > This indicates that all Azure AD users are permitted to join Windows 10 or newer devices to Azure Active Directory. Note that this setting does not apply to hybrid Azure AD joined devices, or devices joined by using Windows Autopilot self-deployment mode.
+   > This indicates that all Entra users are permitted to join Windows 10 or newer devices to Microsoft Entra. Note that this setting does not apply to hybrid Entra joined devices, or devices joined by using Windows Autopilot self-deployment mode.
 
-8. In the **Require Multi-factor Authentication to register or join devices with Azure AD** section, verify that the setting is set to **No**. 
+8. In the **Require Multi-factor Authentication to register or join devices with Microsoft Entra** section, verify that the setting is set to **No**. 
 
 9. In the **Maximum number of devices per user** section, select **20**.
 
-10. Under **Local administrator settings**, select **Manage Additional local administrators on all Azure AD joined devices**. The Device Administrators page opens.
+10. Under **Local administrator settings**, select **Manage Additional local administrators on all Entra joined devices**. The Device Administrators page opens.
 
 11. In the Device Administrators page, select **+ Add assignments**.
 
 12. In the Search box, enter **Allan Deyoung**, select the **Allan Deyoung** user object, and then select **Add**. 
 
-    > Allan Deyoung will now be added as a Device Administrator on all Azure AD joined devices.
+    > Allan Deyoung will now be added as a Device Administrator on all Entra joined devices.
 
 13. Scroll back to or select the **Devices | Device settings** navigation link at the top of the page.
 
 14. On the Device settings page, select **Save**.
 
-### Task 2: Perform an Azure AD Join
+### Task 2: Perform an Entra Join
 
 1. Switch to **HOSTVM** and sign in to **SEA-WS1** VM through desktop shortcut as **Admin** with the password of **Pa55w.rd**.
 
@@ -70,7 +70,7 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 5. In the **Access work or school** page, select **Connect**.
 
-6. In the **Microsoft account** window, select **Join this device to Azure Active Directory**.
+6. In the **Microsoft account** window, select **Join this device to Entra ID**.
 
 7. On the **Sign in** page, type **`JoniS@yourtenant.onmicrosoft.com`** and then select **Next**.
 
@@ -86,7 +86,7 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 13. Close the **Settings** page.
 
-### Task 3: Validate Azure AD Join
+### Task 3: Validate Entra Join
 
 1. On SEA-WS1, right-click **Start**, and then select **Windows Terminal (Admin)**. At the User Account Control, select **Yes**.
 
@@ -99,7 +99,7 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 3. In the output under **Device State**, verify that **AzureAdJoined : YES** is displayed. 
 
-   > This indicates that the device is Azure AD joined.
+   > This indicates that the device is Entra joined.
 
 4. Close PowerShell.
 
@@ -109,7 +109,7 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 7. Double-click the **Administrators** group.
 
-   > Notice that Joni Sherman has been added as a local Administrator on SEA-WS1. Also notice two security principals represented by their security identifiers (SID). These two SIDs represent the Azure AD global administrator role, and the Azure AD joined device administrator role. 
+   > Notice that Joni Sherman has been added as a local Administrator on SEA-WS1. Also notice two security principals represented by their security identifiers (SID). These two SIDs represent the Entra ID global administrator role, and the Entra joined device administrator role. 
 
 8. Close all open windows and sign out of SEA-WS1.
 
@@ -125,7 +125,7 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
     > Also note that the MDM column shows None. This indicates that this device is not yet managed by Microsoft Intune.
 
-### Task 4: Sign in to Windows as an Azure AD User
+### Task 4: Sign in to Windows as an Entra User
 
 1. Switch to **HOSTVM** and Sign out from **SEA-WS1** VM, if you are already signed in to admin and sign in with Other user.
 
@@ -157,7 +157,7 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 12. On the **All set!** page, select **OK**.
 
-### Task 5: Remove a Windows device from Azure AD
+### Task 5: Remove a Windows device from Entra
 
 1. On SEA-WS1, signed in as **azuread\jonisherman**, select **Start** and then select **Settings**.
 
@@ -175,13 +175,13 @@ You need to configure Azure Active Directory device settings to ensure that all 
 
 8. In the **Restart your PC** dialog box, select **Restart now**. SEA-WS1 restarts.
 
-**Results**: After completing this exercise, you will have configured Azure Active Directory device settings, joined a device to Azure AD, and removed a device from Azure AD.
+**Results**: After completing this exercise, you will have configured Microsoft Entra device settings, joined a device to Entra, and removed a device from Entra.
 
-## Exercise 2: Configuring Hybrid Azure AD Join
+## Exercise 2: Configuring Entra Hybrid Join
 
 ### Scenario
 
-Some Contoso Windows devices are currently joined to the local Active Directory Domain Services. To enable those devices to seamlessly access cloud services you plan to enable hybrid Azure AD join. You will test hybrid Azure AD join by re-configuring Azure AD Connect and testing out the process on SEA-CL2.
+Some Contoso Windows devices are currently joined to the local Active Directory Domain Services. To enable those devices to seamlessly access cloud services you plan to enable Entra hybrid join. You will test Entra hybrid join by re-configuring Microsoft Entra Connect and testing out the process on SEA-CL2.
 
 ### Task 1: Prepare the environment
 
@@ -203,46 +203,7 @@ Some Contoso Windows devices are currently joined to the local Active Directory 
 
 8. Close **Active Directory Users and Computers**.
 
-### Task 2: Re-configure Azure AD Connect
-
-1. On **SEA-SVR1**, on the **Desktop**, double-click **Azure AD Connect**.
-
-2. In the **Microsoft Azure Active Directory Connect** window select **Configure**.
-
-3. On the **Additional tasks** page, select **Customize synchronization options** and select **Next**.
-
-4. On the **Connect to Azure AD** page enter the Admin Tenant password into the **PASSWORD** box i.e **<inject key="AzureAdUserPassword"></inject>** then select **Next**.
-
-5. On the **Connect your directories** page, select **Next**.
-
-6. On the **Domain and OU filtering** page, ensure that **Sync selected domains and OUs** is selected and then expand **Contoso.com**.
-
-7. Select the check box next to **Azure AD clients**. Do not make any other changes and then select **Next**.
-
-8. In the **Optional features** page, do not make any changes and then select **Next**.
-
-9. In the **Ready to configure** window, select **Configure** to run the configuration
-
-10. Again Click on **Configuration** and start synchronization.
-
-11. When the configuration is complete, select **Exit**.
-
-12. On the taskbar, right-click **Start** and select **Windows Powershell (Admin)**.
-
-13. In the **Windows PowerShell** window, type the following command, and then press **Enter**:
-
-    ```
-    Start-ADSyncSyncCycle -PolicyType Initial
-    
-    ```
-    
-    > **Note**: If you recieve an error running the command above, please wait 5 minutes for the previous re-configuration to fully synchronize. You can also view the current Sync status by opening the **Synchronization Service Manager**. In the windows taskbar select **Start**, expand **Azure AD Connect**, and then select **Synchronization Service**. In **Synchronization Service Manager**, verify all operations show a status of **Success** and not **In-Progress** before continuing. 
-
-14. Close the PowerShell window.
-
-    > Wait for approximately 5 minutes for the synchronization to complete.
-
-### Task 3: Configure hybrid Azure AD join in Azure Active Directory Connect
+### Task 2: Configure Entra hybrid join in Azure Active Directory Connect
 
 1. On **SEA-SVR1**, on the **Desktop**, double-click **Azure AD Connect**.
 
@@ -252,7 +213,7 @@ Some Contoso Windows devices are currently joined to the local Active Directory 
 
 4. On the **Overview** page, select **Next**.
 
-5. On the **Connect to Azure AD** page, enter the Admin Tenant password into the **PASSWORD** box i.e **<inject key="AzureAdUserPassword"></inject>** then select **Next**.
+5. On the **Connect to Azure AD** page, enter the Admin Tenant password into the **PASSWORD** box, i.e **<inject key="AzureAdUserPassword"></inject>** then select **Next**.
 
 6. On the **Device options** page, select **Configure Hybrid Azure AD join**, and then select **Next**.
 
@@ -268,28 +229,47 @@ Some Contoso Windows devices are currently joined to the local Active Directory 
 
 12. When the configuration is complete, select **Exit**.
 
-13. On the taskbar, right-click **Start** and select **Windows Powershell (Admin)**.
+13. Switch to **SEA-CL2**.
 
-14. In the **Windows PowerShell** window, type the following command, and then press **Enter**:
+14. At the sign-in page, select the **Power** button and then select **Restart**.
 
-    ```
-    Start-ADSyncSyncCycle -PolicyType Initial
-    
-    ```
+    >**Note** Restarting **SEA-CL2** will enable quicker discovery of the SCP created by reconfiguring AAD Connect.
 
-15. Close the PowerShell window.
+15. After **SEA-CL2** has restarted, sign in as **Contoso\\Administrator** with the password of **Pa55w.rd**.
 
-    > Wait for approximately 5 minutes for the synchronization to complete. You can also view the current Sync status by opening the **Synchronization Service Manager**. In the windows taskbar select **Start**, expand **Azure AD Connect**, and then select **Synchronization Service**. In **Synchronization Service Manager**, verify all operations show a status of **Success** and not **In-Progress** before continuing. 
+### Task 3: Re-configure Azure AD Connect to sync the new OU
 
-### Task 4: Verify the Azure AD registration
+1. On **SEA-SVR1**, on the **Desktop**, double-click **Azure AD Connect**.
+
+2. In the **Microsoft Azure Active Directory Connect** window select **Configure**.
+
+3. On the **Additional tasks** page, select **Customize synchronization options** and select **Next**.
+
+4. On the **Connect to Azure AD** page enter the Admin Tenant password into the **PASSWORD** box, i.e **<inject key="AzureAdUserPassword"></inject>** then select **Next**.
+
+5. On the **Connect your directories** page, select **Next**.
+
+6. On the **Domain and OU filtering** page, ensure that **Sync selected domains and OUs** is selected and then expand **Contoso.com**.
+
+7. Select the check box next to **Azure AD clients**. Do not make any other changes and then select **Next**.
+
+8. In the **Optional features** page, do not make any changes and then select **Next**.
+
+9. In the **Ready to configure** window, select **Configure** to run the configuration and start synchronization.
+
+10. When the configuration is complete, select **Exit**.
+
+    > **Note**: AAD Connect synchronizes automatically now when you modify the OUs being synced. You can use the **Synchronization Service** to monitor sync status.
+
+### Task 4: Verify the Entra hybrid join
 
 1. Switch to **SEA-CL2**.
 
-2. At the sign-in page, select the **Power** button and then select **Restart**.
+2. Right-click **Start**, select **Shut down or sign out**, and then select **Restart**.
 
     _Note: The reboot will trigger the hybrid Azure AD join on SEA-CL2._
    
-3. Click on **reconnect** after few seconds until **SEA-CL2** has restarted, sign in as **Contoso\\Administrator** with the password of **Pa55w.rd**.
+3. After **SEA-CL2** has restarted, sign in as **Contoso\\Administrator** with the password of **Pa55w.rd**.
     
 4. On the taskbar, right-click **Start** and select **Windows Terminal (Admin)**.
 
@@ -301,7 +281,7 @@ Some Contoso Windows devices are currently joined to the local Active Directory 
 
 6. In the output under **Device State**, verify that **AzureAdJoined : YES** and **DomainJoined : YES** are displayed.
 
-   > **Note**: If the device is not yet joined to Azure AD, switch back to **SEA-SVR1** and run the command below. Once completed, switch back to SEA-CL2 and restart the computer once more.
+   > **Note**: If the device is not yet joined to Azure AD, switch back to **SEA-SRV1** and run the command below. Once completed, switch back to SEA-CL2 and restart the computer once more.
    
    ```
    Start-ADSyncSyncCycle -PolicyType Delta
@@ -313,10 +293,11 @@ Some Contoso Windows devices are currently joined to the local Active Directory 
 
 9. Expand **Identity**, and then select **Devices** > **All devices**. 
 
-10. Verify that **SEA-CL2** has **Microsoft Entra Hybrid joined** as value for the row **Join Type**. If necessary, select the **Refresh** button if SEA-CL2 is not listed.
+10. Verify that **SEA-CL2** has **Microsoft Entra hybrid joined** as value for the row **Join Type**. If necessary, select the **Refresh** button if SEA-CL2 is not listed.
 
 11. Close all windows on **SEA-SVR1**.
 
-**Results**: After completing this exercise, you will have successfully configured and validated Microsoft Entra Hybrid join.
+**Results**: After completing this exercise, you will have successfully configured and validated Entra hybrid join.
 
 **END OF LAB**
+
