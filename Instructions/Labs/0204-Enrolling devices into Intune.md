@@ -2,15 +2,15 @@
 
 ## Summary
 
-In this lab, you will join a Windows client to Azure AD and verify that the device has automatically enrolled into Microsoft Intune.
+In this lab, you will join a Windows client to Entra ID and verify that the device has automatically enrolled into Microsoft Intune.
 
 ### Prerequisites
 
 To following lab(s) must be completed before this lab:
 
-- 0101-Managing Identities in Azure AD
+- 0101-Managing Identities in Entra ID
 
-- 0102-Synchronizing Identities by using Azure AD Connect
+- 0102-Synchronizing Identities by using Microsoft Entra Connect
 
 - 0203-Manage Device Enrollment into Intune
 
@@ -52,7 +52,7 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 
 14. Close the **Settings** window.
 
-### Task 2: Validate device enrollment into Azure AD And Intune
+### Task 2: Validate device enrollment into Entra And Intune
 
 1. On the **SEA-WS1** taskbar, select **Start**, type **cert**, and select **Manage computer certificates**. Click on **Yes** in the following pop-up dialog box.
     
@@ -62,7 +62,7 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 -   MS-Organization-Access
 -   MS-Organization-P2P-Access \[2023\]
 
-    This indicates that the device is enrolled in Azure AD and Intune.
+    This indicates that the device is enrolled in Entra and Intune.
 
     ![](../media/08.png)
 
@@ -78,7 +78,7 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
     dsregcmd /status
     ```
 
-6. In the output under **Device State**, verify that **AzureAdJoined : YES** is displayed. This indicates that the device is Azure AD joined.
+6. In the output under **Device State**, verify that **AzureAdJoined : YES** is displayed. This indicates that the device is Entra joined.
 
 7. In the output under **Tenant Details**, verify that the following three entries exist:
 
@@ -90,7 +90,7 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 
 > Note: These entries indicate that the device is enrolled in Intune.
 
-### Task 3: Sign in as an Azure AD user
+### Task 3: Sign in as an Entra user
 
 1. Sign out of **SEA-WS1**. (Close the VM once signed out)
 
@@ -146,10 +146,10 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 
 9. Select **Devices**, then select **All devices**. 
 
-   > Take note of SEA-WS1. Notice that the Join Type column displays **Azure AD joined** and the MDM column displays **Microsoft Intune**.
+   > Take note of SEA-WS1. Notice that the Join Type column displays **Microsoft Entra joined** and the MDM column displays **Microsoft Intune**.
 
 10. Close all open Windows.
 
-**Results**: After completing this exercise, you will have successfully joined a Windows client to Azure AD and verified that the device has automatically enrolled into Microsoft Intune.
+**Results**: After completing this exercise, you will have successfully joined a Windows client to Entra and verified that the device has automatically enrolled into Microsoft Intune.
 
 **END OF LAB**
