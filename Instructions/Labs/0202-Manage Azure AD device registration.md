@@ -1,16 +1,16 @@
-# Practice Lab: Manage Azure AD device registration
+# Practice Lab: Manage Entra ID device registration
 
 ## Summary
 
-In this lab, you will perform Azure AD device registration using a Windows device.
+In this lab, you will perform Entra ID device registration using a Windows device.
 
-## Exercise 1: Configuring Azure AD device registration
+## Exercise 1: Configuring Entra device registration
 
 ### Scenario
 
-Several users have asked to use their personal iOS, Android, and Windows devices to access Contoso cloud resources. Since Contoso does not own the devices, you do not want to have the users perform an Azure AD join for full device management. Instead, you need to ensure that users are able to register their devices with Azure AD, which still allows you to apply company policy to apps as needed, and still permit users to access Contoso resources. You will test out Azure AD device registration using a Windows 11 device.
+Several users have asked to use their personal iOS, Android, and Windows devices to access Contoso cloud resources. Since Contoso does not own the devices, you do not want to have the users perform an Entra join for full device management. Instead, you need to ensure that users are able to register their devices with Entra, which still allows you to apply company policy to apps as needed, and still permit users to access Contoso resources. You will test out Entra device registration using a Windows 11 device.
 
-### Task 1: Configure Azure AD device registration
+### Task 1: Configure Microsoft Entra device registration
 
 1. On **SEA-SVR1**, if necessary, sign in as **Contoso\\Administrator** with the password of **Pa55w.rd** and close **Server Manager**.
 
@@ -30,7 +30,7 @@ Several users have asked to use their personal iOS, Android, and Windows devices
 
    > This option is greyed out and set to **All** by default when Microsoft Intune is enable in the tenant. This ensures that all users are able to register Windows 10 or newer personal, iOS, Android, and macOS devices with Azure AD.
 
-### Task 2: Perform Azure AD registration
+### Task 2: Perform Entra registration
 
 1. Switch to **HOSTVM** and sign in to **SEA-WS1** VM through desktop shortcut as **Admin** with the password of **Pa55w.rd**.
 
@@ -52,7 +52,7 @@ Several users have asked to use their personal iOS, Android, and Windows devices
 
 10. Close the **Settings** page.
 
-### Task 3: Validate Azure AD registration
+### Task 3: Validate Entra registration
 
 1. On SEA-WS1, right-click **Start**, and then select **Windows Terminal (Admin)**. At the User Account Control, select **Yes**.
 
@@ -62,7 +62,7 @@ Several users have asked to use their personal iOS, Android, and Windows devices
     dsregcmd /status
     ```
 
-3. In the output under **User State**, verify that **WorkplaceJoined : YES** is displayed. This indicates that the user has performed a device registration in Azure AD.
+3. In the output under **User State**, verify that **WorkplaceJoined : YES** is displayed. This indicates that the user has performed a device registration in Microsoft Entra.
 
 4. Close PowerShell and then sign out of SEA-WS1.
 
@@ -74,7 +74,7 @@ Several users have asked to use their personal iOS, Android, and Windows devices
 
 8. Verify that the **Join Type** is listed as **Microsoft Entra registered** and that the owner is **Joni Sherman**. 
 
-   Notice that the device is Azure AD registered, NOT Azure AD joined. Azure AD registered devices are typically devices that cannot be Azure AD joined, or devices that are personally owned by the user. Registering a device will provide access to Cloud based resources.
+   Notice that the device is Microsoft Entra registered, NOT Microsoft Entra joined. Entra registered devices are typically devices that cannot be Entra joined, or devices that are personally owned by the user. Registering a device will provide access to Cloud based resources.
 
 9. Close Microsoft Edge.
 
@@ -82,7 +82,7 @@ Several users have asked to use their personal iOS, Android, and Windows devices
 
 1. Switch to **HOSTVM** and attempt to sign in to **SEA-WS1** as **`JoniS@yourtenant.onmicrosoft.com`**.
 
-   >**Note**: Notice that unlike Azure AD Joined devices, an Azure AD registered device does not allow a user to sign in to the device with an Azure AD credential. There will be no option to sign-in as other user.
+   >**Note**: Notice that unlike Entra Joined devices, an Entra registered device does not allow a user to sign in to the device with an Entra credential
 
 2. On SEA-WS1, sign in as **Admin** with the password of **Pa55w.rd**. 
 
@@ -96,10 +96,10 @@ Several users have asked to use their personal iOS, Android, and Windows devices
 
 7. Next to Disconnect this account, select **Disconnect** and then select **Yes**.
 
-   > Notice that you do not have to restart to disconnect a registered device from Azure AD.
+   > Notice that you do not have to restart to disconnect a registered device from Microsoft Entra.
 
 8. Sign out of SEA-WS1.
 
-**Results**: After completing this exercise, you will have configured Azure AD device registration.
+**Results**: After completing this exercise, you will have configured Entra device registration.
 
 **END OF LAB**
