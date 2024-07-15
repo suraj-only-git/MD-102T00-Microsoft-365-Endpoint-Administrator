@@ -84,9 +84,9 @@ Contoso Corporation is currently managing users in both AD DS and Azure AD as se
 
 11. In the Navigation pane, under **Azure Active Directory**, select **Groups** > **All groups**. Verify that you see groups from your local AD DS. Ensure that these groups have the value **Windows Server AD** in the **Source** column.
 
-12. Select the **Managers** group.
+12. Select the **Contoso_Managers** group.
 
-13. On the **Managers** group page, select **Members** and then ensure that you see users. 
+13. On the **Contoso_Managers** group page, select **Members** and then ensure that you see users. 
 
     > Note that you cannot add to or remove members from this group, as it is sourced from the local AD DS. 
 
