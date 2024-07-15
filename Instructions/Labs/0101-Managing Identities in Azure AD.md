@@ -413,43 +413,43 @@ You also been asked to modify the Company branding for the sign-in page.
 
 6. In the **Licenses** section, select the check box next to **Enterprise Mobility + Security E5** and **Office 365 E5**.
 
-8. Select **Save changes**.
+7. Select **Save changes**.
 
-9. In the Microsoft Azure Portal, Navigation to Entra ID, under manage > select **Groups**.
+8. In the Microsoft Azure Portal, Navigation to Entra ID, under manage > select **Groups**.
 
-10. On the Groups section, select **Contoso_Admins**.
+9. On the Groups section, select **Contoso_Admins**.
 
-11. On the Contoso_Admins page, select **Licenses**.
+10. On the Contoso_Admins page, select **Licenses**.
 
     > Notice that the Contoso_Admins group does not have any current license assignments.
 
-12. Select **Assignments**.
+11. Select **Assignments**.
 
-13. In the Update license assignments page, select the check box next to **Enterprise Mobility + Security E5** and **Office 365 E5**.
+12. In the Update license assignments page, select the check box next to **Enterprise Mobility + Security E5** and **Office 365 E5**.
 
-14. Select **Save** and select cancel **X** on top right corner..
+13. Select **Save** and select cancel **X** on top right corner..
 
-15. On the Groups|All groups page, select **Contoso_Managers**.
+14. On the Groups|All groups page, select **Contoso_Managers**.
 
-16. On the Contoso_Managers page, select **Licenses**.
+15. On the Contoso_Managers page, select **Licenses**.
 
     > Notice that the Contoso_Managers group does not have any current license assignments.
 
-17. Select **Assignments**.
+16. Select **Assignments**.
 
-18. In the Update license assignments page, select the check box next to **Enterprise Mobility + Security E5** and **Office 365 E5**.
+17. In the Update license assignments page, select the check box next to **Enterprise Mobility + Security E5** and **Office 365 E5**.
 
-19. Select **Save** and select cancel **X** on top right corner..
+18. Select **Save** and select cancel **X** on top right corner..
 
-20. In the Azure Entra ID, in the Navigation pane, select **Licenses**.
+19. In the Azure Entra ID, in the Navigation pane, select **Licenses**.
 
-21. On the **Licenses|Overview** page, under **Manage**, select **All products**.
+20. On the **Licenses|Overview** page, under **Manage**, select **All products**.
 
-22. On the Licenses|All products page, select **Office 365 E5** and select the **Licensed users** under general tab.
+21. On the Licenses|All products page, select **Office 365 E5** and select the **Licensed users** under general tab.
 
    > Take note of the users that are assigned the Office 365 E5 license. Notice the Assignment Paths column which indicates how license assignment is configured for each user. Edmund and Miranda both receive their license assignment from their membership in the Contoso_Managers group. Allan and Alex both receive heir license assignment from their membership in the Contoso_Admins group You may need to select **Refresh** a couple of times to update the Assignment path column.
 
-23. Close Microsoft Edge.
+22. Close Microsoft Edge.
 
 **Results**: After completing this exercise, you should have successfully created and managed groups, modified company branding, and assigned licenses.
 
