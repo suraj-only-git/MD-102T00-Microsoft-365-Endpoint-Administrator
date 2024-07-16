@@ -36,7 +36,7 @@ You have been asked to configure SEA-WS2 as a Windows 11 kiosk to allow Contoso 
 
 5. In the **Access work or school** page, select **Connect**.
 
-6. In the **Microsoft account** window, select **Join this device to Azure Active Directory**.
+6. In the **Microsoft account** window, select **Join this device to Entra ID**.
 
 7. On the **Sign in** page, type **`AllanD@yourtenant.onmicrosoft.com`** and then select **Next**.
 
@@ -46,9 +46,9 @@ You have been asked to configure SEA-WS2 as a Windows 11 kiosk to allow Contoso 
 
 10. On the **You're all set!** page, read the information and then select **Done**.
 
-11. In the **Access work or school** section, verify that **Connected to Contoso's Azure AD** displays.
+11. In the **Access work or school** section, verify that **Connected to Contoso's Entra ID** displays.
 
-12. Select **Connected to Contoso's Azure AD** and then select **Info**.
+12. Select **Connected to Contoso's Entra ID** and then select **Info**.
 
 13. Scroll down, and then select **Sync**. This will force a Device sync with Intune.
 
@@ -86,11 +86,9 @@ You have been asked to configure SEA-WS2 as a Windows 11 kiosk to allow Contoso 
 
 1. In the Microsoft Intune admin center, select **Devices** from the navigation bar.
 
-2. On the **Devices | Overview** page, select **Configuration Profiles**.
+2. On the **Devices | Overview** page, select **Configuration**.
 
-3. On the **Devices | Configuration profiles** blade, in the details pane, click on **Create** and select **+ New policy**.
-
-   ![](../media/03.png)
+3. On the **Devices | Configuration** blade, in the details pane, click on **Create** and select **+ New policy**.
 
 4. In the **Create a profile** blade, select the following options, and then select **Create**:
 
