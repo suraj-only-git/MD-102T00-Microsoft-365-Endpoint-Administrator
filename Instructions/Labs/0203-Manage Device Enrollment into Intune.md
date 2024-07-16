@@ -42,7 +42,7 @@ You need to prepare for device management using Microsoft Intune. First of all, 
 
 9. In the Entra admin center navigation pane, under **Identity**, select **Users** > **All users**.
 
-10. Select **Aaron Nicholls**.
+10. Select **Alex Wilber**.
 
 11. In the Aaron Nicholls pane, select **Edit properties**.
 
@@ -64,13 +64,11 @@ You need to prepare for device management using Microsoft Intune. First of all, 
 
 2. In the Microsoft Intune admin center, select **Devices**.
 
-3. On the Devices pane, under **Device enrollment** select **Enroll devices**.
+3. On the Devices pane, under **Enrollment** select **Windows** tab.
 
-4. In the Enroll devices pane, select **Windows enrollment**.
+4. In the Windows pane, select **Automatic Enrollment**.
 
-5. In the General section, select **Automatic Enrollment**.
-
-6. On the **MDM user scope** row, select **All** and then select **Save**.
+5. On the **MDM user scope** row, select **All** and then select **Save**.
 
      ![](../media/11.png)
 
@@ -80,11 +78,11 @@ You need to prepare for device management using Microsoft Intune. First of all, 
 
 1. In the Microsoft Intune admin center, select **Devices**.
 
-2. On the Devices pane, under **Device enrollment** select **Enroll devices**.
+2. On the Devices pane, under **Enrollment** select **Windows**.
 
-3. On the **Enroll devices** pane, note that you can create enrollment device limit and platform restrictions. 
+3. On the **Windows** pane, note that you can create enrollment device limit and platform restrictions. 
 
-4. Select **Enrollment device platform restrictions**. 
+4. Select **Device platform restrictions**. 
 
    > Notice that there is a Default device type restriction that is assigned to **All Users**. This default restriction allows all device types.
 
@@ -105,13 +103,13 @@ You need to prepare for device management using Microsoft Intune. First of all, 
 
 10. On the Assignments page, under Included groups, select **Add groups**.
 
-11. Search for and Select **Sales** and then click **Select** and then click **Next**.
+11. Search for and Select **Cotoso_Sales** and then click **Select** and then click **Next**.
 
 12. On the Review + create page, select **Create**.
 
     > Notice the Android Personal Device Restriction assigned with a priority of 1.
 
-13. On the **Enroll devices** pane, select **Enrollment device limit restrictions**. 
+13. On the **devices** pane, under **Enrollment** select **Windows** and select **Device limit restrictions**. 
 
     > Notice that there is a Default device limit restriction that is assigned to **All Users**. This default restriction sets a device enrollment limit to 5 devices per user.
 
@@ -125,7 +123,7 @@ You need to prepare for device management using Microsoft Intune. First of all, 
 
 18. On the Assignments page, under Included groups, select **Add groups**.
 
-19. Search for and Select **Sales** and then click **Select** and then click **Next**.
+19. Search for and Select **Cotoso_Sales** and then click **Select** and then click **Next**.
 
 20. On the Review + create page, select **Create**.
 
@@ -135,13 +133,13 @@ You need to prepare for device management using Microsoft Intune. First of all, 
 
 1. In the Microsoft Intune admin center, select **Devices**.
 
-2. On the Devices pane, select **Enroll devices**.
+2. On the Devices pane, under **Enrollment**.
 
-3. On the **Enroll devices** pane, select **Device enrollment managers**. 
+3. Select **Device enrollment managers** tab. 
 
    > Notice that, by default, there are no Device enrollment managers configured.
 
-4. On the **Enroll devices|Device enrollment managers** page, select **+ Add**.
+4. On the **Device enrollment managers** page, select **+ Add**.
 
 5. In the **Add user** page, under User name, enter `AllanD@yourtenant.onmicrosoft.com` and then select **Add**.
 
