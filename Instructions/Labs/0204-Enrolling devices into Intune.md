@@ -34,7 +34,7 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 
 6. In the **Microsoft account** window, select **Join this device to Microsoft Entra ID**.
 
-7. On the **Sign in** page, type **`Aaron@yourtenant.onmicrosoft.com`** and then select **Next**.
+7. On the **Sign in** page, type **`Alex@yourtenant.onmicrosoft.com`** and then select **Next**.
 
 8. On the **Enter password** page, enter **Pa55w.rd** and then select **Sign in**.
 
@@ -42,9 +42,9 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 
 10. On the **You're all set!** page, read the information and then select **Done**.
 
-11. In the **Access work or school** section, verify that **Connected to Contoso's Azure AD** displays.
+11. In the **Access work or school** section, verify that **Connected to Contoso's Entra ID** displays.
 
-12. Select **Connected to Contoso's Azure AD** and then select **Info**.
+12. Select **Connected to Contoso's Entra ID** and then select **Info**.
 
     ![](../media/09.png)
 
@@ -130,9 +130,7 @@ You have assigned Aaron Nicholls appropriate licenses and will now test the proc
 
 3. In the navigation pane, select **Devices**.
 
-4. On the **Devices | Overview** blade under **Intune enrolled devices**, verify that **1** is displayed next to **Windows**. It may take a while to display.
-
-    ![](../media/06.png)
+4. On the **Devices | Overview** blade under **Manage devices by platform**, verify that **1** is displayed next to **Windows**. It may take a while to display.
 
 5. On the **Devices** blade, select **All devices** and verify that **SEA-WS1** is listed.
 
