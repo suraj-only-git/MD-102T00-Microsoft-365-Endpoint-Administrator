@@ -133,7 +133,7 @@ You need to configure Entra ID device settings to ensure that all users are allo
 
     ![](../media/passwordwriteback1.png)
 
-2. On the sign-in page select Other Users
+2. On the sign-in page select Other Users, to view the Other User option you may need to **Maximize** the Hyper v session window.
 
 3. Then sign in as **`JoniS@yourtenant.onmicrosoft.com`** with the Tenant password as provided by your instructor i.e **Pa55-w.rd!** . 
 
@@ -156,6 +156,8 @@ You need to configure Entra ID device settings to ensure that all users are allo
 11. On the **Set up a PIN** page, in the **New PIN** and **Confirm PIN** boxes, type **102938** and then select **OK**.
 
 12. On the **All set!** page, select **OK**.
+
+ > Also note if you are not able to perform from above Step 4th to 12th, you can ignore those steps and proceed with the Next Task.
 
 ### Task 5: Remove a Windows device from Entra
 
