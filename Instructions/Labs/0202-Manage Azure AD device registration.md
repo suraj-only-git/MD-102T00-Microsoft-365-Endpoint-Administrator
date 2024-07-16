@@ -26,7 +26,7 @@ Several users have asked to use their personal iOS, Android, and Windows devices
 
 6. On the **Devices | All devices** page, select **Device settings**.
 
-7. On the **Devices|Device settings** page, in the details pane, verify that **Users may register their devices with Azure AD** is set to **All** and is greyed out.
+7. On the **Devices|Device settings** page, in the details pane, verify that **Users may register their devices with Entra ID** is set to **All** and is greyed out.
 
    > This option is greyed out and set to **All** by default when Microsoft Intune is enable in the tenant. This ensures that all users are able to register Windows 10 or newer personal, iOS, Android, and macOS devices with Azure AD.
 
