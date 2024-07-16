@@ -75,11 +75,9 @@ You need to use Entra and Intune to manage members of the Developers department 
 
 5. In the Microsoft Intune admin center, select **Devices** from the navigation bar.
 
-6. On the **Devices | Overview** page, select **Configuration Profiles**.
+6. On the **Devices | Overview** page, select **Configuration**.
 
-7. On the **Devices | Configuration profiles** blade, in the details pane, click on **Create** and select **+ New policy**.
-
-   ![](../media/03.png)
+7. On the **Devices | Configuration** blade, in the details pane, click on **Create** and select **+ New policy**.
 
 8. In the **Create a profile** blade, select the following options, and then select **Create**:
 
@@ -163,9 +161,9 @@ You need to use Entra and Intune to manage members of the Developers department 
 
 1. In the Microsoft Intune admin center, in the navigation pane, select **Devices**. 
 
-2. On the **Devices | Overview** blade, select **Configuration profiles**.
+2. On the **Devices | Overview** blade, select **Configuration**.
 
-3. On the **Devices | Configuration profiles** blade, in the details pane, select the **Contoso Developer – standard** profile.
+3. On the **Devices | Configuration** blade, in the details pane, select the **Contoso Developer – standard** profile.
 
 4. On the **Contoso Developer – standard** blade, scroll down to the **Assignments** section, and select **Edit**.
 
@@ -187,7 +185,7 @@ You need to use Entra and Intune to manage members of the Developers department 
 
 3. In **Settings**, select **Accounts** and then select **Access work or school**.
 
-4. In the **Access work or school** section, select the **Connected to Contoso's Azure AD** link and then select **Info**.
+4. In the **Access work or school** section, select the **Connected to Contoso's Entra ID** link and then select **Info**.
 
 5. In the **Managed by Contoso** page, scroll down and then under Device sync status, select **Sync**. Wait for the synchronization to complete. 
 
@@ -229,9 +227,9 @@ There was an exception to Contoso's policy that specifies that members of the De
 
 1. Switch to **SEA-SVR1** and use password **Pa55w.rd** to login.
 
-2. On **SEA-SVR1**, in the Microsoft Intune admin center, select **Devices** and then select **Configuration Profiles**. 
+2. On **SEA-SVR1**, in the Microsoft Intune admin center, select **Devices** and then select **Configuration**. 
 
-3. On the **Devices | Configuration profiles** blade, in the details pane select **Contoso Developer -  standard**.
+3. On the **Devices | Configuration** blade, in the details pane select **Contoso Developer -  standard**.
 
 4. On the **Contoso Developer - standard** blade, scroll down to the **Configuration settings** section, and then select **Edit**.
 
