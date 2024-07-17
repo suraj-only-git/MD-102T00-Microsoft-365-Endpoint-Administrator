@@ -88,6 +88,8 @@ You use Microsoft Intune to manage desktops and apps for Contoso Corporation. Th
 
 2. Sign in as **Aaron Nicholls** with the PIN **102938**.
 
+   > If you did not see the option to provide the PIN, please sign in using the Email and Password.
+
 3. On the taskbar, select **Microsoft Edge**.
 
 4. If necessary, at the **Welcome to Microsoft Edge** page, select **Confirm and continue**. Close the Welcome page.
@@ -209,6 +211,8 @@ All the users of the Research department at Contoso require Microsoft 365 Apps. 
 5. Close the **Settings** app and select the **Start** button.
 
 6. In the app list, select **Word** and verify that the app opens.
+
+   > If you face any sign in issues while opening the word, please do close the app and open it again.
 
 7. Close all open windows.
 
