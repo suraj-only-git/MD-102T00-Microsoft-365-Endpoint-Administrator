@@ -64,9 +64,9 @@ Settings will be verified by testing on an enrolled device, SEA-WS1 and a non-en
 
 14. On the **Scope tags** page, select **Next**.
 
-15. On the **Assignments** tab, under **Included groups** select **Add groups**. Choose the **Contoso Developer Devices** group, click **Select** and then select **Next**.
+15. On the **Assignments** tab, under **Search by group name** Choose the **Contoso Developer Devices** group, then select **Next**.
 
-16. On the **Review + create** tab, review the information and select **Create**.
+16. Select **Save**.
 
 ### Task 2: Configure Microsoft Defender Antivirus policy in Intune
 
@@ -78,7 +78,7 @@ Settings will be verified by testing on an enrolled device, SEA-WS1 and a non-en
 
 4. On the **Basics** tab, in the **Name** field, enter **Microsoft Defender Antivirus Settings**. Select **Next**.
 
-5. On the **Configuration settings** tab, configure the following settings:
+5. On the **Configuration settings** tab,click on **Defender** dropdown  and configure the following settings:
 
    - Allow scanning of all downloaded files and attachments: **Allowed**
    - Allow Realtime Monitoring: **Allowed**
@@ -89,11 +89,11 @@ Settings will be verified by testing on an enrolled device, SEA-WS1 and a non-en
 
 6. On the **Configuration settings** tab, select **Next** twice.
 
-7. On the **Assignments** tab, under **Included groups** select **Add groups**. 
+7. On the **Assignments** tab, under **Search by group name**. 
 
-8. Choose the **Contoso Developer Devices** group and then choose **Select** and then select **Next**.
+8. Choose the **Contoso Developer Devices** group and then select **Next**.
 
-9. On the **Review + create** tab, review the information and select **Create**.
+9. Select **Save**.
 
 ### Task 3: Sync the managed devices
 
