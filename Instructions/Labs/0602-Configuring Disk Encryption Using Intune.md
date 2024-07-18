@@ -92,11 +92,9 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
 
 4. In the **Access work or school** section, select the **Connected to Contoso's Azure AD** link and then select **Info**. Select **Sync**.
 
-5. Select the **Encryption needed** notification.
+5. Open the **file Explorer**.
 
-   _Note: It may take some time until the notification shows up._
-
-6. On the **Are you ready to start encryption?** dialog, select the checkbox next to **I don't have any other disk encryption software installed, encrypt all my disks**, and select **Yes**.
+6. On the **File Explorer**, select **This PC**. right-click the **Disk** you want to encrypt and click on **Turn On BitLocker**.
 
 7. On the **Choose how to unlock your drive at startup?** page, select **Enter a Password**
 
@@ -110,7 +108,7 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
 
 13. At the **Encryption of C: is complete** message, select **Close**, and then restart **SEA-WS1**.
 
-14. When **SEA-WS1** restarts, type **Pa55w.rd** and press **Enter** to unlock the drive.
+14. When **SEA-WS1** restarts, click on **Start** and type **Pa55w.rd**. press **Enter** to unlock the drive.
 
 ### Task 3: Verify BitLocker protection
 
