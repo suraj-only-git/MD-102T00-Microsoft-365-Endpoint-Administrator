@@ -72,7 +72,7 @@ It's been determined that all the information on SEA-WS1 should be encrypted. Yo
 
 15. Select **Contoso Developer devices**, choose **Select**, and then select **Next**.
 
-16. On the **Review + create** page, select **Create**.
+16. Select **Create**.
 
 17. Close all open windows on **SEA-SVR1**.
 
