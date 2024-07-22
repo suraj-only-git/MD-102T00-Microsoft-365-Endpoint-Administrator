@@ -224,9 +224,9 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 3. In the **Microsoft Intune admin center**, select **Devices**.
 
-4. In the **Device enrollment** section, select **Enroll devices**. 
+4. In the **Device** section, select **Enrollment**. 
 
-5. In the details pane scroll down to **Windows Autopilot Deployment Program**, and then select **Devices**.
+5. In the details pane scroll down to **Windows Autopilot**, and then select **Devices** in Windows Section.
 
 6. In the **Windows Autopilot devices** blade on the menu bar, select **Import**, select the **folder icon** and then browse to **C:\\**, select **Computer.csv**, select **Open**, and then select **Import**. 
 
@@ -316,7 +316,7 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 9. Select **Accounts**, and then select **Access work or school**. Verify the device is connected to Contoso's Azure AD.
 
-10. Select **Connected to Contoso's Azure AD** and select **Info**.
+10. Select **Connected to Contoso's Entra ID** and select **Info**.
 
 11. On the **Managed by Contoso** page, scroll down and then select **Sync**.
 
@@ -324,21 +324,20 @@ Contoso IT is planning to roll out a deployment of new Windows 11 devices using 
 
 13. Switch to **SEA-SVR1**.
 
-14. In the Microsoft Entra admin center, select **Identity**, select **Devices** and then select **All devices**. 
+14. In the Microsoft Intune Portal, select **Devices**, select **All Devices** and then Click on **any device you onboarded**. 
 
-    > Note that the new device displays with an icon that indicates an Autopilot device. Also note that the Join Type is **Microsoft Entra joined** with Aaron Nicholls as the owner.
+    > Note that the new device displays with an icon that indicates an Autopilot device. Also note that the Join Type is **Microsoft Entra joined** with Aaron Nicholls as the owner. in Entra ID Portal > All Devices section.
 
-15. Select the Autopilot device and then select **Manage**. 
+15. Select the overview and then right side multiple options present. 
 
-16. Again select the Autopilot device to review the management page. 
 
     > Notice that you can Retire, Wipe, Sync, and Restart the device.
 
-17. Select the ellipsis at the end of the menu bar and take notice of the additional management capabilities.
+16. Select the ellipsis at the end of the menu bar and take notice of the additional management capabilities.
 
     > Additional capabilities include Fresh Start, Autopilot Reset, Quick scan, Full scan, as well as others.
 
-18. Close Microsoft Edge.
+17. Close Microsoft Edge.
 
 **Results**: After completing this exercise, you will have provisioned a Windows device with Autopilot using User-driven mode.
 
