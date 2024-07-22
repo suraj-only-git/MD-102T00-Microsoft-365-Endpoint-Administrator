@@ -29,7 +29,7 @@ SEA-WS4 has been deployed by using Windows Autopilot. You need to test out anoth
 
 3. In the **Microsoft Intune admin center**, select **Devices**.
 
-4. In the **Device enrollment** section, select **Enroll devices**. 
+4. In the **Enrollment** section, select **Windows** tab. 
 
 5. On the Windows enrollment blade, in the details pane, select **Deployment Profiles**.
 
@@ -112,9 +112,9 @@ SEA-WS4 has been deployed by using Windows Autopilot. You need to test out anoth
 
 7. Select **Start** and select **Settings**. 
 
-8. Select **Accounts**, and then select **Access work or school**. Verify the device is connected to Contoso's Azure AD.
+8. Select **Accounts**, and then select **Access work or school**. Verify the device is connected to Contoso's Entra ID.
 
-9. Select **Connected to Contoso's Azure AD** and select **Info**.
+9. Select **Connected to Contoso's Entra ID** and select **Info**.
 
 10. On the **Managed by Contoso** page, scroll down and then select **Sync**.
 
